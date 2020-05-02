@@ -6,7 +6,49 @@
 .HomeSlider{
 	height:60vw;
 	width:100vw;
+	margin-top: 10vh
 }
 
+.thing{
+	height: 70vw;
+	width: 100vw;
+}
+
+.AngzDiv1{
+	height:60vw;
+	width:100vw;
+}
+
+#wrapper{
+}
+
+.thing .slick-dots {
+	position:absolute;
+	width: 100vw;
+	bottom: 0;
+	top: 100;
+	left: 0;
+	z-index: 10;
+}
+
+.thing .slick-dots li{
+	list-style: none;
+	background: #bbb;
+	width:1.5vw;
+	height:1.5vw;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 1vw;
+	margin-top: 10vw;
+
+}
+
+.thing .slick-dots li.slick-active{
+	background: white;
+}
+
+.thing .slick-dots li button{
+	display: none;
+}
 
 }
