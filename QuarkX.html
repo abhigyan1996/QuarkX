@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<title>QuarkX</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Serif Pro">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="QuarkStylesDesktop.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="QuarksLargePh.css">
+ <meta property="og:url"           content="https://abhigyan1996.github.io/Quarks/homePage.html" />
+ <meta property="og:type"          content="website" />
+ <meta property="og:title"         content="Join Quarks" />
+ <meta property="og:description"   content="Refuel Your Curiosity" />
+ <meta property="og:image"         content="images/homeAmoeba.jpg" />
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!-- <script>
+document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=horizontal&u=' + encodeURIComponent(document.location.href) + '"></scr' + 'ipt>');
+</script> -->
+<!-- FACEBOOK ETC SHARE BUTTONS -->
+<!-- <script>
+document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=vertical&u=' + encodeURIComponent(document.location.href) + '"></scr' + 'ipt>');
+</script> -->
+
+
+<body class="w3-white">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar" style="width:100vw; max-width:100vw; min-width:100vw;">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="QuarkOtherImages/QuarksLogoFinal.png"> </a> 
+    <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> QuarkX </a>
+    <div style="margin-top:3vh">
+    <a href="#div1H" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
+    <a href="AllQuarks.html" class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> Quarks</a>
+    <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
+    <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
+    <a href="submitQuarks.html" class="navItems w3-bar-item w3-hide-small submitBtn" id="navItems4Quarks">Submit</a>
+  </div>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Quarks</a>
+    <a href="homePage.html#SubscriptionQuarksPh" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
+    <a href="submitQuarks.html" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
+  </div>
+</div>
+
+
+<div class="w3-row" id="div1H" style="width:100vw; max-width:100vw; min-width:100vw;">
+  
+  <div class="w3-half w3-container">
+     <div class="anim write1">
+        <p class="scroll2Home" id="joinQuoteHome"> Refuel Your Curiosity <br>In just <span style="color:purple">30 SECONDS</span>!!!</p>
+        <p id="joinQuarksLineHome">
+        We bring to you quirky answers to some of the most interesting questions. Our content is simplified in less than 100 words to make your learning fast and efficient. We curate the best content to accelerate your knowledge in different subject areas.
+        </p>
+     </div>
+     <div class="anim write2 w3-hide-small">
+       <a href="#subscribeCard"> <p id="subscribeQuarksHome" class="w3-hide-medium subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
+       <a href="#subscribeCardTablet"> <p id="subscribeQuarksHome" class="w3-hide-large w3-hide-small subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
+       <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Xplore Quarks</p></a>
+     </div>
+
+     <div class="w3-hide-medium w3-hide-large">
+       <a href="#subscribeCard"> <p id="subscribeQuarksHome" class="w3-hide-medium w3-hide-small subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
+       <a href="#subscribeCard"> <p id="subscribeQuarksHome" class="w3-hide-large w3-hide-small subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
+       <a href="#subscribeCardPh"> <p id="subscribeQuarksHome" class="w3-hide-medium w3-hide-large subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
+       <a href="index.html"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Xplore Quarks</p></a>
+     </div>
+
+  </div>
+
+  <div class="w3-half w3-container" id="div1ImgH">
+     <img src="QuarkOtherImages/homeAmoebaOne.jpg" class="w3-hide-small w3-animate-right" id="homeAmoeba1">
+     <img src="QuarkOtherImages/homeAmoebaOne.jpg" class="w3-hide-large w3-hide-medium" id="homeAmoeba1">
+  </div>
+
+</div>
+
+ <!-- Only for laptop and phones -->
+ <div class="anim write3 w3-hide-small w3-hide-medium" id="WhyQuarksHome">
+      What makes our Quarks <span style="color:purple">UNIQUE</span>?
+  </div>
+<!-- For tablets -->
+<div class="anim write4 w3-hide-large w3-hide-small" id="WhyQuarksMedHome">
+      What makes our Quarks <span style="color:purple">UNIQUE</span>?
+  </div>
+<!-- For phones -->
+ <div class="w3-hide-large w3-hide-medium" id="WhyQuarksHome">
+      What makes our Quarks <span style="color:purple">UNIQUE</span>?
+  </div> 
+ 
+ <div class="w3-hide-large w3-hide-medium" style="width:100vw; height:480vw; background:white;"> 
+  <div class="w3-container">
+    <div class="w3-card w3-hide-large w3-hide-medium HomeCards" style="margin-top:20vw">
+        <img class="whyQuarkImages" src="QuarkOtherImages/ingredients.jpg">
+          <p class="w3-center whyQuarkTitle">The Ingredients</p>
+            <p class="WhyQwriting"> We source the finest ingredients for your mind by bringing to you questions that would fascinate you. We curate the most interesting questions across different subject areas that would inspire the world of knowledge. Civilisation has always progressed by asking the right questions.</p>    
+    </div>
+  </div>
+
+  <div class="w3-container">
+    <div class="w3-card w3-hide-large w3-hide-medium HomeCards">
+        <img class="whyQuarkImages" src="QuarkOtherImages/recipe.jpeg">
+        <p class="w3-center whyQuarkTitle">The Recipe</p>
+          <p class="WhyQwriting">Our experts design the perfect recipe for you by making the answers precise, engaging and relevant. We understand that your time is precious and the ocean of knowledge is never-ending. So, we simplify the content of each quark in the most consumable format.</p>    
+   </div>
+  </div> 
+
+  <div class="w3-container">
+    <div class="w3-card w3-hide-large w3-hide-medium HomeCards">
+        <img class="whyQuarkImages" src="QuarkOtherImages/garnishing.jpg">
+        <p class="w3-center whyQuarkTitle">The Garnishing</p>
+          <p class="WhyQwriting">We add a layer of delight on each Quark with a sprinkle of our creativity. We bring back to you the nostalgia of your childhood curiosity and this indeed feels magical. And this is what makes each Quark ready for you - garnished to perfection.</p>    
+      </div> 
+    </div>
+</div>
+ 
+<div class="w3-hide-small" id="divOuterCards" > 
+ <div class="WhyQuarks w3-row">
+  
+  <div style="text-decoration: none;" class="w3-container w3-third quarkThird">
+      <div class="w3-card WhyQuarkCards">
+        <img class="whyQuarkImages" src="QuarkOtherImages/ingredients.jpg">
+        <p class="w3-center whyQuarkTitle">The Ingredients</p>
+        <div class="w3-white">
+          <p class="WhyQwriting"> We source the finest ingredients for your mind by bringing to you questions that would fascinate you. We curate the most interesting questions across different subject areas that would inspire the world of knowledge. Civilisation has always progressed by asking the right questions.</p>    
+        </div>
+     </div>
+  </div>
+
+  <div class="w3-container w3-third quarkThird">
+    <div class="w3-card WhyQuarkCards">
+      <img class="whyQuarkImages" src="QuarkOtherImages/recipe.jpeg">
+      <p class="w3-center whyQuarkTitle">The Recipe</p>
+      <div class="w3-white">
+        <p class="WhyQwriting">Our experts design the perfect recipe for you by making the answers precise, engaging and relevant. We understand that your time is precious and the ocean of knowledge is never-ending. So, we simplify the content of each quark in the most consumable format.</p>    
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-third quarkThird">
+  <div class="w3-card WhyQuarkCards">
+      <img class="whyQuarkImages" src="QuarkOtherImages/garnishing.jpg">
+      <p class="w3-center whyQuarkTitle">The Garnishing</p>
+      <div class="w3-white">
+        <p class="WhyQwriting">We add a layer of delight on each Quark with a sprinkle of our creativity. We bring back to you the nostalgia of your childhood curiosity and this indeed feels magical. And this is what makes each Quark ready for you - garnished to perfection.</p>    
+      </div>
+    </div>  
+  </div>
+</div>
+ </div>
+ 
+<div id="QuarkSubsHome">
+      What Quarks are <span style="color:purple">TRENDING</span>?
+  </div>
+
+<div id="subjectScrollHor">
+    <div id="SubLeft">
+      <div id="sub1" class="w3-container">
+        <img src="QuarkOtherImages/subjects/subScience.jpg" class="subImages" id="subSciencePic"> 
+        <div class="subName" id="subScienceTxt"> SCIENCE </div>
+      </div>
+
+       <div id="sub2" class="w3-container">
+        <img src="QuarkOtherImages/subjects/subStory.jpg" class="subImages" id="subStoryPic"> 
+        <div class="subName" id="subStoryTxt"> STORY </div>
+      </div>
+
+      <div id="sub3" class="w3-container">
+        <img src="QuarkOtherImages/subjects/subMaths.jpg" class="subImages" id="subMathsPic"> 
+        <div class="subName" id="subMathsTxt"> MATHS </div>
+      </div>
+
+      <div id="sub4" class="w3-container">
+        <img src="QuarkOtherImages/subjects/subFinance.jpg" class="subImages" id="subFinancePic"> 
+        <div class="subName" id="subFinanceTxt"> FINANCE </div>
+      </div>
+
+      <div id="sub5" class="w3-container">
+        <img src="QuarkOtherImages/subjects/subEpics.jpg" class="subImages" id="subEpicsPic"> 
+        <div class="subName" id="subEpicsTxt"> MYTHOLOGY </div>
+      </div>
+
+      <div id="sub5" class="w3-container">
+        <img src="QuarkOtherImages/subjects/subPsychology.jpg" class="subImages" id="subPsychologyPic"> 
+        <div class="subName" id="subPsychologyTxt"> PSYCHOLOGY </div>
+      </div>
+</div> 
+</div>
+
+<div id="QuarkJourneyLine">
+     The <span style="color:purple">JOURNEY </span>of Quarks so far...
+  </div>
+
+<div id="statDiv" class="w3-row">
+  <div class="OutstatCards">
+      <div class="w3-container w3-quarter cardStat">
+         <div class="w3-card StatisticsCards w3-center">
+           <div class="statsNum">7</div>
+           <div class="statsName"> Quarks </div>
+        </div>
+      </div>
+      <div class="w3-container w3-quarter cardStat">
+         <div class="w3-card StatisticsCards w3-center">
+           <div class="statsNum">5</div>
+           <div class="statsName"> Authors </div>
+        </div>
+      </div>
+      <div class="w3-container w3-quarter cardStat">
+         <div class="w3-card StatisticsCards w3-center">
+           <div class="statsNum">4</div>
+           <div class="statsName"> Topics </div>
+        </div>
+      </div>
+      <div class="w3-container w3-quarter cardStat">
+         <div class="w3-card StatisticsCards w3-center">
+           <div class="statsNum">6</div>
+           <div class="statsName"> Subscribers </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div id="contributeHeading">
+     How can you <span style="color:purple">CONTRIBUTE</span>?
+</div>
+
+<div id="contributeDiv" class="w3-hide-small">
+  <div class="w3-row">
+      <div class="w3-container w3-half">
+         <img style="border-radius: 10px" id="contributePic" src="QuarkOtherImages/submitQuarksNew.png">
+      </div>
+      <div class="w3-container w3-half">
+         <div id="contributeLine"> Join us and be a part of this revolution. <br><br>  We are creating a world where we would change the way knowledge is digitally consumed. Our philosophy is to make content quick to read but hard to forget.<br><br> Contribute a few moments of your day to share your knowledge with millions of people. Get published on our platform and get viewers from around the globe.</div>
+         <a href="submitQuarks.html"> <div id="contributeBtn" class="w3-button w3-round w3-purple w3-hover-yellow"> Submit a Quark</div></a>
+      </div>
+  </div>
+</div>
+
+<div id="contributeDiv" class="w3-hide-large w3-hide-medium">
+  <div class="w3-row">
+      <div class="w3-container w3-half">
+         <div id="contributeLine"> Join us and be a part of this revolution. <br><br>  We are creating a world where we would change the way knowledge is digitally consumed. Our philosophy is to make content quick to read but hard to forget.<br><br> Contribute a few moments of your day to share your knowledge with millions of people. Get published on our platform and get viewers from around the globe.</div>
+         <a href="submitQuarks.html"> <div id="contributeBtn" class="w3-button w3-round w3-purple w3-hover-yellow"> Submit a Quark</div></a>
+      </div>
+      <div class="w3-container w3-half">
+         <img style="border-radius: 10px" id="contributePic" src="QuarkOtherImages/submitQuarksNew.png">
+      </div>
+  </div>
+</div>
+
+
+
+<!-- Subscription here -->
+<div class="w3-hide-medium w3-hide-small" id="SubscriptionQuarks" style="background: black; height:45vw; width:100vw; position: absolute">
+  <div id="subscribeCard" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
+    <iframe class="w3-center" style="height:35vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</div>
+
+<div class="w3-hide-large w3-hide-small" id="SubscriptionQuarksTablet" style="background: black; height:90vw; width:100vw; position: absolute">
+  <div id="subscribeCardTablet" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
+    <iframe class="w3-center" style="height:80vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</div>
+
+<div class="w3-hide-medium w3-hide-large" id="SubscriptionQuarksPh" style="background: black; height:86vh; width:100vw; position: absolute">
+  <div id="subscribeCardPh" class="w3-card w3-white" style="width:98vw; margin-left: 1vw; border-radius: 10px; margin-top: 5vw;">
+    <iframe class="w3-center" style="height:70vh; width:80vw; margin-left: 5vw; margin-top: 2vh" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</div>
+
+
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".homeSubscribe").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".submitBtn").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+<script>
+  AOS.init();
+</script>
+
+
+    <script  src="QuarksAnimateScroll.js"></script>
+
+</body>
+</html>
