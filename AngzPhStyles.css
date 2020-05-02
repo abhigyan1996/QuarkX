@@ -1,0 +1,12 @@
+
+@media all and (max-width: 599px) and (min-width: 100px) {
+/* Meidum sized phones and other devices (phones, 600px and down) */
+
+
+.HomeSlider{
+	height:60vw;
+	width:100vw;
+}
+
+
+}
