@@ -10,16 +10,13 @@
 }
 
 .thing{
-	height: 70vw;
+	height: 72vw;
 	width: 100vw;
 }
 
 .AngzDiv1{
-	height:60vw;
+	height:70vw;
 	width:100vw;
-}
-
-#wrapper{
 }
 
 .thing .slick-dots {
@@ -39,7 +36,6 @@
 	border-radius: 50%;
 	display: inline-block;
 	font-size: 1vw;
-	margin-top: 10vw;
 
 }
 
