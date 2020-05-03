@@ -16,12 +16,12 @@
 .thing{
 	height: 72vw;
 	margin-top: 10vw;
-	background: #bbb
 }
 
 #AngzDiv1{
-	height:70vw;
+	height:75vw;
 	width:100vw;
+	background: pink;
 	overflow: hidden;
 }
 
