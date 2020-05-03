@@ -56,7 +56,7 @@
 
 #AngzDiv2{
 	min-height: 200vw;
-	max-height: 220vw;
+	max-height: 240vw;
 	width: 100vw;
 	overflow: hidden;
 	background: white;
@@ -99,6 +99,7 @@
 	text-align: center;
 	color:black;
 	font-weight: 900;
+	margin-top: 3vh;
 }
 
 }
