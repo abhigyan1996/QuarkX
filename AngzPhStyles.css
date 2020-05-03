@@ -54,14 +54,14 @@
 }
 
 #AngzDiv2{
-	height: 150vw;
+	height: 200vw;
 	width: 100vw;
 	overflow: hidden;
-	background: white;
+	background: blue;
 }
 
 #AngzLiBadge{
-	margin-left: 18vw;
+	margin-left: 16vw;
 	margin-top: 5vh;
 }
 
