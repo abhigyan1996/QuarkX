@@ -57,12 +57,12 @@
 	height: 165vw;
 	width: 100vw;
 	overflow: hidden;
-	background: white;
+	background: pink;
 }
 
 #AngzLiBadge{
 	margin-left: 18vw;
-	margin-top: 5vh;
+	margin-top: 3vh;
 }
 
 .aboutMeTxt{
