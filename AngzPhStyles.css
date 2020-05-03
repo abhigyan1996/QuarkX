@@ -5,13 +5,16 @@
 
 .HomeSlider{
 	height:60vw;
-	width:100vw;
-	margin-top: 10vh
+	margin-top: 15vw;
+	padding-left: 10vw;	
+	padding-right: 10vw;
+	margin-left: -8.5vw	
+
 }
 
 .thing{
 	height: 72vw;
-	width: 100vw;
+	margin-top: 10vw;
 }
 
 .AngzDiv1{
