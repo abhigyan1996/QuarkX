@@ -18,6 +18,16 @@
 	margin-top: 10vw;
 }
 
+#bookpic{
+	height: 60vw;
+	width:50vw;
+}
+
+#bookBtn{
+	margin-top: -40vw;
+	margin-left: 60vw
+}
+
 #AngzDiv1{
 	height:80vw;
 	width:100vw;
