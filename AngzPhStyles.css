@@ -23,6 +23,7 @@
 	width:100vw;
 	background: white;
 	overflow: hidden;
+	margin-top: 5vw;
 }
 
 .thing .slick-dots {
@@ -62,7 +63,7 @@
 
 #aboutMeHeading{
 	font-family: 'Quicksand';
-	font-size: 6vw;
+	font-size: 6.75vw;
 	text-align: center;
 	color:black;
 	font-weight: 900;
@@ -89,6 +90,14 @@
 	text-align: center;
 	margin-top: 3vh;
 	margin-left: 35vw;
+}
+
+#QuakrXIntro{
+	font-family: 'Quicksand';
+	font-size: 6.75vw;
+	text-align: center;
+	color:black;
+	font-weight: 900;
 }
 
 }
