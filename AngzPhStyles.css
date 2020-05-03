@@ -55,7 +55,8 @@
 }
 
 #AngzDiv2{
-	height: 210vw;
+	min-height: 200vw;
+	max-height: 220vw;
 	width: 100vw;
 	overflow: hidden;
 	background: white;
