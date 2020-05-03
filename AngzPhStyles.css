@@ -57,7 +57,7 @@
 	height: 165vw;
 	width: 100vw;
 	overflow: hidden;
-	background: pink;
+	background: white;
 }
 
 #AngzLiBadge{
@@ -73,6 +73,14 @@
 	margin-left: 7.5vw;
 	margin-right: 7.5vw; 
 	margin-top: 5vh;
+}
+
+#ReadAboutMeBtn{
+	font-family: 'Source Serif Pro';
+	font-size: 4.5vw;
+	text-align: center;
+	margin-top: 3vh;
+	margin-left: 40vw;
 }
 
 }
