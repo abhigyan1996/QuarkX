@@ -53,4 +53,25 @@
 	display: none;
 }
 
+#AngzDiv2{
+	height: 150vw;
+	width: 100vw;
+	overflow: hidden;
+	background: white;
+}
+
+#AngzLiBadge{
+	margin-left: 18vw;
+	margin-top: 5vh;
+}
+
+.aboutMeTxt{
+	font-family: 'Source Serif Pro';
+	font-size: 4.5vw;
+	width: 90vw;
+	max-width:90vw;
+	margin-left: 10vw;
+	margin-top: 5vh;
+}
+
 }
