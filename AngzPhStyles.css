@@ -16,12 +16,13 @@
 .thing{
 	height: 72vw;
 	margin-top: 10vw;
-	background: black
+	background: pink
 }
 
 .AngzDiv1{
 	height:70vw;
 	width:100vw;
+	overflow: hidden;
 }
 
 .thing .slick-dots {
