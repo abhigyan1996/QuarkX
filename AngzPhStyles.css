@@ -19,9 +19,9 @@
 }
 
 #AngzDiv1{
-	height:85vw;
+	height:80vw;
 	width:100vw;
-	background: pink;
+	background: white;
 	overflow: hidden;
 }
 
@@ -54,14 +54,14 @@
 }
 
 #AngzDiv2{
-	height: 200vw;
+	height: 140vw;
 	width: 100vw;
 	overflow: hidden;
-	background: blue;
+	background: white;
 }
 
 #AngzLiBadge{
-	margin-left: 16vw;
+	margin-left: 23vw;
 	margin-top: 5vh;
 }
 
@@ -70,7 +70,8 @@
 	font-size: 4.5vw;
 	width: 90vw;
 	max-width:90vw;
-	margin-left: 10vw;
+	margin-left: 7.5vw;
+	margin-right: 7.5vw; 
 	margin-top: 5vh;
 }
 
