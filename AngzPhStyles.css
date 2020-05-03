@@ -31,10 +31,10 @@
 }
 
 #bookBtn{
-	margin-top: -40vw;
-	margin-left: 60vw;
-	font-family: 'Quicksand';
-	font-size: 3.5vw;
+	margin-top: 5vh;
+	margin-left: 38vw;
+	font-family: 'Source Serif Pro';
+	font-size: 4.5vw;
 }
 
 #QuarkTxtBanner{
@@ -145,6 +145,10 @@
 	margin-top: 3vh;
 }
 
+.QuarkXTxt{
+	margin-top: -10vw;
+}
+
 #AngzDiv4{
 	min-height: 140vw;
 	max-height: 200vw;
@@ -180,6 +184,14 @@
 	height: 100vw;
 	width:80vw;
 	margin-top: 3vh
+}
+
+#buyBookBtn{
+	height: 10vw;
+	width:25vw;
+	margin-left: 60vw;
+	margin-top: -30vw;
+	cursor: pointer;
 }
 
 }
