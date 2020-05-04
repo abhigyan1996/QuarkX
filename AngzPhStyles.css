@@ -194,4 +194,12 @@
 	cursor: pointer;
 }
 
+#AngzDiv6{
+	height:50vw;
+	width:100vw;
+	background: white;
+	overflow: hidden;
+}
+
+
 }
