@@ -2,7 +2,6 @@
 @media all and (max-width: 599px) and (min-width: 100px) {
 /* Meidum sized phones and other devices (phones, 600px and down) */
 
-
 .HomeSlider{
 	height:60vw;
 	margin-top: 15vw;
@@ -22,7 +21,9 @@
 
 .thing{
 	height: 72vw;
-	margin-top: 10vw;
+	margin-top: 5vw;
+	width:200vw;
+	background: white
 }
 
 #bookpic{
@@ -114,7 +115,7 @@
 }
 
 #AngzLiBadge{
-	margin-left: 18vw;
+	margin-left: 21vw;
 	margin-top: 3vh;
 }
 
@@ -129,6 +130,14 @@
 }
 
 #ReadAboutMeBtn{
+	font-family: 'Source Serif Pro';
+	font-size: 4.5vw;
+	text-align: center;
+	margin-top: 3vh;
+	margin-left: 35vw;
+}
+
+#GetCvBtn{
 	font-family: 'Source Serif Pro';
 	font-size: 4.5vw;
 	text-align: center;
@@ -180,7 +189,7 @@
 	background: white;
 }
 
-#bookInto{
+#bookIntro{
 	height: 100vw;
 	width:80vw;
 	margin-top: 3vh
@@ -201,5 +210,29 @@
 	overflow: hidden;
 }
 
+#IconsOuter{
+	margin-left: -3vw;
+	margin-top: 5vw;
+	text-align: center
+}
+
+.social_icons{
+	margin-left:5vw;
+	font-size: 5vw;
+}
+
+#AngzDiv7{
+	height:30vw;
+	width:100vw;
+	background: #bbb;
+	overflow: hidden;
+}
+
+#DevelopedByTxt{
+	margin-top: 5vw;
+	font-family: 'Source Serif Pro';
+	font-size:3vw;
+	text-align: center;
+}
 
 }
