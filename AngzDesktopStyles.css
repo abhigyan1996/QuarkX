@@ -1,8 +1,209 @@
-#wrapper {
-	width: 1170px;
-	margin: 0 auto;
+
+@media all and (min-width: 600px) {
+
+.HomeBanner{
+	height:20vw;
+	width:100vw;
 }
 
-img{
-	width: 100%;
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+/*BOOTSTRAP BANNERS TIME ADJUSTMENT*/
+.item {
+    display: none;
+    position: relative;
+    .transition(.0s ease-in-out left);
+    height:30vw;
+}
+
+#myCarousel{
+	width:70vw;
+	margin-left: 6.5vw
+}
+
+#bookBtn{
+	margin-top: 5vw;
+	font-family: 'Source Serif Pro';
+	font-size: 1.75vw;
+	margin-left: 5vw;
+}
+
+#AngzDiv1Large{
+	height:30vw;
+	width:100vw;
+	background: white;
+	overflow: hidden;
+	margin-top: 7.5vw;
+}
+
+.thing .slick-dots {
+	position:absolute;
+	width: 100vw;
+	bottom: 0;
+	top: 100;
+	left: 0;
+	z-index: 10;
+}
+
+.thing .slick-dots li{
+	list-style: none;
+	background: #bbb;
+	width:1.5vw;
+	height:1.5vw;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 1vw;
+
+}
+
+.thing .slick-dots li.slick-active{
+	background: white;
+}
+
+.thing .slick-dots li button{
+	display: none;
+}
+
+#AngzDiv2{
+	height: 35vw;
+	width: 100vw;
+	overflow: hidden;
+	background: white;
+}
+
+#aboutMeHeading{
+	font-family: 'Quicksand';
+	font-size: 4vw;
+	text-align: center;
+	color:black;
+	font-weight: 900;
+}
+
+#AngzLiBadge{
+	margin-left: 15vw;
+	margin-top: 6vw;
+}
+
+.aboutMeTxt{
+	font-family: 'Source Serif Pro';
+	font-size: 1.25vw;
+	margin-right: 3vw; 
+	margin-top: 3vw;
+}
+
+#ReadAboutMeBtn{
+	font-family: 'Source Serif Pro';
+	font-size:1.75vw;
+	text-align: center;
+	margin-top: 3vw;
+	margin-left: 0vw;
+}
+
+#QuakrXIntro{
+	font-family: 'Quicksand';
+	font-size: 4vw;
+	text-align: center;
+	color:black;
+	font-weight: 900;
+	margin-top: 3vh;
+}
+
+.QuarkXTxt{
+	margin-top: -5vh;
+}
+
+#AngzDiv3{
+	height: 40vw;
+}
+
+#joinQuarksLineHome{
+	margin-top: 2vh;
+	margin-bottom: -1vh;
+}
+
+#AngzDiv4{
+	height: 35vw;
+	width: 100vw;
+	overflow: hidden;
+	background: white;
+}
+
+#igniteBanner{
+	height:30vw;
+	width:50vw;
+
+}
+
+.IgniteSmartTxt{
+	font-family: 'Source Serif Pro';
+	font-size: 1.25vw;
+	margin-right: 3vw;
+	margin-left: 5vw; 
+	margin-top: 3vw;
+}
+
+#GetCvBtn{
+	font-family: 'Source Serif Pro';
+	font-size:1.75vw;
+	text-align: center;
+	margin-top: 3vw;
+	margin-left: 5vw;
+}
+
+#AngzDiv5{
+	min-height: 60vw;
+	max-height: 240vw;
+	width: 100vw;
+	overflow: hidden;
+	background: white;
+}
+
+#bookIntro{
+	height: 50vw;
+	width:40vw;
+}
+
+#buyBookBtn{
+	height: 5vw;
+	width:15vw;
+	margin-top: 5vw;
+	margin-left: 5vw;
+	cursor: pointer;
+}
+
+#AngzDiv6{
+	height:30vw;
+	width:100vw;
+	background: white;
+	overflow: hidden;
+}
+
+#IconsOuter{
+	margin-left: -3vw;
+	margin-top: 5vw;
+	text-align: center
+}
+
+.social_icons{
+	margin-left:5vw;
+	font-size: 3vw;
+}
+
+#AngzDiv7{
+	height:20vw;
+	width:100vw;
+	background: #bbb;
+	overflow: hidden;
+}
+
+#DevelopedByTxt{
+	margin-top: 5vw;
+	font-family: 'Source Serif Pro';
+	font-size:1.25vw;
+	text-align: center;
+}
+
 }
