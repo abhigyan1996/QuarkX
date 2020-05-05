@@ -5,23 +5,14 @@
 .HomeSlider{
 	height:60vw;
 	margin-top: 15vw;
-	padding-left: 0vw;	
-	margin-left: 0vw;
-	width:98vw;
-}
-
-.sliderPics{
-	height:60vw;
-	padding-left: 2vw;	
 	padding-right: 2vw;
-	margin-left: 0vw;
 	width:100vw;
 }
 
 .thing{
 	height: 72vw;
 	margin-top: 5vw;
-	width:200vw;
+	width:100vw;
 	background: white
 }
 
