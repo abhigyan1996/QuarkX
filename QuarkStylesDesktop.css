@@ -126,37 +126,37 @@
 	margin-top:-2vw;
 }
 
-.ScienceTag{
+#ScienceTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 22.65vw;
+	margin-left: 23.65vw;
 	margin-top:-3.4vw;
 	font-size:1vw;
 	padding: 0.5vw;
 }
 
-.GenKnowledgeTag{
+#GenKnowledgeTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 18.25vw;
+	margin-left: 19.25vw;
 	margin-top:-3.4vw;
 	font-size:1vw;
 	padding: 0.5vw;
 }
 
-.BusinessTag{
+#BusinessTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 22.25vw;
+	margin-left: 23.25vw;
 	margin-top:-3.4vw;
 	font-size:1vw;
 	padding: 0.5vw;
 }
 
-.MythologyTag{
+#MythologyTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 20.5vw;
+	margin-left: 21.5vw;
 	margin-top:-3.4vw;
 	font-size:1vw;
 	padding: 0.5vw;
