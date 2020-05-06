@@ -20,8 +20,8 @@
 }
 
 #myCarousel{
-	width:70vw;
-	margin-left: 6.5vw
+	width:60vw;
+	margin-left: 12.5vw
 }
 
 #bookBtn{
@@ -190,6 +190,7 @@
 .social_icons{
 	margin-left:5vw;
 	font-size: 3vw;
+	color: orange;
 }
 
 #AngzDiv7{
