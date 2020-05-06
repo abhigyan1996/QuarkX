@@ -1,6 +1,48 @@
 
 @media all and (min-width: 600px) {
 
+#navItem1Angz{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 77vw;
+	position:absolute;
+	color:red;
+	text-decoration: none;
+}
+
+#navItem1Angz:hover{
+	color:green;
+}
+
+#navItem2Angz{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 82vw;
+	position:absolute;
+	color:black;
+	text-decoration: none;
+}
+
+#navItem2Angz:hover{
+	color:blue;
+}
+
+#navItem3Angz{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	color:black;
+	margin-left: 88vw;
+	position:absolute;
+	color:black;
+	text-decoration: none;
+}
+
+#navItem3Angz:hover{
+	color:blue;
+}
+
 .HomeBanner{
 	height:20vw;
 	width:100vw;
@@ -20,8 +62,8 @@
 }
 
 #myCarousel{
-	width:60vw;
-	margin-left: 12.5vw
+	width:50vw;
+	margin-left: 17.5vw
 }
 
 #bookBtn{
@@ -119,9 +161,25 @@
 	height: 40vw;
 }
 
-#joinQuarksLineHome{
-	margin-top: 2vh;
-	margin-bottom: -1vh;
+#joinQuarkAngz{
+	margin-top: 6vw;
+	margin-left: 10vw;
+	font-family: 'Quicksand';
+	font-size: 3.15vw;
+	font-weight: 900; 
+	width:35vw;
+	max-width: 35vw;
+	min-width: 35vw;
+}
+
+#joinQuarksLineAngz{
+	margin-left: 10vw;
+	font-family: 'Source Serif Pro';
+	font-size: 1.25vw;
+	width: 35vw;
+	max-width: 35vw;
+	min-width: 35vw; 
+	margin-top: 0vw;
 }
 
 #AngzDiv4{
