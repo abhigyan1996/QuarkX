@@ -192,9 +192,13 @@
 #navItem1Home{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
-	color:red;
-	margin-left: 70vw;
+	color:black;
+	margin-left: 65vw;
 	position:absolute;
+}
+
+#navItem2Home:hover{
+	color:green;
 }
 
 #navItem1submit{
@@ -217,18 +221,53 @@
 	position:absolute;
 }
 
-#navItem2Home:hover{
+#navItem1Home:hover{
 	color:blue;
 }
 
 #navItem2Home{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
-	margin-left: 75vw;
+	margin-left: 70vw;
+	position:absolute;
+	color:red;	
+}
+
+#navItem3Home{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 76.25vw;
 	position:absolute;
 	color:black;	
 }
 
+#navItem3Home:hover{
+	color:blue;
+}
+
+#navItem3read{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 76.25vw;
+	position:absolute;
+	color:red;	
+}
+
+#navItem3read:hover{
+	color:blue;
+}
+
+#navItem3subjects{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 76.25vw;
+	position:absolute;
+	color:black;	
+}
+
+#navItem3subjects:hover{
+	color:blue;
+}
 
 #div1Home{
 	background: white;
@@ -354,6 +393,30 @@
 
 #navItems4Quarks:hover{
 	color:blue;
+}
+
+#navItem2submit{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 70vw;
+	position:absolute;
+	color:black;	
+}
+
+#navItem2submit:hover{
+	color:blue;
+}
+
+#navItems4submit{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 88vw;
+	position:absolute;
+	color:red;	
+}
+
+#navItems4submit:hover{
+	color:green
 }
 
 #WhyQuarksHome{
