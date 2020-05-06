@@ -47,6 +47,7 @@
   height: 160vw;
   max-height: 160vw;
   min-height:160vw;
+  border-radius: 10px
 }
 
 .QuarkCards:hover{
@@ -110,7 +111,7 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 71.5vw;
-	margin-top:-10vw;
+	margin-top:-10.5vw;
 	font-size:3.5vw;
 	padding: 1vw;
 }
@@ -119,7 +120,7 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 56.25vw;
-	margin-top:-10vw;
+	margin-top:-10.5vw;
 	font-size:3.5vw;
 	padding: 1vw;
 }
@@ -128,7 +129,7 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 69.8vw;
-	margin-top:-10vw;
+	margin-top:-10.5vw;
 	font-size:3.5vw;
 	padding: 1vw;
 }
@@ -137,7 +138,7 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 64.25vw;
-	margin-top:-10vw;
+	margin-top:-10.5vw;
 	font-size:3.5vw;
 	padding: 1vw;
 }
