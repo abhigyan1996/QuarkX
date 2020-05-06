@@ -52,7 +52,6 @@
   max-height: 44vw;
   min-height:44vw;
   border-radius: 10px;
-  border-radius: 10px;
   margin-left: 2.5vw;
   margin-bottom: 5vw;
 }
@@ -131,7 +130,7 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 22.65vw;
-	margin-top:-3.25vw;
+	margin-top:-3.4vw;
 	font-size:1vw;
 	padding: 0.5vw;
 }
@@ -140,7 +139,7 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 18.25vw;
-	margin-top:-3.25vw;
+	margin-top:-3.4vw;
 	font-size:1vw;
 	padding: 0.5vw;
 }
@@ -149,7 +148,7 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 22.25vw;
-	margin-top:-3.25vw;
+	margin-top:-3.4vw;
 	font-size:1vw;
 	padding: 0.5vw;
 }
@@ -158,7 +157,7 @@
 	font-family: 'Source Serif Pro';
 	position:absolute;
 	margin-left: 20.5vw;
-	margin-top:-3.25vw;
+	margin-top:-3.4vw;
 	font-size:1vw;
 	padding: 0.5vw;
 }
