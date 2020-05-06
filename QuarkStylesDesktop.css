@@ -1,6 +1,6 @@
 
 /* 600px and up, IPAD, Desktop */
-
+@media all and (min-width: 600px) {
 #QuarksLogo{
 	position:absolute;
 	margin-left:4vw;
@@ -130,7 +130,7 @@
 .ScienceTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 23.75vw;
+	margin-left: 22.65vw;
 	margin-top:-3.25vw;
 	font-size:1vw;
 	padding: 0.5vw;
@@ -139,7 +139,7 @@
 .GenKnowledgeTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 19.25vw;
+	margin-left: 18.25vw;
 	margin-top:-3.25vw;
 	font-size:1vw;
 	padding: 0.5vw;
@@ -148,7 +148,7 @@
 .BusinessTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 23.25vw;
+	margin-left: 22.25vw;
 	margin-top:-3.25vw;
 	font-size:1vw;
 	padding: 0.5vw;
@@ -157,7 +157,7 @@
 .MythologyTag{
 	font-family: 'Source Serif Pro';
 	position:absolute;
-	margin-left: 21.5vw;
+	margin-left: 20.5vw;
 	margin-top:-3.25vw;
 	font-size:1vw;
 	padding: 0.5vw;
@@ -684,3 +684,4 @@
 }
 
 */
+}
