@@ -2,6 +2,13 @@
 @media all and (max-width: 599px) and (min-width: 100px) {
 /* Meidum sized phones and other devices (phones, 600px and down) */
 
+#nameAngz{
+	font-family: 'Quicksand';
+	font-size: 8vw;
+	text-decoration: none;
+	margin-left: 0vw;
+}
+
 .HomeSlider{
 	height:60vw;
 	margin-top: 15vw;
