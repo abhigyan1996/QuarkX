@@ -14,6 +14,8 @@
 	font-size: 10vw;
 	text-decoration: none;
 	margin-left: 0vw;
+	color:black;
+	
 }
 	
 .OutQuarks{
@@ -301,7 +303,7 @@
 
 .HomeCards{
 	margin-bottom:10vw;
-	margin-left: -1vw;
+	margin-left: -1.5vw;
 	height:145vw;
 	border-radius:10px;
 	width:95vw;
