@@ -298,7 +298,7 @@
 	width: 35vw;
 	max-width: 35vw;
 	min-width: 35vw; 
-	margin-top: -2vw;
+	margin-top: 0vw;
 }
 
 #homeAmoeba1{
@@ -696,45 +696,20 @@
 	margin-top: 2vw
 }
 
-.TestimonialCards{
-  width: 22.5vw;
-  max-width: 22.5vw;
-  min-width: 22.5vw;
-  background: white;
-  height: 22.5vw;
-  max-height: 22.5vw;
-  min-height:22.5vw;
-  border-radius: 10px;
-  border-radius: 10px;
-  margin-left: 2.5vw;
-  margin-bottom: 5vw;
+#TestimonialDivLarge{
+	height:40vw;
+	width:100vw;
+	background: white;
+	overflow: hidden;
 }
 
-.count1{
-	position:absolute;
-	font-family: 'Helvetica';
-	margin-top: 15vh;
-	margin-left: 30vw;
-	font-size:25px;
-	font-weight: 900;
-}
-
-.count2{
-	position:absolute;
-	font-family: 'Helvetica';
-	margin-top: 15vh;
-	margin-left: 45vw;
-	font-size:25px;
-	font-weight: 900;
-}
-
-.count3{
-	position:absolute;
-	font-family: 'Helvetica';
-	margin-top: 15vh;
-	margin-left: 60vw;
-	font-size:25px;
-	font-weight: 900;
+#TestimonialHeading{
+	margin-top: 0vw;
+	margin-bottom: 3vw;
+	font-family: 'Quicksand';
+	font-size: 2.25vw;
+	font-weight: 900; 
+	text-align: center
 }
 
 /*#electricEels{
