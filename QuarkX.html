@@ -104,20 +104,28 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
   <div class="w3-half w3-container" id="div1ImgH">
     <!-- This picture is only for Laptop and Tablet for now -->
-    <div class="w3-hide-small">
+    <div class="w3-hide-small anim PhoneQuark">
         <img id="Phone" src="QuarkOtherImages/Phone.png">
         <div id="WhiteStrip"></div>
       <div id="PhoneScreen1">
-        <div id="PhoneBtn" class="w3-button w3-blue w3-round"> Read a Quark </div>
+        <div id="clickTxt"> CLICK! </div>
+        <a href="AllQuarks"> <div id="PhoneBtn" class="w3-button w3-blue w3-round"> Read a Quark </div></a>
         <img id="namastePic" src="QuarkOtherImages/namaste2.png">
         <div id="namasteTxt">NAMASTE</div>
         <img id="fingerPic" src="QuarkOtherImages/finger.png">
       </div>
       <div id="PhoneScreen2">
-        <img id="CheersPic" src= "QuarkImages/quark9.jpg">
+        <img id="QuarkPic" src= "QuarkImages/quark9.jpg">
         <div id="Quark1">HOW IS A STAR BORN?</div>
         <div id="Quark1Ans">
           Gravitational attraction causes a large amount of interstellar gas (mostly Hydrogen) to collapse in on itself. This causes the atoms to collide at great speeds generating enormous heat. This heat causes the Hydrogen atoms to... </div>
+      </div>
+      <div id="PhoneScreen3">
+        <img id="QuarkPic" src= "QuarkImages/quark7.jpg">
+        <div id="blackStrip"> </div>
+        <div id="Quark1" style="color:white" >HOW DID DRONACHARYA DIE?</div>
+        <div id="Quark1Ans" style="color:white">
+          In the battle of Kurukshetra, after the death of Bheeshma, Drona was the commander-in-chief of the Kauravas and is a quite fearless leader. His only weakness is his son Aswathama. So Krishna... </div>
       </div>
     </div>
 
@@ -485,13 +493,26 @@ $(document).ready(function(){
 <!-- ANIMATION FOR READ A QUARK  -->
 <script> 
 $(document).ready(function(){
+  animateQuarks(0);
+  function animateQuarks(time) {
+    $("#PhoneScreen1").delay(1000).fadeIn();
+    $("#fingerPic").delay(3500).animate({top: '-5vw'});
+    $("#fingerPic").delay(4000).animate({top: '0vw'});  
+    $("#PhoneScreen1").delay(4000).fadeOut();
+    $("#PhoneScreen2").delay(5500).fadeIn();
+    $("#PhoneScreen2").delay(14500).fadeOut();
 
-    $("#PhoneScreen1").delay(100).fadeIn();
-    $("#fingerPic").delay(1500).animate({top: '5vw'}); 
-    $("#fingerPic").delay(200).fadeOut();
-    $("#PhoneScreen1").delay(2000).fadeOut();
-    $("#PhoneScreen2").delay(3000).fadeIn();
-    
+
+    $("#PhoneScreen1").delay(15000).fadeIn(); 
+    $("#fingerPic").delay(17000).animate({top: '-5vw'});
+    $("#fingerPic").delay(17000).animate({top: '0vw'});  
+    $("#PhoneScreen1").delay(5000).fadeOut();
+    $("#PhoneScreen3").delay(27000).fadeIn();
+    $("#PhoneScreen3").delay(14500).fadeOut();
+
+
+    $("#PhoneScreen1").delay(17500).fadeIn(); 
+}
  /*   $("#PhoneScreen2").delay(300).show();
     $("#PhoneScreen1").show();
     $("#PhoneScreen2").hide();
