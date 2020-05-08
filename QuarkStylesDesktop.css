@@ -22,6 +22,97 @@
 	font-size: 1.2vw;
 }
 
+
+#Phone{
+	position:absolute;
+	height: 32vw;
+	width:20vw;
+	margin-left: 10vw;
+}
+
+#WhiteStrip{
+	position:absolute;
+	height: 24vw;
+	width:16.6vw;
+	margin-left: 11.8vw;
+	margin-top: 3vw;
+	background: white;	
+}
+
+#PhoneBtn{
+	position: absolute;
+	margin-top: 22vw;
+	margin-left: 15.5vw
+}
+
+#namastePic{
+	position:absolute;
+	height:10vw;
+	width:8vw;
+	margin-left: 16vw;
+	margin-top: 3vw;
+}
+
+#namasteTxt{
+	position:absolute;
+	height:5vw;
+	width:5.5vw;
+	margin-left: 15vw;
+	margin-top: 13.5vw;
+	font-weight: 900;
+	font-family: 'Helvectica';
+	font-size: 2vw;
+	color: orange;
+}
+
+#fingerPic{
+	position:absolute;
+	height:10vw;
+	width: 7vw;
+	margin-left: 17vw;
+	margin-top: 25vw;
+}
+
+#CheersPic{
+	position:absolute;
+	height: 24vw;
+	width:16.6vw;
+	margin-left: 11.8vw;
+	margin-top: 3vw;
+	background: white;	
+}
+
+#Quark1{
+	position:absolute;
+	width:15vw;
+	margin-left: 12.5vw;
+	margin-top: 4vw;
+	font-weight: 900;
+	font-family: 'Quicksand';
+	font-size: 1.25vw;
+	color: black;
+	text-align: center
+}
+
+#Quark1Ans{
+	position:absolute;
+	width:15vw;
+	margin-left: 13vw;
+	margin-top: 18vw;
+	font-weight: 900;
+	font-family: 'Quicksand';
+	font-size: 0.9vw;
+	color: white;
+}
+
+#PhoneScreen1{
+	display:none;
+}
+
+#PhoneScreen2{
+	display:none;
+}
+
 .Quarks{
 	position: absolute;
 	background: white;
