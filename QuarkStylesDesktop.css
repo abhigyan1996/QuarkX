@@ -42,7 +42,8 @@
 #PhoneBtn{
 	position: absolute;
 	margin-top: 22vw;
-	margin-left: 15.5vw
+	margin-left: 15.5vw;
+	font-size: 1vw;
 }
 
 #namastePic{
@@ -70,7 +71,7 @@
 	height:10vw;
 	width: 7vw;
 	margin-left: 17vw;
-	margin-top: 25vw;
+	margin-top: 28vw;
 }
 
 #CheersPic{
@@ -90,7 +91,7 @@
 	font-weight: 900;
 	font-family: 'Quicksand';
 	font-size: 1.25vw;
-	color: black;
+	color: white;
 	text-align: center
 }
 
@@ -98,7 +99,7 @@
 	position:absolute;
 	width:15vw;
 	margin-left: 13vw;
-	margin-top: 18vw;
+	margin-top: 17vw;
 	font-weight: 900;
 	font-family: 'Quicksand';
 	font-size: 0.9vw;
