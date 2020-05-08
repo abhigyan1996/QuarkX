@@ -35,6 +35,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"> </script>
 
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!-- <script>
@@ -112,10 +114,10 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
         <img id="fingerPic" src="QuarkOtherImages/finger.png">
       </div>
       <div id="PhoneScreen2">
-        <img id="CheersPic" src= "QuarkImages/quark8.jpg">
-        <div id="Quark1">WHY DO WE SAY CHEERS WHILE DRINKING?</div>
+        <img id="CheersPic" src= "QuarkImages/quark9.jpg">
+        <div id="Quark1">HOW IS A STAR BORN?</div>
         <div id="Quark1Ans">
-          We do this when we are celebrating some occasion or having a good time. So when we drink, we can 'see' the drink, 'smell' the drink, 'touch' the drink, 'taste' the drink. The only sense... </div>
+          Gravitational attraction causes a large amount of interstellar gas (mostly Hydrogen) to collapse in on itself. This causes the atoms to collide at great speeds generating enormous heat. This heat causes the Hydrogen atoms to... </div>
       </div>
     </div>
 
@@ -485,12 +487,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 
     $("#PhoneScreen1").delay(100).fadeIn();
-    $("#fingerPic").delay(1500).animate({bottom: '5vw'});
+    $("#fingerPic").delay(1500).animate({top: '5vw'}); 
     $("#fingerPic").delay(200).fadeOut();
     $("#PhoneScreen1").delay(2000).fadeOut();
     $("#PhoneScreen2").delay(3000).fadeIn();
-    $("#fingerPic").animate({top: '10vw'});
-
+    
  /*   $("#PhoneScreen2").delay(300).show();
     $("#PhoneScreen1").show();
     $("#PhoneScreen2").hide();
