@@ -44,6 +44,15 @@ var _positions = [
       percent: 0.9, x: 0, y: -0.15
     }
   },
+  {
+    name: 'PhoneQuark', 
+    start: {
+      percent: 0, x: 0, y: 0
+    },
+    end: {
+      percent: 0.9, x: -0.4, y: 0
+    }
+  },
 ]
 
 resize();
