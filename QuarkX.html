@@ -54,9 +54,9 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#" class="w3-bar-item"> <img id="QuarksLogo" src="QuarkOtherImages/QuarksLogoFinal.png"> </a> 
+    <a href="QuarkX" class="w3-bar-item"> <img id="QuarksLogo" src="QuarkOtherImages/QuarksLogoFinal.png"> </a> 
     
-    <a href="#" class="w3-bar-item" id="nameQuarks" class="w3-black"> QuarkX </a>
+    <a href="QuarkX" class="w3-bar-item" id="nameQuarks" class="w3-black"> QuarkX </a>
     <div style="margin-top:3vh">
     <a href="index" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
     <a href="QuarkX"> <div class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> QuarkX</div></a>
@@ -90,18 +90,36 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
      <div class="anim write2 w3-hide-small">
        <a href="#subscribeCard"> <p id="subscribeQuarksHome" class="w3-hide-medium subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
        <a href="#subscribeCardTablet"> <p id="subscribeQuarksHome" class="w3-hide-large w3-hide-small subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
-       <a href="AllQuarks"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Xplore Quarks</p></a>
+       <a href="AllQuarks"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Read a Quark</p></a>
      </div>
 
      <div class="w3-hide-medium w3-hide-large">
        <a href="#subscribeCardPh"> <p id="subscribeQuarksHome" class="w3-hide-medium w3-hide-large subscribeBtn w3-button w3-black w3-hover-yellow w3-round">Subscribe Quarks</p></a>
-       <a href="AllQuarks"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Xplore Quarks</p></a>
+       <a href="AllQuarks"> <p id="exploreQuarksHome" class="w3-button w3-purple w3-hover-yellow w3-round">Read a Quark</p></a>
      </div>
 
   </div>
 
   <div class="w3-half w3-container" id="div1ImgH">
-     <img src="QuarkOtherImages/homeAmoebaOne.jpg" class="w3-hide-small w3-animate-right" id="homeAmoeba1">
+    <!-- This picture is only for Laptop and Tablet for now -->
+    <div class="w3-hide-small">
+        <img id="Phone" src="QuarkOtherImages/Phone.png">
+        <div id="WhiteStrip"></div>
+      <div id="PhoneScreen1">
+        <div id="PhoneBtn" class="w3-button w3-blue w3-round"> Read a Quark </div>
+        <img id="namastePic" src="QuarkOtherImages/namaste2.png">
+        <div id="namasteTxt">NAMASTE</div>
+        <img id="fingerPic" src="QuarkOtherImages/finger.png">
+      </div>
+      <div id="PhoneScreen2">
+        <img id="CheersPic" src= "QuarkImages/quark8.jpg">
+        <div id="Quark1">WHY DO WE SAY CHEERS WHILE DRINKING?</div>
+        <div id="Quark1Ans">
+          We do this when we are celebrating some occasion or having a good time. So when we drink, we can 'see' the drink, 'smell' the drink, 'touch' the drink, 'taste' the drink. The only sense... </div>
+      </div>
+    </div>
+
+     <!-- <img src="QuarkOtherImages/homeAmoebaOne.jpg" class="w3-hide-small w3-animate-right" id="homeAmoeba1"> -->
      <img src="QuarkOtherImages/homeAmoebaOne.jpg" class="w3-hide-large w3-hide-medium" id="homeAmoeba1">
   </div>
 
@@ -190,10 +208,10 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
 <div id="subjectScrollHor">
     <div id="SubLeft">
-      <div id="sub1" class="w3-container">
+      <a href="ScienceQuarks"><div id="sub1" class="w3-container">
         <img src="QuarkOtherImages/subjects/subScience.jpg" class="subImages" id="subSciencePic"> 
         <div class="subName" id="subScienceTxt"> SCIENCE </div>
-      </div>
+      </div></a>
 
        <div id="sub2" class="w3-container">
         <img src="QuarkOtherImages/subjects/subStory.jpg" class="subImages" id="subStoryPic"> 
@@ -210,10 +228,10 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
         <div class="subName" id="subFinanceTxt"> FINANCE </div>
       </div>
 
-      <div id="sub5" class="w3-container">
+      <a href="MythologyQuarks"><div id="sub5" class="w3-container">
         <img src="QuarkOtherImages/subjects/subEpics.jpg" class="subImages" id="subEpicsPic"> 
         <div class="subName" id="subEpicsTxt"> MYTHOLOGY </div>
-      </div>
+      </div></a>
 
       <div id="sub5" class="w3-container">
         <img src="QuarkOtherImages/subjects/subPsychology.jpg" class="subImages" id="subPsychologyPic"> 
@@ -461,6 +479,24 @@ $(document).ready(function(){
   gtag('config', 'UA-163447394-1');
 </script>
 
+
+<!-- ANIMATION FOR READ A QUARK  -->
+<script> 
+$(document).ready(function(){
+
+    $("#PhoneScreen1").delay(100).fadeIn();
+    $("#fingerPic").delay(1500).animate({bottom: '5vw'});
+    $("#fingerPic").delay(200).fadeOut();
+    $("#PhoneScreen1").delay(2000).fadeOut();
+    $("#PhoneScreen2").delay(3000).fadeIn();
+    $("#fingerPic").animate({top: '10vw'});
+
+ /*   $("#PhoneScreen2").delay(300).show();
+    $("#PhoneScreen1").show();
+    $("#PhoneScreen2").hide();
+    $("#fingerPic").show();  */  
+});
+</script> 
 
 <script>
   AOS.init();
