@@ -74,13 +74,21 @@
 	margin-top: 28vw;
 }
 
-#CheersPic{
+#QuarkPic{
 	position:absolute;
 	height: 24vw;
 	width:16.6vw;
 	margin-left: 11.8vw;
 	margin-top: 3vw;
 	background: white;	
+}
+
+#clickTxt{
+	position: absolute;
+	margin-top: 20vw;
+	margin-left: 18vw;
+	font-size: 1vw;
+	font-family: 'Quicksand';
 }
 
 #Quark1{
@@ -112,6 +120,20 @@
 
 #PhoneScreen2{
 	display:none;
+}
+
+#PhoneScreen3{
+	display: none;
+}
+
+#blackStrip{
+	position:absolute;
+	height: 24vw;
+	width:16.6vw;
+	margin-left: 11.8vw;
+	margin-top: 3vw;
+	background: black;
+	opacity: 0.4	
 }
 
 .Quarks{
@@ -805,13 +827,4 @@
 	text-align: center
 }
 
-/*#electricEels{
-	background: black
-}
-
-#Jellyfish{
-	background: orange
-}
-
-*/
 }
