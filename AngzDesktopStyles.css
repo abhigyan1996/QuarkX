@@ -1,6 +1,14 @@
 
 @media all and (min-width: 600px) {
 
+#nameAngz{
+	font-family: 'Quicksand';
+	font-size: 4vw;
+	text-decoration: none;
+	margin-left: 8vw;
+	color:black;
+}
+
 #navItem1Angz{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
