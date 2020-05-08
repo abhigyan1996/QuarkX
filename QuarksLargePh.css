@@ -15,7 +15,7 @@
 	text-decoration: none;
 	margin-left: 0vw;
 	color:black;
-	
+
 }
 	
 .OutQuarks{
@@ -181,9 +181,122 @@
 /*STYLES FOR HOME PAGE OF QUARKS AND SUBMIT!*/
 #div1H{
 	background:white;
-	height:190vw;
+	height:240vw;
 }
-	
+
+#Phone{
+	position:absolute;
+	height: 110vw;
+	width:70vw;
+	margin-left: 10vw;
+	margin-top: 10vw
+}
+
+#WhiteStrip{
+	position:absolute;
+	height: 85vw;
+	width:60vw;
+	margin-left: 15vw;
+	margin-top: 20vw;
+	background: white;	
+}
+
+#PhoneBtn{
+	position: absolute;
+	margin-top: 80vw;
+	margin-left: 28.5vw;
+	font-size: 4vw;
+}
+
+#namastePic{
+	position:absolute;
+	height:30vw;
+	width:25vw;
+	margin-left: 33vw;
+	margin-top: 20vw;
+}
+
+#namasteTxt{
+	position:absolute;
+	height:5vw;
+	width:5.5vw;
+	margin-left: 30vw;
+	margin-top: 55vw;
+	font-weight: 900;
+	font-family: 'Helvectica';
+	font-size: 6vw;
+	color: orange;
+}
+
+#fingerPic{
+	position:absolute;
+	height:20vw;
+	width: 14vw;
+	margin-left: 38vw;
+	margin-top: 90vw;
+}
+
+#QuarkPic{
+	position:absolute;
+	height: 85vw;
+	width:60vw;
+	margin-left: 15vw;
+	margin-top: 20vw;	
+}
+
+#clickTxt{
+	position: absolute;
+	margin-top: 70vw;
+	margin-left: 38vw;
+	font-size: 4vw;
+	font-family: 'Quicksand';
+}
+
+#Quark1{
+	position:absolute;
+	width:55vw;
+	margin-left: 17.5vw;
+	margin-top: 25vw;
+	font-weight: 900;
+	font-family: 'Quicksand';
+	font-size: 5vw;
+	color: white;
+	text-align: center
+}
+
+#Quark1Ans{
+	position:absolute;
+	width:55vw;
+	margin-left: 17.5vw;
+	margin-top: 75vw;
+	font-weight: 900;
+	font-family: 'Quicksand';
+	font-size: 3vw;
+	color: white;
+}
+
+#PhoneScreen1{
+	display:none;
+}
+
+#PhoneScreen2{
+	display:none;
+}
+
+#PhoneScreen3{
+	display: none;
+}
+
+#blackStrip{
+	position:absolute;
+	height: 85vw;
+	width:60vw;
+	margin-left: 15vw;
+	margin-top: 20vw;
+	background: black;
+	opacity: 0.4	
+}
+
 	
 #joinQuoteHome{
 	margin-top: 35vw;
