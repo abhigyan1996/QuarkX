@@ -2,11 +2,11 @@
 @media all and (max-width: 599px) and (min-width: 100px) {
 
 #THuntDiv1{
-	height: 380vw;
+	height: 390vw;
 	width:100vw;
 	overflow:hidden;
 	background:white;
-	margin-top:30vw;
+	margin-top: 40vw;
 }
 
 #THuntRavan{
