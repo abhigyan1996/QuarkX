@@ -1,0 +1,148 @@
+
+@media all and (max-width: 599px) and (min-width: 100px) {
+
+#THuntDiv1{
+	height: 200vw;
+	width:100vw;
+	overflow:hidden;
+	background:white;
+	margin-top:30vw;
+}
+
+#THuntRavan{
+	height: 100vw;
+	width:100vw;
+	overflow:hidden;
+	background:white;
+	margin-top:3vw;
+	
+}
+
+#WelcomeMsg{
+	position:absolute;
+	font-family: 'Quicksand';
+	font-size:4vw;
+	text-align: center;
+	margin-top: 2vw;
+	margin-top: -13vw;
+	padding-left: 5vw;
+	padding-right: 5vw
+}
+
+#QuestionRavan{
+	margin-left:3.5vw;
+	margin-top: 2vw;
+	width: 90vw;
+	font-family: 'Quicksand';
+	font-size:3vw;
+	color:white;
+	background: black;
+	padding: 5vw;
+}
+
+#QuestionRavanContd{
+	margin-left:3.5vw;
+	width: 90vw;
+	font-family: 'Quicksand';
+	font-size:3vw;
+	color:white;
+	background: black;
+	padding: 5vw;
+}
+
+#QuestionRavan2{
+	margin-left:3.5vw;
+	width: 90vw;
+	font-family: 'Quicksand';
+	font-size:3vw;
+	margin-top: 5vw;
+	color:white;
+	background: black;
+	padding: 5vw;
+}
+
+#arrowPicPh{
+	position:absolute;
+	height:16vw;
+	width: 18vw;
+	transform: rotate(48deg);
+	margin-top: 66vw;
+	margin-left: 40vw;
+}
+
+#BowPic{
+	position:absolute;
+	height:50vw;
+	width: 25vw;
+	transform: rotate(90deg);
+	margin-top: 55vw;
+	margin-left: 35vw;
+}
+
+#shootBtn{
+    position:absolute;
+	margin-top: 90vw;
+	margin-left: 36vw;
+	font-size: 3vw;
+	font-family: 'Quicksand'
+}
+
+#ravanPos0{
+	position:absolute;
+	height: 24vw;
+	width: 16vw;
+	margin-left: 21vw
+}
+
+#ravanPos1{
+	position:absolute;
+	height: 24vw;
+	width: 16vw;
+	margin-left: 31vw
+}
+
+#ravanPos2{
+	position:absolute;
+	height: 24vw;
+	width: 16vw;
+	margin-left: 41vw
+}
+
+#ravanPos3{
+	position:absolute;
+	height: 24vw;
+	width: 16vw;
+	margin-left: 51vw
+}
+
+#ravanPos4{
+	position:absolute;
+	height: 24vw;
+	width: 16vw;
+	margin-left: 61vw
+}
+
+
+#whiteStrip1{
+	height:8vw;
+	width:27vw;
+	position: absolute;
+	background: white;
+	margin-top:16.5vw;
+	margin-left: 17vw;
+}
+
+#whiteStrip2{
+	height:8vw;
+	width:27vw;
+	position: absolute;
+	background: white;
+	margin-top:16.5vw;
+	margin-left: 54vw;
+}
+
+.RavanHead2, .RavanHead3, .RavanHead4, .RavanHead5{
+	display: none;
+}
+
+}
