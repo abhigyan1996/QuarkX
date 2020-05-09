@@ -2,7 +2,7 @@
 @media all and (max-width: 599px) and (min-width: 100px) {
 
 #THuntDiv1{
-	height: 200vw;
+	height: 380vw;
 	width:100vw;
 	overflow:hidden;
 	background:white;
@@ -15,13 +15,12 @@
 	overflow:hidden;
 	background:white;
 	margin-top:3vw;
-	
 }
 
 #WelcomeMsg{
 	position:absolute;
 	font-family: 'Quicksand';
-	font-size:4vw;
+	font-size:5vw;
 	text-align: center;
 	margin-top: 2vw;
 	margin-top: -13vw;
@@ -34,7 +33,7 @@
 	margin-top: 2vw;
 	width: 90vw;
 	font-family: 'Quicksand';
-	font-size:3vw;
+	font-size:4.5vw;
 	color:white;
 	background: black;
 	padding: 5vw;
@@ -44,7 +43,7 @@
 	margin-left:3.5vw;
 	width: 90vw;
 	font-family: 'Quicksand';
-	font-size:3vw;
+	font-size:4.5vw;
 	color:white;
 	background: black;
 	padding: 5vw;
@@ -54,7 +53,7 @@
 	margin-left:3.5vw;
 	width: 90vw;
 	font-family: 'Quicksand';
-	font-size:3vw;
+	font-size:4.5vw;
 	margin-top: 5vw;
 	color:white;
 	background: black;
@@ -82,8 +81,8 @@
 #shootBtn{
     position:absolute;
 	margin-top: 90vw;
-	margin-left: 36vw;
-	font-size: 3vw;
+	margin-left: 35vw;
+	font-size: 3.5vw;
 	font-family: 'Quicksand'
 }
 
