@@ -151,7 +151,7 @@
 window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
     } else {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
@@ -255,12 +255,12 @@ $(document).ready(function(){
     }
 
     if(count<11) {
-     $("#arrowPic").animate({top: '15vw'}, 100);
+     $("#arrowPic").animate({top: '20vw'}, 100);
      $("#arrowPicPh").animate({top: '97vw'}, 100);
      $("#arrowPic").fadeOut(400);
      $("#arrowPicPh").fadeOut(400);
      $("#shootBtn").fadeOut(-1000);
-     $("#arrowPic").animate({top: '36.25vw'}, 100);
+     $("#arrowPic").animate({top: '41.25vw'}, 100);
      $("#arrowPicPh").animate({top: '152vw'}, 100);
      $("#arrowPic").fadeIn(0);
      $("#arrowPicPh").fadeIn(0);
