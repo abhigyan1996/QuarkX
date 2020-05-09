@@ -233,11 +233,15 @@ $(document).ready(function(){
 
   $("#shootBtn").click(function(){
     count++;
-    if(count==2) {
+    if(count==1) {
      $(".RavanHead1").fadeOut(100);
      $(".RavanHead2").fadeIn(100);
+    }
+
+    if(count==2){
       playAudio();
     }
+
     if(count==4) {
      $(".RavanHead2").fadeOut(100);
      $(".RavanHead3").fadeIn(100);
