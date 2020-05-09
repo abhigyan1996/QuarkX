@@ -47,6 +47,7 @@
 	color:white;
 	background: black;
 	padding: 5vw;
+	margin-top: 5vw;
 }
 
 #QuestionRavan2{
@@ -137,7 +138,7 @@
 	position: absolute;
 	background: white;
 	margin-top:16.5vw;
-	margin-left: 53vw;
+	margin-left: 53.5vw;
 }
 
 .RavanHead2, .RavanHead3, .RavanHead4, .RavanHead5{
