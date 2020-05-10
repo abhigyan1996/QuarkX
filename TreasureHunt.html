@@ -60,6 +60,10 @@
   <source src="THuntAudio/ravanDie.mp3" type="audio/mpeg">
 </audio>
 
+<!-- Audio for lil Girl game restart -->
+<audio id="LilGirlDie">
+  <source src="THuntAudio/LilGirlDie.mp3" type="audio/mpeg">
+</audio>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -92,7 +96,7 @@
       How <span style="color:red">SMART</span> Are You? Welcome to our <span style="color:red">Treasure Hunt</span> Event!
     </div>
     <div id="QuestionRavan">
-      <span style="font-weight:900; color:red">Question 1 :</span> In the silence of the nights, a man named Krozan who secretly worshipped Satan was gifted with 5 heads and 5 times the size of an average person. He was stunned to see the winsome change in himself. Over time, he became a demi God - a terror to the people of his own village. He soon started to scare them away and even looted them. He considered himself an incarnation of Ravana and therefore, it was time for him to die. Can you please help the villagers? (HINT: Count the arrows as you shoot!)
+      <span style="font-weight:900; color:red">Question 1 :</span> In the silence of the nights, a man named Krozan who secretly worshipped Satan was gifted with the power of 5 heads and 5 times the size of an average person. He was stunned to see the winsome change in himself. Over time, he became a demi God - a terror to the people of his own village. He soon started to scare them away and even looted them. He considered himself an incarnation of Ravana and therefore, it was time for him to die. Can you please help the villagers? (HINT: Count the arrows as you shoot!)
     </div>
 
     <div id="THuntRavan">
@@ -136,14 +140,34 @@
     </div>
 
     <div id="QuestionRavanContd">
-      If Krozan dies, his son(a normal human) would start worshipping the Satan to avenge you and by the end of a year, he shall gain 3 heads and grow 3 times in size. Are you prepared to kill him too? Let me test! How many exact arrows will you use to kill that beast?   
+      If Krozan dies, his son (a normal human) would start worshipping the Satan to avenge you and by the end of a year, he shall <span style="font-style: italic">gain</span> 3 heads and grow 3 times in size. Are you prepared to kill him too? Let me test! How many exact arrows will you use to kill that beast?   
     </div>
 
     <div id="QuestionRavan2">
       <span style="font-weight:900; color:red">Question 2 :</span> You have raged against the Satan by killing Krozan and probably his son too. Now, the Satan would descend to Earth in the form of the Great King, Ravana. Okay, okay! I get you. Don't be afraid! Let me give you some power too. You are Lord Rama for the next few minutes. What is the exact number of arrows you will need to kill the demonic Ravana? (HINT: Solve question 3 to unlock a hint for Question 2)
     </div>
-
   </div>
+
+  <div id="THuntDiv2">
+      <div id="Question3">
+          <span style="font-weight:900; color:red">Question 3 :</span> A little girl is cursed such that she will find trouble reaching home. Her home turns to a devilish place that she cannot walk in directly. She needs to do something! Be her savior! Be her guardian angel and direct her. If she walks into the fire twice, she will be dead and the game will restart. Her curse won't allow her to move more than 20 steps. If she does, she dies, and you fail and as expected, the game will again restart. Best wishes, dear Guardian Angel! 
+      </div>
+      <img class="BlocksQ3" id="BlockPos0Green" src="THuntImages/Blocks.png">
+      <img class="BlocksQ3" id="BlockPos1" src="THuntImages/iceBlock.png">
+      <img class="BlocksQ3" id="BlockPos2" src="THuntImages/iceBlock.png">
+      <img class="BlocksQ3" id="BlockPos3" src="THuntImages/iceBlock.png">
+      <img class="BlocksQ3" id="BlockPos4" src="THuntImages/iceBlock.png">
+      <img class="BlocksQ3" id="BlockPos5" src="THuntImages/iceBlock.png">
+      <img class="BlocksQ3" id="BlockPos6" src="THuntImages/iceBlock.png">
+      
+      <img class="BlocksQ3" id="lilGirl" src="THuntImages/lilGirl.png">
+      <img class="BlocksQ3" id="house" src="THuntImages/house.png">
+      <img class="BlocksQ3" id="fire" src="THuntImages/fire.png">
+
+      <div id="walkLeft" class="w3-button w3-round w3-green w3-hover-black"> Walk Left </div>
+      <div id="walkRight" class="w3-button w3-round w3-green w3-hover-black"> Walk Right </div>
+  </div>
+
 
 </body>
 <script>
@@ -277,10 +301,6 @@ $(document).ready(function(){
       document.getElementById("shootBtn").innerHTML = "He's Dead ! ! !";
    }
   });
-
-  $(".RavanHead5").click(function(){
-    count=0;
-  });
 });
 </script>
 
@@ -307,6 +327,154 @@ var z = document.getElementById("ravanAudioStopShoot");
 
 function playAudioStopShooting() { 
   z.play(); 
+} 
+</script>
+
+
+<!-- Animations for Question 3 -->
+<script>
+$(document).ready(function(){
+  var Lcounter = 0;
+  var Rcounter = 0;
+  var Pos = 0;
+  var fireFlag = true;
+  var touchFireCount = 0;
+
+  function Restart(){
+    playGirlDie();
+    $("#lilGirl").fadeOut(1000);
+    $("#lilGirl").delay(1000).animate({left: '0%'}, 100);
+    $("#lilGirl").fadeIn(200);
+
+    Pos = 0;
+    Lcounter = 0;
+    Rcounter = 0;
+    fireFlag = true;
+    touchFireCount = 0;
+  }
+  
+  $("#walkRight").click(function(){
+     if(Pos == 0) {
+        $("#lilGirl").animate({left: '11%'}, 100);
+        Pos = 1;
+        Rcounter++;
+     }
+     else if(Pos == 1) {
+        $("#lilGirl").animate({left: '22%'}, 100);
+        Pos = 2;
+        Rcounter++;
+     }
+
+     else if(Pos == 2) {
+        $("#lilGirl").animate({left: '33%'}, 100);
+        Pos = 3;
+        Rcounter++;
+     }
+    
+    else if(Pos == 3) {
+        $("#lilGirl").animate({left: '44%'}, 100);
+        Pos = 4;
+        Rcounter++;
+     }
+
+    else if(Pos  == 4) {
+        $("#lilGirl").animate({left: '55%'}, 100);
+        Pos = 5;
+        Rcounter++;
+     }
+
+    else if(Pos == 5) {
+        $("#lilGirl").animate({left: '66%'}, 100);
+        Pos = 6;
+        Rcounter++;
+     }
+
+    if(Lcounter + Rcounter == 2 || Lcounter + Rcounter == 5 ||Lcounter + Rcounter == 9 || Lcounter + Rcounter == 14 || Lcounter + Rcounter == 20 || Lcounter + Rcounter == 20) {
+        $("#fire").fadeOut(100);
+        fireFlag = false;
+     }
+    else{
+        $("#fire").fadeIn(100);
+        fireFlag = true;
+    }
+    if(Lcounter + Rcounter > 20){
+        Restart();
+     }
+
+     if(Pos == 6 && fireFlag == true) {
+        touchFireCount++;
+     }
+
+     if(touchFireCount == 2) {
+        Restart();  
+     }
+
+  });
+
+
+  $("#walkLeft").click(function(){
+     if(Pos == 2) {
+        $("#lilGirl").animate({left: '11%'}, 100);
+        Pos = 1;
+        Lcounter++;
+     }
+     if(Pos == 3) {
+        $("#lilGirl").animate({left: '22%'}, 100);
+        Pos = 2;
+        Lcounter++;
+     }
+     if(Pos == 4) {
+        $("#lilGirl").animate({left: '33%'}, 100);
+        Pos = 3;
+        Lcounter++;
+     }
+     if(Pos == 5) {
+        $("#lilGirl").animate({left: '44%'}, 100);
+        Pos = 4;
+        Lcounter++;
+     }
+     if(Pos == 6) {
+        $("#lilGirl").animate({left: '55%'}, 100);
+        Pos = 5;
+        Lcounter++;
+     }
+    if(Lcounter + Rcounter == 2 || Lcounter + Rcounter == 5 ||Lcounter + Rcounter == 9 || Lcounter + Rcounter == 14 || Lcounter + Rcounter == 20) {
+        $("#fire").fadeOut(100);
+     }
+
+     else
+        $("#fire").fadeIn(100);
+
+     if(Lcounter + Rcounter == 2 || Lcounter + Rcounter == 5 ||Lcounter + Rcounter == 9 || Lcounter + Rcounter == 14 || Lcounter + Rcounter == 20 || Lcounter + Rcounter == 20) {
+        $("#fire").fadeOut(100);
+        fireFlag = false;
+     }
+    else{
+        $("#fire").fadeIn(100);
+        fireFlag = true;
+    }
+    if(Lcounter + Rcounter > 20){
+        Restart();
+     }
+
+     if(Pos == 6 && fireFlag == true) {
+        touchFireCount++;
+     }
+
+     if(touchFireCount == 2) {
+        Restart();  
+     }
+
+     
+  });
+});
+</script>
+
+<script>
+var lilGirlDie = document.getElementById(""); 
+
+function playGirlDie() { 
+  LilGirlDie.play(); 
 } 
 </script>
 
