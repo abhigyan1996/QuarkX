@@ -248,25 +248,25 @@
 
 #lilGirl{
 	position:absolute;
-	height: 12vw;
-	width: 8vw;
-	margin-left: 6vw;
-	margin-top: 15vw
+	height: 15vw;
+	width: 10vw;
+	margin-left: 5vw;
+	margin-top: 12vw
 }
 
 #walkLeft{
 	position:absolute;
-	margin-left: 35vw;
+	margin-left: 25vw;
 	margin-top: 39vw;
-	font-size: 2vw;
+	font-size: 3.5vw;
 	font-family: 'Quicksand'
 }
 
 #walkRight{
 	position:absolute;
-	margin-left: 55vw;
+	margin-left: 52vw;
 	margin-top: 39vw;
-	font-size: 2vw;
+	font-size: 3.5vw;
 	font-family: 'Quicksand'
 }
 
