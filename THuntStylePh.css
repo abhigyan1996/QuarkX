@@ -2,7 +2,7 @@
 @media all and (max-width: 599px) and (min-width: 100px) {
 
 #THuntDiv1{
-	height: 369vw;
+	height: 200vw;
 	width:100vw;
 	overflow:hidden;
 	background:white;
@@ -61,12 +61,23 @@
 	padding: 5vw;
 }
 
-#Question3{
+#Question1{
 	margin-left:3.5vw;
 	width: 90vw;
 	font-family: 'Quicksand';
 	font-size:4.5vw;
 	margin-top: 5vw;
+	color:white;
+	background: black;
+	padding: 5vw;	
+}
+
+#Question1Cont{
+	margin-left:3.5vw;
+	width: 90vw;
+	font-family: 'Quicksand';
+	font-size:4.5vw;
+	margin-top: 50vw;
 	color:white;
 	background: black;
 	padding: 5vw;	
@@ -157,7 +168,7 @@
 }
 
 #THuntDiv2{
-	height: 150vw;
+	height: 390vw;
 	width:100vw;
 	overflow:hidden;
 	background: white;
