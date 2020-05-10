@@ -283,20 +283,6 @@ $(document).ready(function(){
   var fireFlag = true;
   var touchFireCount = 0;
 
-  function disableScroll() { 
-            // Get the current page scroll position 
-            scrollTop =  
-              window.pageYOffset || document.documentElement.scrollTop; 
-            scrollLeft =  
-              window.pageXOffset || document.documentElement.scrollLeft, 
-  
-                // if any scroll is attempted, 
-                // set this to the previous value 
-                window.onscroll = function() { 
-                    window.scrollTo(scrollLeft, scrollTop); 
-                }; 
-        } 
-
   function Restart(){
     playGirlDie();
     $("#lilGirl").fadeOut(1000);
@@ -311,7 +297,6 @@ $(document).ready(function(){
   }
   
   $("#walkRight").click(function(){
-    disableScroll();
      if(Pos == 0) {
         $("#lilGirl").animate({left: '11%'}, 100);
         Pos = 1;
@@ -371,7 +356,6 @@ $(document).ready(function(){
 
 
   $("#walkLeft").click(function(){
-    disableScroll();
      if(Pos == 2) {
         $("#lilGirl").animate({left: '11%'}, 100);
         Pos = 1;
