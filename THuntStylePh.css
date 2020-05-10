@@ -69,7 +69,8 @@
 	margin-top: 5vw;
 	color:white;
 	background: black;
-	padding: 5vw;	
+	padding: 5vw;
+	margin-bottom: 1vw;	
 }
 
 #Question1Cont{
@@ -77,7 +78,7 @@
 	width: 90vw;
 	font-family: 'Quicksand';
 	font-size:4.5vw;
-	margin-top: 50vw;
+	margin-top: 53vw;
 	color:white;
 	background: black;
 	padding: 5vw;	
