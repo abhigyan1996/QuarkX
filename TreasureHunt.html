@@ -64,6 +64,9 @@
 <audio id="LilGirlDie">
   <source src="THuntAudio/LilGirlDie.mp3" type="audio/mpeg">
 </audio>
+<audio id="SaveMe">
+  <source src="THuntAudio/SaveMe.mp4" type="audio/mpeg">
+</audio>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -316,6 +319,7 @@ $(document).ready(function(){
         $("#lilGirl").animate({left: '22%'}, 100);
         Pos = 2;
         Rcounter++;
+        playSaveMe();
      }
 
      else if(Pos == 2) {
@@ -390,6 +394,7 @@ $(document).ready(function(){
         $("#lilGirl").animate({left: '55%'}, 100);
         Pos = 5;
         Lcounter++;
+        playSaveMe();
      }
     if(Lcounter + Rcounter == 2 || Lcounter + Rcounter == 5 ||Lcounter + Rcounter == 9 || Lcounter + Rcounter == 14 || Lcounter + Rcounter == 20) {
         $("#fire").fadeOut(100);
@@ -428,6 +433,15 @@ function playGirlDie() {
   lilGirlDie.play(); 
 } 
 </script>
+
+<script>
+var saveMe = document.getElementById("SaveMe"); 
+
+function playSaveMe() { 
+  saveMe.play(); 
+} 
+</script>
+
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
