@@ -1,12 +1,11 @@
 
 @media all and (min-width: 600px) {
 
-#THuntDiv1{
+#THuntDiv2{
 	height: 120vw;
 	width:100vw;
 	overflow:hidden;
 	background: white;
-	margin-top:10vw;
 }
 
 #THuntRavan{
@@ -57,7 +56,7 @@
 	padding: 5vw;
 }
 
-#Question3{
+#Question1{
 	margin-left:5vw;
 	width: 90vw;
 	font-family: 'Quicksand';
@@ -152,11 +151,12 @@
 	display: none;
 }
 
-#THuntDiv2{
-	height: 100vw;
+#THuntDiv1	{
+	height: 95vw;
 	width:100vw;
 	overflow:hidden;
 	background:white;
+	margin-top: 10vw
 }
 
 #BlockPos0Green{
@@ -253,6 +253,17 @@
 	margin-top: 39vw;
 	font-size: 2vw;
 	font-family: 'Quicksand'
+}
+
+#Question1Cont{
+	margin-left:5vw;
+	width: 90vw;
+	font-family: 'Quicksand';
+	font-size:1.5vw;
+	margin-top: 45vw;
+	color:white;
+	background: black;
+	padding: 5vw;
 }
 
 }
