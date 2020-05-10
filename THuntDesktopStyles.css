@@ -2,10 +2,10 @@
 @media all and (min-width: 600px) {
 
 #THuntDiv1{
-	height: 200vw;
+	height: 120vw;
 	width:100vw;
 	overflow:hidden;
-	background:white;
+	background: white;
 	margin-top:10vw;
 }
 
@@ -47,6 +47,17 @@
 }
 
 #QuestionRavan2{
+	margin-left:5vw;
+	width: 90vw;
+	font-family: 'Quicksand';
+	font-size:1.5vw;
+	margin-top: 5vw;
+	color:white;
+	background: black;
+	padding: 5vw;
+}
+
+#Question3{
 	margin-left:5vw;
 	width: 90vw;
 	font-family: 'Quicksand';
@@ -139,6 +150,109 @@
 
 .RavanHead2, .RavanHead3, .RavanHead4, .RavanHead5{
 	display: none;
+}
+
+#THuntDiv2{
+	height: 100vw;
+	width:100vw;
+	overflow:hidden;
+	background:white;
+}
+
+#BlockPos0Green{
+	position:absolute;
+	height: 2vw;
+	width: 10vw;
+	margin-left: 5vw;
+	margin-top: 26vw;
+}
+
+#BlockPos1{
+	position:absolute;
+	height: 10vw;
+	width: 10vw;
+	margin-left: 16vw;
+	margin-top: 25vw
+}
+
+#BlockPos2{
+	position:absolute;
+	height: 10vw;
+	width: 10vw;
+	margin-left: 27vw;
+	margin-top: 25vw
+}
+
+#BlockPos3{
+	position:absolute;
+	height: 10vw;
+	width: 10vw;
+	margin-left: 38vw;
+	margin-top: 25vw
+}
+
+#BlockPos4{
+	position:absolute;
+	height: 10vw;
+	width: 10vw;
+	margin-left: 49vw;
+	margin-top: 25vw
+}
+
+#BlockPos5{
+	position:absolute;
+	height: 10vw;
+	width: 10vw;
+	margin-left: 60vw;
+	margin-top: 25vw
+}
+
+#BlockPos6{
+	position:absolute;
+	height: 10vw;
+	width: 10vw;
+	margin-left: 71vw;
+	margin-top: 25vw
+}
+
+#house{
+	position:absolute;
+	height: 25vw;
+	width: 15vw;
+	margin-left: 80vw;
+	margin-top: 2vw
+}
+
+#fire{
+	position:absolute;
+	height: 25vw;
+	width: 15vw;
+	margin-left: 80vw;
+	margin-top: 2vw
+}
+
+#lilGirl{
+	position:absolute;
+	height: 12vw;
+	width: 8vw;
+	margin-left: 6vw;
+	margin-top: 15vw
+}
+
+#walkLeft{
+	position:absolute;
+	margin-left: 35vw;
+	margin-top: 39vw;
+	font-size: 2vw;
+	font-family: 'Quicksand'
+}
+
+#walkRight{
+	position:absolute;
+	margin-left: 55vw;
+	margin-top: 39vw;
+	font-size: 2vw;
+	font-family: 'Quicksand'
 }
 
 }
