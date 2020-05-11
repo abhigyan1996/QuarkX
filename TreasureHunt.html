@@ -37,7 +37,7 @@
  <meta property="og:image"         content="QuarkImages/quark9.jpg" />
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -118,7 +118,7 @@
       <div id="walkRight" class="w3-button w3-round w3-green w3-hover-black"> Walk Right </div>
 
        <div id="Question1Cont">
-        Her home turns to a devilish place that she cannot walk in directly. The fire shall disappear only on certain magical yet mathematical steps. Be her savior! Be her guardian angel and direct her. If she walks into the fire twice, she will be dead and the game will restart. Her curse won't allow her to move more than 20 steps. If she does, she dies. Eventually, you fail and as expected, the game restarts again. So, dear Guardian Angel, what is the minimum number of steps will she take to reach home?
+        Her home turns to a devilish place that she cannot walk in directly. The fire shall disappear only on certain magical yet mathematical steps, and only when the fire is out, she can enter home. Be her savior! Be her guardian angel and direct her. If she walks into the fire twice, she will be dead and the game will restart. Her curse won't allow her to move more than 20 steps. If she does, she dies. Eventually, you fail and as expected, the game restarts again. So, dear Guardian Angel, what is the minimum number of steps will she take to reach home? (<span style="color:red">HINT:</span> Count the steps and find a pattern when the fire is out. You may use pen and paper for yet another minimum value).
       </div>
 
   </div>
@@ -128,7 +128,7 @@
 <div id="THuntDiv2">
     
     <div id="QuestionRavan">
-      <span style="font-weight:900; color:red">Question 2 :</span> In the silence of the nights, a man named Krozan who secretly worshipped Satan was gifted with the power of 5 heads and 5 times the size of an average person. He was stunned to see the winsome change in himself. Over time, he became a demi God - a terror to the people of his own village. He soon started to scare them away and even looted them. He considered himself an incarnation of Ravana and therefore, it was time for him to die. Can you please help the villagers? (HINT: Count the arrows as you shoot!)
+      <span style="font-weight:900; color:red">Question 2 :</span> In the silence of the nights, a man named Krozan who secretly worshipped Satan was gifted with the power of 5 heads and 5 times the size of an average person. He was stunned to see the winsome change in himself. Over time, he became a demi God - a terror to the people of his own village. He soon started to scare them away and even looted them. He considered himself an incarnation of Ravana and therefore, it was time for him to die. Can you please help the villagers? (<span style="color:red">HINT:</span> Count the arrows as you shoot!)
     </div>
 
     <div id="THuntRavan">
@@ -176,7 +176,7 @@
     </div>
 
     <div id="QuestionRavan2">
-      <span style="font-weight:900; color:red">Question 3 :</span> You have raged against the Satan by killing Krozan and probably his son too. Now, the Satan would descend to Earth in the form of the Great King, Ravana. Okay, okay! I get you. Don't be afraid! Let me give you some power too. You are Lord Rama for the next few minutes. What is the exact number of arrows you will need to kill the demonic Ravana? (HINT: Solve question 4 to unlock a hint for Question 2)
+      <span style="font-weight:900; color:red">Question 3 :</span> You have raged against the Satan by killing Krozan and probably his son too. Now, the Satan would descend to Earth in the form of the Great King, Ravana. Okay, okay! I get you. Don't be afraid! Let me give you some power too. You are Lord Rama for the next few minutes. What is the exact number of arrows you will need to kill the demonic Ravana? (<span style="color:red">HINT:</span> Solve question 4 to unlock a hint for Question 2)
     </div>
   </div>
 
@@ -288,6 +288,8 @@ function playAudioStopShooting() {
 
 <!-- Animations for Question 3 -->
 <script>
+document.addEventListener('contextmenu', event => event.preventDefault());
+
 $(document).ready(function(){
 
   var Lcounter = 0;
@@ -301,12 +303,38 @@ $(document).ready(function(){
     $("#lilGirl").fadeOut(1000);
     $("#lilGirl").delay(1000).animate({left: '0%'}, 100);
     $("#lilGirl").fadeIn(200);
-
     Pos = 0;
     Lcounter = 0;
     Rcounter = 0;
     fireFlag = true;
     touchFireCount = 0;
+
+    $("#BlockPos5").css("opacity", "1");
+    $("#BlockPos2").css("opacity", "1");
+    $("#BlockPos3").css("opacity", "1");
+    $("#BlockPos4").css("opacity", "1");
+    $("#BlockPos1").css("opacity", "1");
+    $("#BlockPos6").css("opacity", "1");
+  }
+
+  function CompleteGame() {
+    playGirlDie();
+    $("#lilGirl").animate({left: '77%'}, 1000);
+    $("#lilGirl").fadeOut(3000);
+    $("#lilGirl").delay(1000).animate({left: '0%'}, 100);
+    $("#lilGirl").fadeIn(200);
+    Pos = 0;
+    Lcounter = 0;
+    Rcounter = 0;
+    fireFlag = true;
+    touchFireCount = 0;
+
+    $("#BlockPos5").css("opacity", "1");
+    $("#BlockPos2").css("opacity", "1");
+    $("#BlockPos3").css("opacity", "1");
+    $("#BlockPos4").css("opacity", "1");
+    $("#BlockPos1").css("opacity", "1");
+    $("#BlockPos6").css("opacity", "1");
   }
   
   $("#walkRight").click(function(){
@@ -314,39 +342,75 @@ $(document).ready(function(){
         $("#lilGirl").animate({left: '11%'}, 100);
         Pos = 1;
         Rcounter++;
+        $("#BlockPos1").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
      else if(Pos == 1) {
         $("#lilGirl").animate({left: '22%'}, 100);
         Pos = 2;
         Rcounter++;
         playSaveMe();
+        $("#BlockPos2").css("opacity", "0.5");
+        $("#BlockPos1").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
 
      else if(Pos == 2) {
         $("#lilGirl").animate({left: '33%'}, 100);
         Pos = 3;
         Rcounter++;
+        $("#BlockPos3").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos1").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
     
     else if(Pos == 3) {
         $("#lilGirl").animate({left: '44%'}, 100);
         Pos = 4;
         Rcounter++;
+        $("#BlockPos4").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos1").css("opacity", "1");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
 
     else if(Pos  == 4) {
         $("#lilGirl").animate({left: '55%'}, 100);
         Pos = 5;
         Rcounter++;
+        $("#BlockPos5").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos1").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
 
     else if(Pos == 5) {
         $("#lilGirl").animate({left: '66%'}, 100);
         Pos = 6;
         Rcounter++;
+        $("#BlockPos6").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos1").css("opacity", "1");
      }
 
-    if(Lcounter + Rcounter == 2 || Lcounter + Rcounter == 5 ||Lcounter + Rcounter == 9 || Lcounter + Rcounter == 14 || Lcounter + Rcounter == 20 || Lcounter + Rcounter == 20) {
+    if(Lcounter + Rcounter == 2 || Lcounter + Rcounter == 5 ||Lcounter + Rcounter == 9 || Lcounter + Rcounter == 14 || Lcounter + Rcounter == 20) {
         $("#fire").fadeOut(100);
         fireFlag = false;
      }
@@ -366,6 +430,10 @@ $(document).ready(function(){
         Restart();  
      }
 
+    if(Pos == 6 && fireFlag == false) {
+        CompleteGame();
+     }
+
   });
 
 
@@ -374,27 +442,57 @@ $(document).ready(function(){
         $("#lilGirl").animate({left: '11%'}, 100);
         Pos = 1;
         Lcounter++;
+        $("#BlockPos1").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
      if(Pos == 3) {
         $("#lilGirl").animate({left: '22%'}, 100);
         Pos = 2;
         Lcounter++;
+        $("#BlockPos2").css("opacity", "0.5");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos1").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
      if(Pos == 4) {
         $("#lilGirl").animate({left: '33%'}, 100);
         Pos = 3;
         Lcounter++;
+        $("#BlockPos3").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos1").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
      if(Pos == 5) {
         $("#lilGirl").animate({left: '44%'}, 100);
         Pos = 4;
         Lcounter++;
+        $("#BlockPos4").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos5").css("opacity", "1");
+        $("#BlockPos1").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
      if(Pos == 6) {
         $("#lilGirl").animate({left: '55%'}, 100);
         Pos = 5;
         Lcounter++;
         playSaveMe();
+        $("#BlockPos5").css("opacity", "0.5");
+        $("#BlockPos2").css("opacity", "1");
+        $("#BlockPos3").css("opacity", "1");
+        $("#BlockPos4").css("opacity", "1");
+        $("#BlockPos1").css("opacity", "1");
+        $("#BlockPos6").css("opacity", "1");
      }
     if(Lcounter + Rcounter == 2 || Lcounter + Rcounter == 5 ||Lcounter + Rcounter == 9 || Lcounter + Rcounter == 14 || Lcounter + Rcounter == 20) {
         $("#fire").fadeOut(100);
@@ -421,7 +519,12 @@ $(document).ready(function(){
 
      if(touchFireCount == 2) {
         Restart();  
-     }    
+     }
+
+     if(Pos == 6 && fireFlag == false) {
+        CompleteGame();
+     }
+
   });
 });
 </script>
@@ -461,7 +564,6 @@ function playSaveMe() {
 
 
     <script  src="QuarksAnimateScroll.js"></script>
-
 
 </body>
 </html>
