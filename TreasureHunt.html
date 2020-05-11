@@ -67,6 +67,9 @@
 <audio id="SaveMe">
   <source src="THuntAudio/SaveMe.mp4" type="audio/mpeg">
 </audio>
+<audio id="ThankYou">
+  <source src="THuntAudio/ThankYou.m4a" type="audio/mpeg">
+</audio>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -318,7 +321,7 @@ $(document).ready(function(){
   }
 
   function CompleteGame() {
-    playGirlDie();
+    playThankYou();
     $("#lilGirl").animate({left: '77%'}, 1000);
     $("#lilGirl").fadeOut(3000);
     $("#lilGirl").delay(1000).animate({left: '0%'}, 100);
@@ -545,7 +548,13 @@ function playSaveMe() {
 } 
 </script>
 
+<script>
+var thanks = document.getElementById("ThankYou"); 
 
+function playThankYou() { 
+  thanks.play(); 
+} 
+</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163447394-1"></script>
