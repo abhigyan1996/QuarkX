@@ -13,11 +13,29 @@
 	font-family: 'Quicksand';
 	font-size: 10vw;
 	text-decoration: none;
-	margin-left: 0vw;
+	margin-left: 20vw;
 	color:black;
-
+	position:absolute;
 }
 	
+#NightMode{
+	margin-left: 50vw;
+	height: 10vw;
+	width: 8vw;
+	margin-top:2vh;
+	cursor: pointer;
+	position: absolute;
+}
+
+#DayMode{
+	margin-left: 50vw;
+	height: 10vw;
+	width: 10vw;
+	margin-top:0vh;
+	cursor: pointer;
+	display: none;
+}
+
 .OutQuarks{
 	margin-top: 30vw;
 }
@@ -731,34 +749,5 @@
 }
 
 
-
-
-
-.count1{
-	position:absolute;
-	font-family: 'Helvetica';
-	margin-top: 15vh;
-	margin-left: 30vw;
-	font-size:25px;
-	font-weight: 900;
-}
-
-.count2{
-	position:absolute;
-	font-family: 'Helvetica';
-	margin-top: 15vh;
-	margin-left: 45vw;
-	font-size:25px;
-	font-weight: 900;
-}
-
-.count3{
-	position:absolute;
-	font-family: 'Helvetica';
-	margin-top: 15vh;
-	margin-left: 60vw;
-	font-size:25px;
-	font-weight: 900;
-}
 
 }
