@@ -19,7 +19,7 @@
 }
 	
 #NightMode{
-	margin-left: 50vw;
+	margin-left: 45vw;
 	height: 10vw;
 	width: 8vw;
 	margin-top:2vh;
@@ -28,10 +28,10 @@
 }
 
 #DayMode{
-	margin-left: 50vw;
+	margin-left: 45vw;
 	height: 10vw;
 	width: 10vw;
-	margin-top:0vh;
+	margin-top:-1vh;
 	cursor: pointer;
 	display: none;
 }
