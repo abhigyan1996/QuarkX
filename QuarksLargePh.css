@@ -28,10 +28,10 @@
 }
 
 #DayMode{
-	margin-left: 45vw;
+	margin-left: 40vw;
 	height: 10vw;
 	width: 10vw;
-	margin-top:-1vh;
+	margin-top:-0.5vh;
 	cursor: pointer;
 	display: none;
 }
