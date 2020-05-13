@@ -17,6 +17,25 @@
 	color:black;
 }
 	
+#NightMode{
+	position:absolute;
+	margin-left:20vw;
+	height: 5vw;
+	width: 4vw;
+	margin-top: 0.6vw;
+	cursor: pointer;	
+}
+
+#DayMode{
+	position:absolute;
+	margin-left:17.5vw;
+	height: 5vw;
+	width: 5vw;
+	margin-top: 0.6vw;
+	cursor: pointer;
+	display:none;
+}
+
 .Filters{
 	font-family: 'Source Serif Pro';
 	font-size: 1.2vw;
