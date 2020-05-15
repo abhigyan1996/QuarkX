@@ -296,6 +296,15 @@
 	padding: 0.5vw;
 }
 
+#HistoryTag{
+	font-family: 'Source Serif Pro';
+	position:absolute;
+	margin-left: 23.65vw;
+	margin-top:-3.4vw;
+	font-size:1vw;
+	padding: 0.5vw;
+}
+
 .AuthorName{
 	font-family: 'Source Serif Pro';
 	font-size:1vw;
@@ -401,6 +410,18 @@
 
 #navItem3subjects:hover{
 	color:blue;
+}
+
+#navItems4Ignite{
+	font-family: 'Source Serif Pro';
+	font-size:1.3vw;
+	margin-left: 82vw;
+	position:absolute;
+	color: red;	
+}
+
+#navItems4Ignite:hover{
+	color: green;
 }
 
 #div1Home{
