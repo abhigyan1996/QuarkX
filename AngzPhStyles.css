@@ -106,11 +106,68 @@
 	text-align: center;
 	color:black;
 	font-weight: 900;
+	margin-top: 2vw;
 }
 
 #AngzLiBadge{
 	margin-left: 7.5vw;
 	margin-top: 3vh;
+}
+
+
+#AngzCard{
+	width:60vw;
+	height:65vw;
+	margin-left: 20vw;
+	margin-top:3vw;
+	/*border-radius:10px;*/
+}
+
+#flipkart{
+	position:absolute;
+	width:60vw;
+	height: 20vw;
+/*	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+}
+
+#flipkartStrip{
+	position:absolute;
+	background: black;
+	opacity:0.3;
+	height: 20vw;
+	width:60vw;
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+}
+
+#AngzCardPic{
+	position: absolute;
+	height: 22vw;
+	width: 20vw;
+	margin-left: 20vw;
+	margin-top: 5vw;
+	border-radius: 100%;
+	border: 5px solid #bbbbbb;
+}
+
+#AngzWritings{
+	position:absolute;
+	text-align: center;
+	font-family: 'Source Serif Pro';
+	font-size: 3.5vw;
+	margin-top: 30vw;
+	margin-left: 2vw
+}
+
+#AngzAboutAll{
+	margin-top: 2vw;
+}
+
+#AngzName{
+	font-weight: 900;
+	font-size: 5vw;
+	margin-left: 2.5vw
 }
 
 .aboutMeTxt{
@@ -190,7 +247,7 @@
 	font-size: 4.5vw;
 	width: 90vw;
 	max-width:90vw;
-	margin-left: 7.5vw;
+	margin-left: 3vw;
 	margin-right: 7.5vw; 
 	margin-top: 0vh;
 }
@@ -210,10 +267,11 @@
 }
 
 #buyBookBtn{
+	position:absolute;
 	height: 10vw;
 	width:25vw;
-	margin-left: 60vw;
-	margin-top: -30vw;
+	margin-left: -10vw;
+	margin-top: 90vw;
 	cursor: pointer;
 }
 
