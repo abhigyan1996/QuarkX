@@ -90,7 +90,7 @@
     border: none;
     border-radius: 50%;
     background-color: #0000ff;
-    box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.5);    
+    box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.5);   
 }
 .carousel-indicators .active {
     width: 48px;
@@ -120,7 +120,6 @@
 	bottom: 0;
 	top: 100;
 	left: 0;
-	z-index: 10;
 }
 
 .thing .slick-dots li{
@@ -131,7 +130,6 @@
 	border-radius: 50%;
 	display: inline-block;
 	font-size: 1vw;
-
 }
 
 .thing .slick-dots li.slick-active{
@@ -160,6 +158,60 @@
 #AngzLiBadge{
 	margin-left: 15vw;
 	margin-top: 6vw;
+}
+
+#AngzCard{
+	width:25vw;
+	height:26vw;
+	margin-left: 13vw;
+	margin-top:2vw;
+	/*border-radius:10px;*/
+}
+
+#flipkart{
+	position:absolute;
+	width:25vw;
+	height: 8vw;
+/*	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+}
+
+#flipkartStrip{
+	position:absolute;
+	background: black;
+	opacity:0.3;
+	height: 8vw;
+	width:25vw;
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+}
+
+#AngzCardPic{
+	position: absolute;
+	height: 10.5vw;
+	width: 10vw;
+	margin-left: 7.5vw;
+	margin-top: 1vw;
+	border-radius: 100%;
+	border: 5px solid #bbbbbb;
+}
+
+#AngzWritings{
+	position:absolute;
+	text-align: center;
+	font-family: 'Source Serif Pro';
+	font-size: 1.25vw;
+	margin-top: 12vw;
+	margin-left: 2.5vw
+}
+
+#AngzAboutAll{
+	margin-top: 2vw;
+}
+
+#AngzName{
+	font-weight: 900;
+	font-size: 1.75vw;
 }
 
 .aboutMeTxt{
