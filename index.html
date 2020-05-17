@@ -27,7 +27,7 @@
 <link rel="stylesheet" href= "https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css">
 
 
- <meta property="og:url"           content="https://angshumankashyap.in" />
+ <meta property="og:url"           content="angshumankashyap.in"/>
  <meta property="og:type"          content="website" />
  <meta property="og:title"         content="Angshuman" />
  <meta property="og:description"   content="Hi I am Angshuman Kashyap, presently working with Flipkart. I have completed my MBA in 2016 from IIM Calcutta and my B.Tech in Mechanical Engineering from IIT Guwahati. I have also passed all three levels of Chartered Financial Analyst (CFA) exam in the first attempt. This website brings to you some amazing content to re-fuel your curiosity through QuarkX. We also help accelerate your career growth with Ignite. This is also a platform to connect with my readers." />
@@ -58,10 +58,10 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="index" class="w3-bar-item"> <img style="border-radius: 100%" id="QuarksLogo" src="AngzImages/AngzPhoto.jpg"> </a> 
-    <a href="index" class="w3-bar-item" id="nameAngz" class="w3-black"> Angshuman </a>
+    <div style="cursor: pointer;" class="w3-bar-item"> <img style="border-radius: 100%" id="QuarksLogo" src="AngzImages/AngzPhoto.jpg"> </div> 
+    <div style="cursor: pointer;" class="w3-bar-item" id="nameAngz" class="w3-black"> Angshuman </div>
     <div style="margin-top:3vh">
-    <a href="index" class="navItems w3-bar-item w3-hide-small" id="navItem1Angz"> Home</a>
+    <div style="cursor:pointer" class="navItems w3-bar-item w3-hide-small" id="navItem1Angz"> Home</div>
     <a href="QuarkX" class="navItems w3-bar-item w3-hide-small" id="navItem2Angz"> QuarkX</a>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSereW9zQ1HrBiEjv7cxuLAngH1tnzy-X1U49xNiZacDxaNGUw/viewform" class="navItems w3-bar-item w3-hide-small" id="navItem3Angz"> Ignite</a>
     <!-- <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
@@ -374,7 +374,7 @@ $(document).ready(function(){
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "Organization",
+    "@type": "Personal Website",
     "name": "Angshuaman Kashyap",
     "url": "https://angshumankashyap.in",
     "address": "Prestige Jade Pavilion, Bangalore India",
@@ -388,6 +388,26 @@ $(document).ready(function(){
 </script>
 
 
+<script>
+  $("#navItem1Angz").click(function() {
+    $("html, body").animate({ scrollTop: 0 }, 750);
+    return false;
+  });
+</script>
+
+<script>
+  $("#QuarksLogo").click(function() {
+    $("html, body").animate({ scrollTop: 0 }, 750);
+    return false;
+  });
+</script>
+
+<script>
+  $("#nameAngz").click(function() {
+    $("html, body").animate({ scrollTop: 0 }, 750);
+    return false;
+  });
+</script>
 
 <script>
   AOS.init();
