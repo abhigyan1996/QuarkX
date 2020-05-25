@@ -578,21 +578,25 @@
 #subMathsPic{
 	margin-left: 84.25vw;
 	margin-top: -43.80vw; 
+	height:60.75vw;
 }
 
 #subFinancePic{
 	margin-left: 127vw;
 	margin-top: -43.80vw; 
+	height:60.75vw;
 }
 
 #subEpicsPic{
 	margin-left: 169.75vw;
 	margin-top: -43.80vw; 
+	height:60.75vw;
 }
 
 #subPsychologyPic{
 	margin-left: 212.5vw;
 	margin-top: -43.80vw; 
+	height:60.75vw;
 }
 
 .subName{
@@ -609,12 +613,13 @@
 
 #subStoryTxt{
 	margin-top: -27vw;
-	margin-left: 52vw;
+	margin-left: 47vw;
 }
 
 #subMathsTxt{
 	margin-top: -40vw;
-	margin-left: 92vw;
+	margin-left: 85vw;
+	font-size: 5vw
 }
 
 #subFinanceTxt{
@@ -631,7 +636,7 @@
 #subPsychologyTxt{
 	margin-top: -60vw;
 	margin-left: 217vw;
-	font-size: 5vw;
+	font-size: 7vw;
 }
 
 .statsNum{
