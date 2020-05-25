@@ -686,26 +686,31 @@
 #subStoryPic{
 	margin-left: 16vw;
 	margin-top: -5.85vw; 
+	height: 22.25vw;
 }
 
 #subMathsPic{
 	margin-left: 33.25vw;
 	margin-top: -5.85vw; 
+	height: 22.25vw;
 }
 
 #subFinancePic{
 	margin-left: 50.5vw;
-	margin-top: -5.85vw;; 
+	margin-top: -5.85vw;
+	height: 22.25vw;
 }
 
 #subEpicsPic{
 	margin-left: 67.75vw;
-	margin-top: -5.85vw; 
+	margin-top: -8.85vw; 
+	height: 23.25vw;
 }
 
 #subPsychologyPic{
 	margin-left: 85vw;
-	margin-top: -5.85vw; 
+	margin-top: -7.85vw;
+	height: 22.25vw; 
 }
 
 .subName{
@@ -722,16 +727,17 @@
 
 #subStoryTxt{
 	margin-top: -21vw;
-	margin-left: 19vw;
+	margin-left: 16.5vw;
 }
 
 #subMathsTxt{
 	margin-top: -21vw;
-	margin-left: 36vw;
+	margin-left: 33.5vw;
+	font-size:1.8vw;
 }
 
 #subFinanceTxt{
-	margin-top: -21vw;
+	margin-top: -19vw;
 	margin-left: 51.5vw;
 }
 
@@ -744,7 +750,6 @@
 #subPsychologyTxt{
 	margin-top: -21vw;
 	margin-left: 85.5vw;
-	font-size: 2.2vw;
 }
 
 #subPsychologyTxt2{
