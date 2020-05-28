@@ -326,7 +326,23 @@
 
 .listenBtn{
 	position: absolute;
-	margin-left: 13.5vw;
+	margin-left: 12vw;
+	font-size:2vw;
+	margin-top: -3.5vw;
+	color:white;
+}
+
+#subscribeBtnLptp{
+	position: absolute;
+	margin-left: 16vw;
+	font-size:2vw;
+	margin-top: -3.5vw;
+	color:white;
+}
+
+#subscribeBtnMed{
+	position: absolute;
+	margin-left: 16vw;
 	font-size:2vw;
 	margin-top: -3.5vw;
 	color:white;
