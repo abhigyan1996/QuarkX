@@ -198,11 +198,20 @@
 */
 .listenBtn{
 	position: absolute;
-	margin-left: 42.5vw;
+	margin-left: 38vw;
 	font-size:5vw;
 	margin-top: -8.5vw;
 	color:white;
 }
+
+#subscribeBtnPh{
+	position: absolute;
+	margin-left: 48vw;
+	font-size:5vw;
+	margin-top: -8.5vw;
+	color:white;
+}
+
 /*home page styles */
 
 
