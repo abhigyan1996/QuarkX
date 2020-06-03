@@ -90,6 +90,44 @@
 <div class="OutQuarks">
   <div class="Quarks w3-row">
 
+    <div  style="text-decoration: none" class="AllQuarks SubHistory w3-container w3-half quarkHalf" id="quark19Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark19.jpg">
+      <div class="w3-center QuarkTitle" id="quark19Title">Was tomato ketchup a drug in history?</div>
+            <div id="quark19Text" class="writings">Yes. Tomato ketchup in the 1830s was sold as a medicine. A man, Dr. John Cook Bennett proposed that ketchup can be used as a drug for curing ailments like jaundice, diarrhea and indigestion. People readily accepted his idea and it soon became a huge market. Even 'tomato pills' were sold! The market was so competitive that it ultimately crashed in two decades. Thus, we got introduced to tomato ketchup in a completely different way. Do you know an average American eats 71 pounds of ketchup per year?</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href="HistoryQuarks"> <div id="HistoryTag" class="w3-button HistoryTag w3-hover-white w3-blue w3-round"> HISTORY </div></a>
+          <div class="AuthorName"> Quark by Abhigyan </div>
+          <div class="DateOfQuark"> 8 May, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
+        <i id="listenQuark16" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>
+      </div>
+    </div>
+    </div>
+
+    <div  style="text-decoration: none" class="AllQuarks SubBusiness w3-container w3-half quarkHalf" id="quark18Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark18.jpg">
+      <div class="w3-center QuarkTitle" id="quark18Title">How Nestle recovered from the Maggi Ban? </div>
+            <div class="writings" id="quark18Text">Lockdown times! What’s more easier to cook than our very own #MeriWaliMaggi? When Maggi was banned due to high levels of Monosodium Glutamate (MSG), it’s market share fell to an all-time low of 10.9% in Nov 2015. However, Maggi soon regained its market share to 57% by Aug, 2016. Nestle harped on positive word-of-mouth publicity through "We Miss You Maggi" campaigns even as they recalled 38,000 tonnes of stock from the shelves. Also, it worked on on-ground activations in smaller towns rebuilding trust amongst their consumers. Nestle gradually diversified their risk by introducing new categories in India.</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href="BusinessQuarks"><div id="BusinessTag" class="w3-button BusinessTag w3-hover-white w3-blue w3-round"> BUSINESS </div></a>
+          <div class="AuthorName"> Quark by Jnyandeep  </div>
+          <div class="DateOfQuark"> 7 May, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#electricEels" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div> --> 
+        <i id="listenQuark18" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>    
+      </div>
+    </div>
+    </div>
+
     <div  style="text-decoration: none" class="AllQuarks SubBusiness w3-container w3-half quarkHalf" id="quark17Card">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="QuarkImages/quark17.jpeg">
@@ -740,6 +778,39 @@ function toggleFunction() {
 });
 </script>
 
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark18').click(function(){
+      var text1 = document.getElementById("quark18Title").innerHTML;
+      var text2 = document.getElementById("quark18Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark19').click(function(){
+      var text1 = document.getElementById("quark19Title").innerHTML;
+      var text2 = document.getElementById("quark19Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
 <!-- Voice read out end -->
 
 
