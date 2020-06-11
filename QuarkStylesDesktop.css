@@ -888,6 +888,11 @@
 	text-align: center
 }
 
+#quark23Text{
+	font-size: 1vw;
+	margin-top: -1vw;
+	margin-bottom: 1vw;
+}
 /*#electricEels{
 	background: black
 }
