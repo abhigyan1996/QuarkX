@@ -92,6 +92,25 @@
 <div class="OutQuarks">
   <div class="Quarks w3-row">
 
+    <div  style="text-decoration: none" class="AllQuarks SubGK w3-container w3-half quarkHalf" id="quark29Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark29.jpeg">
+      <div class="w3-center QuarkTitle" id="quark29Title">What is the longest religiously burning lamp in the world?</div>
+            <div id="quark29Text" class="writings">In 1528 (1450 Saka), Guru Madhavdeva lit an earthen lamp in a Vaishnavite monastery in Jorhat, Assam - 'Dhekiakhowa Bor Namghar'. Since then, the flame has kept burning continuously without interruption. People religiously refuel the lamp to continue its saga. The lamp also set a national record for burning for the longest duration -  around 500 years and can enter the Guinness Book of World Records as well. Interestingly, Guru Madhavdeva once took shelter for the night in the hut of an old woman who served him with a fern 'Dhekia'. Pleased by the taste, he built a monastery there and gave her the responsibility of the historic lamp.</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href="GkQuarks"> <div id="GenKnowledgeTag" class="w3-button GenKnowledgeTag w3-hover-white w3-blue w3-round"> GEN KNOWLEDGE </div></a>
+          <div class="AuthorName"> Quark by Abhigyan </div>
+          <div class="DateOfQuark"> 18 May, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
+        <i id="listenQuark29" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>
+      </div>
+    </div>
+    </div>
+
     <div  style="text-decoration: none" class="AllQuarks SubGK w3-container w3-half quarkHalf" id="quark10Card">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="QuarkImages/quark10.jpeg">
@@ -278,6 +297,23 @@ function toggleFunction() {
       msg.rate = 0.875;
       msg.pitch = 1;
       msg.text = text;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark29').click(function(){
+      var text1 = document.getElementById("quark29Title").innerHTML;
+      var text2 = document.getElementById("quark29Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
       speechSynthesis.speak(msg);
     })
   } 
