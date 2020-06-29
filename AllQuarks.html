@@ -90,6 +90,26 @@
 <div class="OutQuarks">
   <div class="Quarks w3-row">
 
+
+    <div  style="text-decoration: none" class="AllQuarks SubScience w3-container w3-half quarkHalf" id="quark36Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark36.jpg">
+      <div class="w3-center QuarkTitle" id="quark36Title">Can you fool a lie detector?</div>
+            <div id="quark36Text" class="writings">Lying makes the heart race, drives up the blood pressure, and makes people sweat. The polygraph uses these physiological changes to detect lies. The machine needs to baseline the vitals, and hence it needs to be calibrated with some “control” questions. The polygraph compares these reactions to those of the relevant questions. A simple way to beat the lie-detector is to induce stress while answering the control questions and keeping calm while answering the relevant ones. Biting the tongue, imagining a fall from a building, or trying to solve a difficult math problem can distort the baseline vitals.</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href = "ScienceQuarks"> <div id="ScienceTag" class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div></a>
+          <div class="AuthorName"> Quark by Satabdi </div>
+          <div class="DateOfQuark"> 25 May, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#Jellyfish" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
+        <i id="listenQuark36" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>
+      </div>
+    </div>
+    </div>
+
     <div  style="text-decoration: none" class="AllQuarks SubScience w3-container w3-half quarkHalf" id="quark35Card">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="QuarkImages/quark35.jpg">
@@ -1377,6 +1397,23 @@ function toggleFunction() {
     $('#listenQuark35').click(function(){
       var text1 = document.getElementById("quark35Title").innerHTML;
       var text2 = document.getElementById("quark35Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark36').click(function(){
+      var text1 = document.getElementById("quark36Title").innerHTML;
+      var text2 = document.getElementById("quark36Text").innerHTML;
       var text = text1 + "..." +text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
