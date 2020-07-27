@@ -92,6 +92,26 @@
 <div class="OutQuarks">
   <div class="Quarks w3-row">
 
+
+    <div  style="text-decoration: none" class="AllQuarks SubBusiness w3-container w3-half quarkHalf" id="quark62Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark62.jpg">
+      <div class="w3-center QuarkTitle" id="quark62Title">How did Dove double their sales to £4 Bn?</div>
+            <div class="writings" id="quark62Text">The mainstream advertising had always focussed on models and actresses who look perfect. Dove designed their retail outlets with two doors - average and beautiful. Very few people went in through the entry designated for beautiful women. This market research showed that only 4% of the women considered themselves as beautiful at that time. Dove started ‘Real Beauty’ marketing campaign featuring real women which conveyed that real-world women are more beautiful than they think they are. It became very relatable and worked as a miracle booster for their self-confidence. Gradually, women started walking in through the ‘beautiful’ door. </div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href="BusinessQuarks"><div id="BusinessTag" class="w3-button BusinessTag w3-hover-white w3-blue w3-round"> BUSINESS </div></a>
+          <div class="AuthorName"> Quark by Angshuman </div>
+          <div class="DateOfQuark"> 19 June, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#electricEels" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div> --> 
+        <i id="listenQuark62" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>    
+      </div>
+    </div>
+    </div>
+
     <div  style="text-decoration: none" class="AllQuarks SubBusiness w3-container w3-half quarkHalf" id="quark27Card">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="QuarkImages/quark27.jpg">
@@ -380,6 +400,23 @@ function toggleFunction() {
     $('#listenQuark27').click(function(){
       var text1 = document.getElementById("quark27Title").innerHTML;
       var text2 = document.getElementById("quark27Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark62').click(function(){
+      var text1 = document.getElementById("quark62Title").innerHTML;
+      var text2 = document.getElementById("quark62Text").innerHTML;
       var text = text1 + "..." +text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
