@@ -2604,6 +2604,23 @@ function toggleFunction() {
   } 
 });
 </script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark69').click(function(){
+      var text1 = document.getElementById("quark69Title").innerHTML;
+      var text2 = document.getElementById("quark69Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
 <!-- Voice read out end -->
 
 
