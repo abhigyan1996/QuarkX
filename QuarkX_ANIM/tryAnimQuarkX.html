@@ -6,17 +6,19 @@
 <script> 
 $(document).ready(function(){
   $("button").click(function(){
-  	
-  	$("#LilBoyHoist").fadeOut();
-  	$("#flagTitle").fadeOut();
+    
+    $("#LilBoyHoist").fadeOut();
+    $("#flagTitle").fadeOut();
+    $("#flag").fadeOut();
     $("#lilBoy").delay(1000).animate({left: '-32vw'}, 5000);
     $("#lilBoy").delay(100).fadeOut(1000);
     $("#LilBoyHoist").delay(6000).fadeIn(1000);
-    $("#flag").delay(7500).animate({top: '-10vw'}, 4000);
-    $("#LilBoyHoist").delay(4000).fadeOut(1000);
+    $("#flag").delay(6500).fadeIn(1000);
+    $("#flag").delay(1000).animate({top: '-10vw'}, 4000);
+    $("#LilBoyHoist").delay(6000).fadeOut(1000);
     $("#flagTitle").delay(9000).fadeIn(1000);
     $("#flagTitle").animate({top: '-3vw'}, 5000);
-
+    $("#lilGirl").delay(12000).animate({left: '-15vw'}, 3000);
   });
 });
 </script> 
@@ -30,68 +32,75 @@ $(document).ready(function(){
     }
 
     #pole {
-    	margin-left: 20vw;
-    	border-bottom-left-radius: 5vw;
-    	border-top-left-radius:2vw;
-    	border-top-right-radius:2vw;
+        margin-left: 20vw;
+        border-bottom-left-radius: 5vw;
+        border-top-left-radius:2vw;
+        border-top-right-radius:2vw;
     }
 
     #grass{
-    	position:absolute;
-    	margin-left:10vw;
-    	margin-top: 35vw;
-    	width:60vw;
-    	height:8vw;
+        position:absolute;
+        margin-left:10vw;
+        margin-top: 35vw;
+        width:60vw;
+        height:8vw;
        }
 
     #flag{
-		position:absolute;
-    	height: 10vw;
-    	width:20vw;
-    	margin-left:13.15vw;
-    	margin-top: 13vw;
+        position:absolute;
+        height: 10vw;
+        width:20vw;
+        margin-left:13.15vw;
+        margin-top: 13vw;
     }
 
     #sun{
-		margin-left: 70vw;
+        margin-left: 65vw;
         margin-top:-2vw;
     }
 
     #LilBoyHoist{
-    	margin-left: 20vw;
+        margin-left: 20vw;
         margin-top:20vw;
         -webkit-transform: scaleX(-1);
- 		transform: scaleX(-1);
+        transform: scaleX(-1);
     }
 
     #flagTitle{
-    	position: absolute;
-    	font-family: 'Quicksand';
-    	font-size:2vw;
-    	margin-top: 20vw;
-    	margin-left: 45vw;
-    	font-weight: 900;
-    	color:black;
-    	width:30vw;
+        position: absolute;
+        font-family: 'Quicksand';
+        font-size:2vw;
+        margin-top: 15vw;
+        margin-left: 45vw;
+        font-weight: 900;
+        color:black;
+        width:30vw;
     }
 
     #quarkLogo{
-    	position: absolute;
-    	margin-top: 5vw;
-    	margin-left: 45vw;
-    	width:4vw;
-    	height:3.75vw;
+        position: absolute;
+        margin-top: 5vw;
+        margin-left: 45vw;
+        width:4vw;
+        height:3.75vw;
     }
 
     #QuarkX{
-    	position: absolute;
-    	font-family: 'Quicksand';
-    	font-size:2vw;
-    	margin-top: 4.25vw;
-    	margin-left: 45vw;
-    	font-weight: 900;
-    	color:purple;
-    	width:30vw;
+        position: absolute;
+        font-family: 'Quicksand';
+        font-size:2vw;
+        margin-top: 4.25vw;
+        margin-left: 45vw;
+        font-weight: 900;
+        color:purple;
+        width:30vw;
+    }
+
+    #lilGirl{
+        height: 10vw;
+        width:20vw;
+        margin-left:77vw;
+        margin-top: 23vw;
     }
 
 </style>
@@ -103,17 +112,19 @@ $(document).ready(function(){
 <div id="o">
 <button>Start Animation</button>
 
-	<div id="QuarkX">QuarkX</div>
+    <div id="QuarkX">QuarkX</div>
 
-	<div id="flagTitle">But was the Indian Flag really hosted first on <span style="color:red">15th August, 1947?</span> <br><br><br>No! It was on August 7, 1906!</div>
+    <div id="flagTitle">But was the Indian Flag really hosted first on <span style="color:red">15th August, 1947?</span> <br><br>No! It was on August 7, 1906!</div>
 
- 	<div id="pole" style="background:black;height:35vw;width:1vw;position:absolute;"></div>
+    <div id="pole" style="background:black;height:35vw;width:1vw;position:absolute;"></div>
 
    <div style="position:absolute;" id="lilBoy"> <iframe id= "boyFrame" src="https://giphy.com/embed/Zazjlu2T2Xn53pZPXD" width="200vw" height="200vw" frameBorder="0" ></iframe> </div>
 
    <div style="position:absolute;" id="sun"><iframe src="https://giphy.com/embed/MY6krcVK50sWsCakAp"width="120vw" height="120vw" frameBorder="0"></iframe></div>
 
    <div style="position:absolute;" id="LilBoyHoist"><iframe src="https://giphy.com/embed/dUCer9dMCXHocN4u4D" width="100vw" height="280vw" frameBorder="0"></iframe></div>
+
+   <div style="position:absolute;" id="lilGirl"><iframe src="https://giphy.com/embed/elCbddzsWaXuXZxtIX" width="200vw" height="200vw" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 
    <img id="grass" src="grass.png">
