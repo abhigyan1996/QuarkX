@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#lamp").fadeOut();
+    $("#madhavDev").fadeOut();
+    $("#diya").fadeOut();
+    $("#lilGirl").fadeOut();
+    $("#flame").fadeOut();
+    $("#girldance").fadeOut(); 
+    $("#name").fadeOut(); 
+
+    $("#madhavDev").delay(9000).fadeIn(1000);
+    $("#satan1").delay(1000).animate({left: '18vw'}, 5000);
+    $("#lilGirlFirst").delay(5000).fadeOut();
+    $("#lilGirl").delay(4700).fadeIn();
+    //$("#diya").delay(21000).fadeIn();
+    $("#lamp").delay(18000).fadeIn(800);
+    $("#flame").delay(20000).fadeIn();
+    $("#flame").delay(200).animate({left: '5vw'}, 3000);
+    
+
+    $("#madhavDev").delay(1000).animate({top: '-10vw'}, 5000);
+    $("#flame").delay(3000).fadeOut(1000);
+    $("#satan1").delay(21000).fadeOut(1000);
+    $("#girldance").delay(27000).fadeIn(800);
+    $("#madhavDev").delay(8500).animate({top: '-30vw'}, 3000);
+  
+    $("#name").delay(10000).fadeIn(800);
+  });
+});
+</script> 
+</head>
+
+
+<style>
+    
+    #quarkLogo{
+        position: absolute;
+        margin-top: 41.25vw;
+        margin-left: 51vw;
+        width:2.85vw;
+        height:2.75vw;
+    }
+
+    #QuarkX{
+        position: absolute;
+        font-family: 'Quicksand';
+        font-size:2vw;
+        margin-top: 41.25vw;
+        margin-left: 43.5vw;
+        font-weight: 900;
+        color:black;
+        width:30vw;
+    }
+
+    #background {
+        height: 45vw;
+        width:65vw;
+        margin-left: 20vw;
+        position: absolute;
+        margin-left: 5vw;
+    }
+
+    #madhavDev {
+        margin-left: 30vw;
+        margin-top: 15vw;
+        height:15vw;
+        width:15vw;
+        position:absolute;
+    }
+
+    #satan1 {
+        margin-left: 16vw;
+        margin-top: 23vw;
+        height:20vw;
+        width:20vw;
+        position:absolute;
+    }
+
+    #satan2 {
+        margin-left: 30vw;
+        margin-top: 20vw;
+        height:15vw;
+        width:20vw;
+        position:absolute;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        visibility: hidden;
+    }
+
+    #lamp{
+        margin-left: 30vw;
+        margin-top: 28.5vw;
+        height:14vw;
+        width:15vw;
+        position:absolute;
+    }
+
+    #lilGirl {
+        margin-left: 37vw;
+        margin-top: 27.5vw;
+        height:5vw;
+        width:20vw;
+        position:absolute;
+    }
+
+    #lilGirlFirst {
+        margin-left: 36vw;
+        margin-top: 28vw;
+        height:8vw;
+        width:20vw;
+        position:absolute; 
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+
+    }
+
+    #girldance{
+        margin-left: 37vw;
+        margin-top: 25.5vw;
+        height:9vw;
+        width:20vw;
+        position:absolute;
+    }
+
+    #diya {
+        margin-left: 30vw;
+        margin-top: 35vw;
+        height:10vw;
+        width:15vw;
+        position:absolute;
+        visibility: hidden
+
+    }
+
+    #flame{
+        margin-left: 30vw;
+        margin-top: 25vw;
+        opacity:0.7;
+        height:15vw;
+        width:15vw;
+        position:absolute;
+    }
+
+    #name {
+        position: absolute;
+        font-family: 'Quicksand';
+        font-size:1vw;
+        margin-top: 41.5vw;
+        margin-left: 22vw;
+        font-weight: 900;
+        color:black;
+        width:30vw;
+    }
+
+</style>
+
+
+<body style="background: black">
+
+
+<div id="o">
+<button>Start Animation</button>
+   
+
+   <div ><iframe id = "background" src="https://giphy.com/embed/dYZuoKdPTmjmqV4Co4" frameBorder="0" allowFullScreen></iframe></div>
+
+   <iframe id="madhavDev" src="https://giphy.com/embed/Yl5VGKskuiKrv6R2pN" frameBorder="0" allowFullScreen></iframe>
+
+<!--    <iframe id="satan2" src="https://giphy.com/embed/Q5c5UJVPZ5JpS" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+ -->
+
+
+    
+   <img id="diya" src="diya.png">
+
+
+   <iframe id="satan1" src="https://giphy.com/embed/Q5c5UJVPZ5JpS" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+   <iframe id="lilGirl" src="https://giphy.com/embed/3pLPGmiWj1WYE" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+    <iframe id="lilGirlFirst" src="https://giphy.com/embed/8VWJpivLsiHu" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+   <iframe id= "flame" src="https://giphy.com/embed/deDaatQmFDinwf32BY" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+   <iframe id="lamp" src="https://giphy.com/embed/iePnt93Y3QVgPAbZUE" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+   <iframe id="girldance" src="https://giphy.com/embed/13xxoHrXk4Rrdm" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+    <div id="QuarkX">QuarkX</div>
+
+   <img id="quarkLogo" src="QuarksLogoFinal-1.png">
+
+   <div id="name">Abhigyan Kashyap</div>
+
+
+
+</div>
+
+</body>
+</html>
