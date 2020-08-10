@@ -95,6 +95,44 @@
 <div class="OutQuarks">
   <div class="Quarks w3-row">
 
+    <div style="text-decoration: none" class="AllQuarks SubScience w3-container w3-half quarkHalf" id="quark76Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark76.jpg">
+      <div class="w3-center QuarkTitle" id="quark76Title">How many rovers have been sent to Mars?</div>
+            <div id="quark76Text" class="writings">Rovers are one of the several different types of spacecraft sent to Mars. A rover can drive around different areas, studying different chemicals, rocks, and soil, which may also give us evidence for extraterrestrial life. Until now, NASA has sent four rovers - Sojourner, Spirit, Opportunity, and Curiosity. These rovers come equipped with toolkits which are used to study precisely different things. Rovers derive their power from the solar panels attached to them. The new Perseverance Rover launched on 30 July 2020, is expected to reach the Jezero crater on Mars on 18 February 2021.</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href = "ScienceQuarks"> <div id="ScienceTag" class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div></a>
+          <div class="AuthorName"> Quark by Abhik </div>
+          <div class="DateOfQuark"> 1 July, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#Jellyfish" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
+        <i id="listenQuark76" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>
+      </div>
+    </div>
+    </div>
+
+     <div style="text-decoration: none" class="AllQuarks SubScience w3-container w3-half quarkHalf" id="quark75Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark75.jpg">
+      <div class="w3-center QuarkTitle" id="quark75Title">Why do lizards lose their tail?</div>
+            <div id="quark75Text" class="writings">They lose their tail to defend themselves from predators. When a lizard detaches its tail, the tail whips around and wiggles on the ground.Sometimes the tail keeps moving for half-an-hour as the nerves are active and are still communicating with each other. This behaviour helps to distract the predator. When the new tail grows back, it is a bit different from the earlier one. The new tail is made of cartilage, so it takes time to regrow. Some squirrels also lose their tail, but their tails don't grow back again.</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href = "ScienceQuarks"> <div id="ScienceTag" class="w3-button ScienceTag w3-hover-white w3-blue w3-round"> SCIENCE </div></a>
+          <div class="AuthorName"> Quark by Satabdi </div>
+          <div class="DateOfQuark"> 30 June, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#Jellyfish" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
+        <i id="listenQuark75" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>
+      </div>
+    </div>
+    </div>
+
     <div style="text-decoration: none" class="AllQuarks SubScience w3-container w3-half quarkHalf" id="quark72Card">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="QuarkImages/quark72.jpg">
@@ -1384,6 +1422,39 @@ function toggleFunction() {
 });
 </script>
 
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark75').click(function(){
+      var text1 = document.getElementById("quark75Title").innerHTML;
+      var text2 = document.getElementById("quark75Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark76').click(function(){
+      var text1 = document.getElementById("quark76Title").innerHTML;
+      var text2 = document.getElementById("quark76Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
 
 <!-- Voice read out end -->
 
