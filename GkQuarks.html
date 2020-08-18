@@ -92,6 +92,45 @@
 <div class="OutQuarks">
   <div class="Quarks w3-row">
 
+    <div  style="text-decoration: none" class="AllQuarks SubGK w3-container w3-half quarkHalf" id="quark85Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark85.jpg">
+      <div class="w3-center QuarkTitle" id="quark85Title">Did you know the original Indian Constitution was not printed?</div>
+         <div id="quark85Text" class="writings">The Indian constitution was handwritten in both Hindi and English. It was penned down by Prem Behari Narain Raizada using flowing italic style calligraphy. Each page was decorated by artists from Shantiniketan. This constitution was adopted on 26th November 1949 but it was fully commenced on 26th January 1950. In the original constitution, there were 395 Articles, 8 Schedules, 22 Parts and a Preamble. It took 2 years, 11 months and 18 days to be framed. Now, it has 465 articles, 12 Schedules and 25 Parts. Did you know it is the longest handwritten constitution in the world?</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href="GkQuarks"> <div id="GenKnowledgeTag" class="w3-button GenKnowledgeTag w3-hover-white w3-blue w3-round"> GEN KNOWLEDGE </div></a>
+          <div class="AuthorName"> Quark by Prachi</div>
+          <div class="DateOfQuark"> 10 July, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
+        <i id="listenQuark85" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>
+      </div>
+    </div>
+    </div>
+
+
+    <div  style="text-decoration: none" class="AllQuarks SubGK w3-container w3-half quarkHalf" id="quark83Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark83.jpg">
+      <div class="w3-center QuarkTitle" id="quark83Title">Why do witches ride on broomsticks?</div>
+         <div id="quark83Text" class="writings">The depiction of a witch riding a broomstick goes a long way back. Thanks to those cartoons and movies that scared the pants off us. But what's the origin of the association of broomsticks with witches? Well, the first G-rated answer to this is that back in those days brooms were a symbol of female domesticity. Women generally were responsible for raising children, cooking and upkeep of their homes. They always had their broomsticks as a constant companion. So, when people started claiming others as witches, brooms were thought of as the distinguished tool of the trade. </div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href="GkQuarks"> <div id="GenKnowledgeTag" class="w3-button GenKnowledgeTag w3-hover-white w3-blue w3-round"> GEN KNOWLEDGE </div></a>
+          <div class="AuthorName"> Quark by Abhik</div>
+          <div class="DateOfQuark"> 8 July, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
+        <i id="listenQuark83" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>
+      </div>
+    </div>
+    </div>
+
    <div  style="text-decoration: none" class="AllQuarks SubGK w3-container w3-half quarkHalf" id="quark73Card">
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="QuarkImages/quark73.jpg">
@@ -100,7 +139,7 @@
       <div id="stripDiv">
         <div class="QuarkBottomStrip"> </div>
         <a href="GkQuarks"> <div id="GenKnowledgeTag" class="w3-button GenKnowledgeTag w3-hover-white w3-blue w3-round"> GEN KNOWLEDGE </div></a>
-          <div class="AuthorName"> Quark by Prandeep Saikia </div>
+          <div class="AuthorName"> Quark by Prandeep</div>
           <div class="DateOfQuark"> 28 June, 2020</div>
           <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
         <i id="listenQuark73" class="listenBtn fas fa-headphones"></i>
@@ -743,6 +782,40 @@ function toggleFunction() {
     $('#listenQuark73').click(function(){
       var text1 = document.getElementById("quark73Title").innerHTML;
       var text2 = document.getElementById("quark73Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark83').click(function(){
+      var text1 = document.getElementById("quark83Title").innerHTML;
+      var text2 = document.getElementById("quark83Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark85').click(function(){
+      var text1 = document.getElementById("quark85Title").innerHTML;
+      var text2 = document.getElementById("quark85Text").innerHTML;
       var text = text1 + "..." +text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
