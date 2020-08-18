@@ -95,6 +95,25 @@
 <div class="OutQuarks">
   <div class="Quarks w3-row">
 
+    <div  style="text-decoration: none" class="AllQuarks SubHistory w3-container w3-half quarkHalf" id="quark82Card">
+      <div class="w3-card QuarkCards">
+      <img class="quarkImages" src="QuarkImages/quark82.jpg">
+      <div class="w3-center QuarkTitle" id="quark82Title">How did Durgawati Devi help Bhagat Singh?</div>
+            <div id="quark82Text" class="writings">Bhagat Singh shot John Saunders, a 21-year-old police officer, several times in Lahore. Then, he had to escape to Calcutta with his friends. Two days after the incident, Sukhdev summoned Durgawati Devi for help. Police were then looking for a bearded Sikh. So, Singh shaved his beard, trimmed his hair and put on an western attire with a ‘hat’. Even Devi could not recognise him at first. Together, they boarded a train where Devi carried her own infant and pretended to be Singh’s wife. Rajguru pretended to be their servant. Chandrashekhar Azad also sat in another compartment, dressed as a saint and escaped.</div>
+      <div id="stripDiv">
+        <div class="QuarkBottomStrip"> </div>
+        <a href="HistoryQuarks"> <div id="HistoryTag" class="w3-button HistoryTag w3-hover-white w3-blue w3-round"> HISTORY </div></a>
+          <div class="AuthorName"> Quark by Abhigyan</div>
+          <div class="DateOfQuark"> 7 July, 2020</div>
+          <!-- <div id="LikeQuarkFb" class="fb-like" data-href="https://abhigyan1996.github.io/Quarks/index.html#LightningCard" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>  -->
+        <i id="listenQuark82" class="listenBtn fas fa-headphones"></i>
+         <a href="QuarkX#SubscriptionQuarks"><i id="subscribeBtnLptp" class="w3-hide-small w3-hide-medium fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#SubscriptionQuarksTablet"><i id="subscribeBtnMed" class="w3-hide-small w3-hide-large fa fa-bell" style="color:white"></i></a>
+        <a href="QuarkX#subscribeCardPh"><i id="subscribeBtnPh" class="w3-hide-medium w3-hide-large fa fa-bell" style="color:white"></i></a>
+      </div>
+    </div>
+    </div>
+
 
     <div  style="text-decoration: none" class="AllQuarks SubHistory w3-container w3-half quarkHalf" id="quark77Card">
       <div class="w3-card QuarkCards">
@@ -159,7 +178,7 @@
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="QuarkImages/quark30.jpg">
       <div class="w3-center QuarkTitle" id="quark30Title">How did the Dodo become extinct?</div>
-            <div id="quark30Text" class="writings">In Portuguese, 'Dodo' means 'stupid'. Dutch explorers discovered this bird when they took possession of the 'Mauritius' island in the 16th Century.  Dodos weighed up to 23 kgs, and because of their heaviness, they could neither fly nor run fast. Dodos became easy prey not only for animals but also for humans. Ship rats and other animals brought by the Dutch sailors ruthlessly ate Dodo eggs and also outcompeted the birds for food. Within a century, Dodos became extinct. The metaphor 'As dead as Dodo' is now used in the English language to mean something obsolete or something not relevant anymore.</div>
+            <div id="quark30Text" class="writings">In Portuguese, 'Dodo' means 'stupid'. Dutch explorers discovered this bird when they took possession of the 'Mauritius' island in the 16th Century. Dodos weighed up to 23 kgs, and because of their heaviness, they could neither fly nor run fast. Dodos became easy prey not only for animals but also for humans. Ship rats and other animals brought by the Dutch sailors ruthlessly ate Dodo eggs and also outcompeted the birds for food. Within a century, Dodos became extinct. The metaphor 'As dead as Dodo' is now used in the English language to mean something obsolete or something not relevant anymore.</div>
       <div id="stripDiv">
         <div class="QuarkBottomStrip"> </div>
         <a href="HistoryQuarks"> <div id="HistoryTag" class="w3-button HistoryTag w3-hover-white w3-blue w3-round"> HISTORY </div></a>
@@ -197,7 +216,7 @@
       <div class="w3-card QuarkCards">
       <img class="quarkImages" src="QuarkImages/quark16.jpg">
       <div class="w3-center QuarkTitle" id="quark16Title">How powerful was the Ahom Dynasty?</div>
-            <div id="quark16Text" class="writings">The Mughals ruled for around 214 years, the Mauryas 137 years and the Guptas 290 years. But for 598 years, the Ahoms ruled over Assam (1228 - 1826 AD) - undefeated & unbeaten. Do you know that the Ahoms were the only dynasty that the Mughal Empire could not defeat? But they defeated the Mughals freaking 17 times in 60 years. In the Battle of Saraighat, the Mughals came with 18000 Turkish cavalry, 5000 gunmen, 15000 archers, 30000 soldiers, and more than 1000 canons. Yet, the Commander-in-Chief of the Ahom Army, Lachit Barphukan led the battle and sought victory against them.</div>
+            <div id="quark16Text" class="writings">The Mughals ruled for nearly 330 years, the Mauryas nearly 137 years and the Guptas nearly 230 years. But, the Ahoms ruled for 598 years and defeated the mighty Mughals 17 times. When the Mughals captured Guwahati, it was later recovered by Lachit Borphukan. In 1671, in the Battle of Saraighat, the Ahom army was grossly outnumbered against the Mughals. Lachit Borphukan, the Ahom commander-in-chief, got a wall for fortification erected within a single night. This strategy forced the Mughals into naval warfare on the Brahmaputra river where the Ahoms had a competitive advantage. The Ahoms won this decisive battle.</div>
       <div id="stripDiv">
         <div class="QuarkBottomStrip"> </div>
         <a href="HistoryQuarks"> <div id="HistoryTag" class="w3-button HistoryTag w3-hover-white w3-blue w3-round"> HISTORY </div></a>
@@ -367,6 +386,23 @@ function toggleFunction() {
     $('#listenQuark77').click(function(){
       var text1 = document.getElementById("quark77Title").innerHTML;
       var text2 = document.getElementById("quark77Text").innerHTML;
+      var text = text1 + "..." +text2;
+      var msg = new SpeechSynthesisUtterance();
+      msg.rate = 0.875;
+      msg.pitch = 1;
+      msg.text = text1;
+      speechSynthesis.speak(msg);
+    })
+  } 
+});
+</script>
+
+<script>
+ $(document).ready(function(){
+  if ('speechSynthesis' in window) {
+    $('#listenQuark82').click(function(){
+      var text1 = document.getElementById("quark82Title").innerHTML;
+      var text2 = document.getElementById("quark82Text").innerHTML;
       var text = text1 + "..." +text2;
       var msg = new SpeechSynthesisUtterance();
       msg.rate = 0.875;
