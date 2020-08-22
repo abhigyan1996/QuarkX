@@ -911,4 +911,221 @@
 }
 
 */
+#div1CampusAmb {
+	position: absolute;
+	margin-top: 7.5vw;
+	height: 50vw;
+	width:100vw;
+	min-width: 100vw;
+	max-width: 100vw;
+	background: black;
+}
+
+#campAmbBanner1 {
+	position: absolute;
+	margin-top: 5vw;
+	height: 40vw;
+	width: 70vw;
+	margin-left:15vw;
+	border-radius: 10px;
+}
+
+#signUpBtn {
+	position: absolute;
+	margin-top: 30vw;
+	margin-left: 50vw;
+	font-family: 'Quicksand';
+	font-weight: 900;
+	font-size: 1.5vw;
+}
+
+#div2CampusAmb {
+	position: absolute;
+	height: 50vw;
+	width:100vw;
+	min-width: 100vw;
+	max-width: 100vw;
+	margin-top: 57vw;
+	background: black;
+}
+
+#WhyCampAmb {
+	position: absolute;
+	margin-top: 3vw;
+	margin-left: 30vw;
+	font-family: 'Quicksand';
+	font-weight: 900;
+	font-size: 2.5vw;
+	color:#FEF420;
+}
+
+.whyCampAmbPoints {
+	position: absolute;
+	font-family: 'Quicksand';
+	margin-left: 15vw;
+	font-weight: 900;
+	font-size: 1.5vw;
+	color:#D6D5BF;
+}
+
+#whyCampAmbPoint1 {
+	margin-top: 10vw;
+}
+
+#whyCampAmbPoint2 {
+	margin-top: 14vw;
+}
+
+#whyCampAmbPoint3 {
+	margin-top: 18vw;
+}
+
+#whyCampAmbPoint4 {
+	margin-top: 22vw;
+}
+
+#whyCampAmbPoint5 {
+	margin-top: 26vw;
+}
+
+#whyCampAmbPoint6 {
+	margin-top: 30vw;
+}
+
+#whyCampAmbPoint7 {
+	margin-top: 34vw;
+}
+
+#div3CampusAmb {
+	position: absolute;
+	height: 58vw;
+	width:100vw;
+	min-width: 100vw;
+	max-width: 100vw;
+	margin-top: 107vw;
+	background: black;
+}
+
+
+#CampAmbResponsibilities {
+	position: absolute;
+	margin-top: -7.5vw;
+	margin-left: 32.5vw;
+	font-family: 'Quicksand';
+	font-weight: 900;
+	font-size: 2.5vw;
+	color:#FEF420;
+}
+
+.CampAmbDutyPoints {
+	position: absolute;
+	font-family: 'Quicksand';
+	margin-left: 11vw;
+	font-weight: 900;
+	font-size: 1.5vw;
+	color:#D6D5BF;
+	margin-top: 10vw
+}
+
+#publicityQuarks {
+	position: absolute;
+	height: 20vw;
+	width:20vw;
+	margin-top: -14vw;
+	margin-left: 10vw;
+	border-radius: 100vw;
+	background: #D6D5BF
+}
+
+#publicityRewards {
+	position: absolute;
+	height: 20vw;
+	width:20vw;
+	margin-top: -14vw;
+	margin-left: 10vw;
+	border-radius: 100vw;
+
+}
+
+#CampAmbPubBody1 {
+	width:35%;
+	margin-top: 15vw;
+	margin-left: 5vw;
+}
+
+#CampAmbPubBody2 {
+	width:35%;
+	margin-top: 22vw;
+	margin-left: 5vw;
+}
+
+#CampAmbPubBody3 {
+	width:35%;
+	margin-top: 15vw;
+	margin-left: 5vw;
+}
+
+#CampAmbPubBody4 {
+	width:35%;
+	margin-top: 19vw;
+	margin-left: 5vw;
+}
+
+#CampAmbPubBody5 {
+	width:35%;
+	margin-top: 23vw;
+	margin-left: 5vw;
+}
+
+#CampAmbPubBody6 {
+	width:35%;
+	margin-top: 27vw;
+	margin-left: 5vw;
+}
+
+#CampAmbPubBody7 {
+	width:35%;
+	margin-top: 33vw;
+	margin-left: 5vw;
+}
+
+#div4CampusAmb {
+	position: absolute;
+	height: 15vw;
+	width:100vw;
+	min-width: 100vw;
+	max-width: 100vw;
+	margin-top: 0vw;
+	background: black;
+}
+
+#campAmbEndTxt {
+	position: absolute;
+	font-family: 'Quicksand';
+	margin-left: 15vw;
+	font-weight: 900;
+	font-size: 1.5vw;
+	color:#D6D5BF;
+	margin-top: 1vw;
+	background: red;
+	padding: 2vw;
+}
+
+#div5CampusAmb {
+	position: absolute;
+	height: 80vw;
+	width:100vw;
+	min-width: 100vw;
+	max-width: 100vw;
+	margin-top: 10vw;
+	background: black;
+}
+
+#CampusAmbassadorForm {
+	height:70vw;
+	width:90vw;
+	margin-left: 5vw;
+	margin-top: 2vw
+}
+
 }
