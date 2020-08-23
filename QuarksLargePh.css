@@ -790,7 +790,7 @@
 /* Campus Ambassador Styles */
 #div1CampusAmb {
 	position: absolute;
-	margin-top: 17vw;
+	margin-top: 20vw;
 	height: 90vw;
 	width:100vw;
 	min-width: 100vw;
@@ -837,10 +837,10 @@
 #WhyCampAmb {
 	position: absolute;
 	margin-top: 3vw;
-	margin-left: 20vw;
+	margin-left: 15vw;
 	font-family: 'Quicksand';
 	font-weight: 900;
-	font-size: 3.5vw;
+	font-size: 5vw;
 	color:#FEF420;
 }
 
@@ -849,7 +849,7 @@
 	font-family: 'Quicksand';
 	margin-left: 5vw;
 	font-weight: 900;
-	font-size: 2.5vw;
+	font-size: 4vw;
 	color:#D6D5BF;
 }
 
@@ -907,7 +907,7 @@
 	font-family: 'Quicksand';
 	margin-left: 25vw;
 	font-weight: 900;
-	font-size: 3.5vw;
+	font-size: 4vw;
 	color:#D6D5BF;
 	margin-top: 30vw
 }
@@ -941,49 +941,42 @@
 	width:80%;
 	margin-top: 40vw;
 	margin-left: 5vw;
-	font-size: 2.75vw;
 }
 
 #CampAmbPubBody2 {
 	width:80%;
 	margin-top: 55vw;
 	margin-left: 5vw;
-	font-size: 2.75vw;
 }
 
 #CampAmbPubBody3 {
 	width:80%;
 	margin-top: 65vw;
 	margin-left: 5vw;
-	font-size: 2.75vw;
 }
 
 #CampAmbPubBody4 {
 	width:80%;
 	margin-top: 70vw;
 	margin-left: 5vw;
-	font-size: 2.75vw;
 }
 
 #CampAmbPubBody5 {
 	width:80%;
 	margin-top: 75vw;
 	margin-left: 5vw;
-	font-size: 2.75vw;
 }
 
 #CampAmbPubBody6 {
 	width:80%;
 	margin-top: 80vw;
 	margin-left: 5vw;
-	font-size: 2.75vw;
 }
 
 #CampAmbPubBody7 {
 	width:80%;
 	margin-top: 89vw;
 	margin-left: 5vw;
-	font-size: 2.75vw;
 }
 
 #div4CampusAmb {
@@ -1003,7 +996,7 @@
 	width:90vw;
 	text-align: center;
 	font-weight: 900;
-	font-size: 2.5vw;
+	font-size: 4vw;
 	color:#D6D5BF;
 	margin-top: 1vw;
 	background: green;
