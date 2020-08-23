@@ -911,6 +911,8 @@
 }
 
 */
+
+/* Campus Ambassador Styles */
 #div1CampusAmb {
 	position: absolute;
 	margin-top: 7.5vw;
@@ -1107,7 +1109,7 @@
 	font-size: 1.5vw;
 	color:#D6D5BF;
 	margin-top: 1vw;
-	background: red;
+	background: green;
 	padding: 2vw;
 }
 
