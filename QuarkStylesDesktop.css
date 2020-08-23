@@ -647,6 +647,8 @@
 	width: 85vw;
 	margin-left: 7.5vw;
 	height:40vw;
+	-webkit-margin-left: 7.5vw;
+	-ms-margin-left: 7.5vw;
 }
 
 .whyQuarkImages{
