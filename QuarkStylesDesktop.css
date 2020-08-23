@@ -1102,7 +1102,7 @@
 #campAmbEndTxt {
 	position: absolute;
 	font-family: 'Quicksand';
-	margin-left: 15vw;
+	margin-left: 14vw;
 	font-weight: 900;
 	font-size: 1.5vw;
 	color:#D6D5BF;
@@ -1127,10 +1127,5 @@
 	margin-left: 5vw;
 	margin-top: 2vw
 }
-
-.containerSafari {
-	padding: 1.01em 16px;
-}
-
 
 }
