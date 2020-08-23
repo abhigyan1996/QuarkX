@@ -74,7 +74,7 @@
 
 <div id="div1CampusAmb">
     <img id="campAmbBanner1" src= "CampusAmbassadorImages/campAmb.png">
-    <a href="#campAmbEndTxt"><div id="signUpBtn" class="w3-button w3-hover-white w3-yellow w3-round">Sign up as a <span style="color:red">Campus Ambassador</span></div></a>
+    <a href="#campAmbEndTxt" class="campForm"><div id="signUpBtn" class="w3-button w3-hover-white w3-yellow w3-round">Sign up as a <span style="color:red">Campus Ambassador</span></div></a>
 </div>
 
 <div id="div2CampusAmb">
@@ -149,6 +149,34 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+</script>
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".campForm").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
 </script>
 
 <script>
