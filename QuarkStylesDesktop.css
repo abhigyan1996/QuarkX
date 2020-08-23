@@ -1128,8 +1128,9 @@
 	margin-top: 2vw
 }
 
-#rewardsSafari {
-	-webkit-margin-left: 50vw;
+.containerSafari {
+	padding: 1.01em 16px;
 }
+
 
 }
