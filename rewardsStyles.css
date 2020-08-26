@@ -1,0 +1,74 @@
+.carousel{
+     height: 80vw;
+     perspective: 90vw;
+     margin-top: 0vw;
+}
+.carousel .carousel-item{
+    width: 26.5vw;
+}
+.productsCrow{
+    margin-top: -200px;
+}
+.heading{
+    text-align: center;
+    
+}
+.heading h1{
+    margin-top: 10vw;
+}
+
+/* slider */
+
+.rewardscaro{
+    margin-left: -200px;
+}
+
+#rewardsDiv1 {
+    background: black;
+    margin-top: 7.5vw;
+}
+
+#RewardsTxt {
+    margin-top: 5vw;
+    position: absolute;
+    margin-left: 27.5vw;
+}
+
+#rewardBtn {
+    margin-top: -6.25vw;
+    margin-left: 3.25vw;
+    width: 20vw;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width:600px){
+
+    .carousel{
+        height: 900px;
+         perspective: 600px;     
+    }
+
+    .carousel .carousel-item{
+        width: 200px;
+    }
+
+    .rewardscaro{
+        margin-left: -24px;
+    }
+
+    #rewardsDiv1 {
+        margin-top:16.5vw;
+    }
+
+    #rewardBtn {
+        margin-top: -10vw;
+        margin-left: 2vw;
+        width: 30vw;
+        padding: 1vw;
+        font-size: 1.5vw;
+}
+    
+    
+
+}
