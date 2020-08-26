@@ -42,6 +42,39 @@
     font-size: 1.5vw;
 }
 
+#otherRewardsImages{
+    width:107.5%;
+
+}
+
+#ProductTypes {
+    height: 50vw;
+    margin-left: -0.75%;
+    margin-right: 1%;
+    margin-top: 5vw;
+}
+
+#OtherRewardsBtn {
+    margin-top: -6.25vw;
+    margin-left: 2vw;
+    width: 20vw;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+}
+
+#ProductTypeTxt {
+    position:relative;
+    font-family: 'Quicksand';
+    font-weight: 900;
+    text-align: center;
+    color:white;
+}
+
+#firstProduct {
+    background: black;
+    margin-top: -10vw
+}
+
 @media only screen and (max-width:600px){
 
     .carousel{
