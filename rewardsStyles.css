@@ -36,8 +36,8 @@
 
 #rewardBtn {
     margin-top: -6.25vw;
-    margin-left: 3.25vw;
-    width: 20vw;
+    margin-left: 4.25vw;
+    width: 18vw;
     padding: 0.5vw;
     font-size: 1.5vw;
 }
@@ -55,11 +55,11 @@
 }
 
 #OtherRewardsBtn {
-    margin-top: -6.25vw;
-    margin-left: 2vw;
-    width: 20vw;
+    margin-top: -6vw;
+    margin-left: 4vw;
+    width: 16vw;
     padding: 0.5vw;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
 }
 
 #ProductTypeTxt {
@@ -73,6 +73,33 @@
 #firstProduct {
     background: black;
     margin-top: -10vw
+}
+
+#infoIcon{
+    font-size: 2.25vw;
+    position: absolute;
+    margin-top: -3.15vw;
+    margin-left: 1.25vw;
+    cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    margin-top: -40vw;
+}
+
+.close{
+    float: right;
+    color:white;
+    background: black
+}
+
+body.modal-open .productsCrow{
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
 }
 
 @media only screen and (max-width:600px){
