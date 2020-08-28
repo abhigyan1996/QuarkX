@@ -67,12 +67,13 @@
     font-family: 'Quicksand';
     font-weight: 900;
     text-align: center;
-    color:white;
+    color:yellow;
 }
 
-#firstProduct {
+.ProductsDivisions {
+    height: 50vw;
     background: black;
-    margin-top: -10vw
+    margin-top: -10vw 
 }
 
 #infoIcon{
