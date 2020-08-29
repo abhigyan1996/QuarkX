@@ -24,14 +24,14 @@
 }
 
 #rewardsDiv1 {
-    background: black;
-    margin-top: 7.5vw;
+    background: #080803;
+    margin-top: 5vw;
 }
 
 #RewardsTxt {
     margin-top: 5vw;
     position: absolute;
-    margin-left: 27.5vw;
+    margin-left: 34vw;
 }
 
 #rewardBtn {
@@ -48,9 +48,9 @@
 }
 
 #ProductTypes {
-    height: 50vw;
-    margin-left: -0.75%;
-    margin-right: 1%;
+    height: 32vw;
+    margin-left: -0.75vw;
+    margin-right:2.5vw;
     margin-top: 5vw;
 }
 
@@ -66,13 +66,13 @@
     position:relative;
     font-family: 'Quicksand';
     font-weight: 900;
-    text-align: center;
     color:yellow;
+    margin-left: 1vw;
 }
 
 .ProductsDivisions {
     height: 50vw;
-    background: black;
+    background: #080803;
     margin-top: -10vw 
 }
 
