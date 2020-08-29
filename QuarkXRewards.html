@@ -15,7 +15,7 @@
 <link rel="stlesheet" href="rewardsStyles.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="w3styles.css">
-<link rel="icon" href="../QuarkOtherImages/QuarksLogoFinal.png" sizes="16x16">
+<link rel="icon" href="QuarkOtherImages/QuarksLogoFinal-1.png" sizes="16x16">
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link rel="stylesheet" href="rewardsStyles.css">
@@ -36,28 +36,42 @@
 
  
 </head>
-<body>
+<body style="width:100vw; max-width: 100vw; overflow:hidden; background: #080803">
 
   <!---------------------- NavBar ----------------------->
 
   <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar" id="myNavbar" style="width:100vw; max-width:100vw; min-width:100vw;">
+  <div class="w3-bar w3-white" id="myNavbar" style="box-shadow: 3px 3px 3px #A8A8A8 ; width:100vw; max-width:100vw; min-width:100vw; height:5vw;">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <div style="cursor: pointer;" class="w3-bar-item"> <img id="QuarksLogo" src="../QuarkOtherImages/QuarksLogoFinal.png"> </div> 
+    <div style="cursor: pointer;" class="w3-bar-item"> <img id="QuarksLogo" src="QuarkOtherImages/QuarksLogoFinal-1.png"> </div> 
     
-    <div style="cursor: pointer;" class="w3-bar-item" id="nameQuarks" class="w3-black"> QuarkX </div>
+    <div style="cursor: pointer;" class="w3-bar-item" id="nameQuarks"> Quark<span style="color:purple">X</span> </div>
     <div style="margin-top:3vh">
-    <a href="index" class="navItems w3-bar-item w3-hide-small" id="navItem1Home"> Home</a>
-    <div style="cursor: pointer;" class="navItems w3-bar-item w3-hide-small" id="navItem2Home"> QuarkX</div>
-    <a href="AllQuarks" class="navItems w3-bar-item w3-hide-small" id="navItem3Home"> Read</a>
-    <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
-    <a href="AllQuarks" style="margin-left: 93vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home"> Rewards</a>
+    <a href="index" class="navItems w3-bar-item w3-hide-small" id="navItem1Home">Home</a>
+    <div style="cursor: pointer;" class="navItems w3-bar-item w3-hide-small" id="navItem2submit">QuarkX</div>
+    <a href="AllQuarks" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Read</a>
+    <!-- <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
+    <a href="QuarkXGames" style="margin-left: 61vw" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Games</a>
 
-    <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
-    <a href="submitQuarks" class="navItems w3-bar-item w3-hide-small submitBtn" id="navItems4Quarks">Submit</a>
+    <a href="QuarkXGenius" style="margin-left: 72vw" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">KidZ</a>
+    
+    <a href="QuarkXRewards" style="margin-left: 76.5vw; color:red" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">RewardZ</a>
+
+    <a href="WriteQuarks" style="margin-left: 83.5vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Write</a>
+
+   <!--  <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
+    
+    <div style="margin-left: 88vw;" id="navItems4Quarks" class="w3-dropdown-hover navItems w3-bar-item w3-hide-small submitBtn">
+      <div>Collaboration<i id="dropdownIcon" class="fa fa-caret-down" style="font-size:1vw"></i></div>
+      <div style="margin-left: -2vw;" class="dropdownCareer w3-dropdown-content w3-bar-block w3-border">
+        <a style="font-size: 1.2vw" href="#" class="dropdownBtn w3-bar-item w3-button">Brand Collaboration</a>
+        <a style="font-size: 1.2vw" href="#" class="dropdownBtn w3-bar-item w3-button">Campus Ambassador</a>
+      </div>
+    </div>    
+
   </div>
 
   </div>
@@ -80,7 +94,7 @@
 <div id="rewardsDiv1">
 <div class="row heading">
 
-  <h1 id="RewardsTxt" class="animate__animated animate__pulse animate__infinite"> <span style="color: white;">QuarkX Rewards Zone</span></h1>
+  <h1 id="RewardsTxt" class="animate__animated animate__pulse animate__infinite"> <span style="color: white;">QuarkX RewardZ</span></h1>
 
 </div>
 <section id="productCarousel">
@@ -189,7 +203,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Hey? Need a beautiful personalized digital art?</h4>
+                  <h4 class="modal-title">Need a beautiful personalized digital art?</h4>
                 </div>
                 <div class="modal-body">
                   <p>Try this gifting solution to present someone the most beautiful gift? In this digital world, why not gift someone a beautiful & personalized digital card. We even curate the message for you. We are also open for wedding cards.</p>
@@ -245,21 +259,34 @@
 
 <div class="ProductsDivisions" id="firstProduct">
   
-  <h2 id="ProductTypeTxt" data-aos="fade-up" class="animate__animated animate__pulse animate__infinite">Freelancing Solutions</h2>
+  <h4 id="ProductTypeTxt" data-aos="fade-up">• Freelancing Solutions</h4>
 
   <div class="w3-row" id="ProductTypes">
 
     <div class="w3-container w3-quarter">
       <img id="otherRewardsImages" src="rewardsimages/RewardsCV.jpg">
-      <div id="OtherRewardsBtn" class="w3-button w3-round-xlarge w3-black w3-hover-white"> GET NOW </div>
-       <i id="infoIcon" data-toggle="modal" data-target="#modal1" style="color:black" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
+      <div id="OtherRewardsBtn" class="w3-button w3-round-xlarge w3-white w3-hover-black"> GET NOW </div>
+       <i id="infoIcon" data-toggle="modal" data-target="#modal1" style="color:white" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
     </div>
   
      <div class="w3-container w3-quarter">
+      <img id="otherRewardsImages" src="rewardsimages/RewardsAndroidApp.jpg">
+      <div id="OtherRewardsBtn" class="w3-button w3-round-xlarge w3-black w3-hover-white"> GET NOW </div>
+       <i id="infoIcon" data-toggle="modal" data-target="#modal2" style="color:black" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
+    </div>
+
+      <div class="w3-container w3-quarter">
       <img id="otherRewardsImages" src="rewardsimages/RewardsWebsite.jpg">
       <div id="OtherRewardsBtn" class="w3-button w3-round-xlarge w3-white w3-hover-black"> GET NOW </div>
-       <i id="infoIcon" data-toggle="modal" data-target="#modal2" style="color:white" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
+       <i id="infoIcon" data-toggle="modal" data-target="#modal1" style="color:white" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
     </div>
+  
+     <div class="w3-container w3-quarter">
+      <img id="otherRewardsImages" src="rewardsimages/RewardsPosterMake.jpg">
+      <div id="OtherRewardsBtn" class="w3-button w3-round-xlarge w3-black w3-hover-white"> GET NOW </div>
+       <i id="infoIcon" data-toggle="modal" data-target="#modal2" style="color:black" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
+    </div>
+
  </div>
   </div>
 </div>
@@ -267,7 +294,7 @@
 
 <div class="ProductsDivisions" id="SecondProduct">
   
-  <h2 id="ProductTypeTxt" style="color:red" data-aos="fade-up" class="animate__animated animate__pulse animate__infinite">Personalized Gifting</h2>
+  <h4 id="ProductTypeTxt" style="color:yellow" data-aos="fade-up">• Personalized Gifting</h4>
   <div class="w3-row" id="ProductTypes">
 
     <div class="w3-container w3-quarter">
@@ -287,25 +314,23 @@
 
 <div class="ProductsDivisions" id="thirdProduct">
   
-  <h2 id="ProductTypeTxt" data-aos="fade-up" class="animate__animated animate__pulse animate__infinite">E-Books</h2>
+  <h4 id="ProductTypeTxt" data-aos="fade-up">• E-Books</h4>
   <div class="w3-row" id="ProductTypes">
 
     <div class="w3-container w3-quarter">
       <img id="otherRewardsImages" src="rewardsimages/RewardsEbook.jpg">
-      <div id="OtherRewardsBtn" class="w3-button w3-round-xlarge w3-black w3-hover-white"> GET NOW </div>
-       <i id="infoIcon" data-toggle="modal" data-target="#modal1" style="color:black" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
+      <div id="OtherRewardsBtn" class="w3-button w3-round-xlarge w3-white w3-hover-black"> GET NOW </div>
+       <i id="infoIcon" data-toggle="modal" data-target="#modal1" style="color:white" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
     </div>
   
      <div class="w3-container w3-quarter">
       <img id="otherRewardsImages" src="rewardsimages/RewardsDarkSecrets.jpg">
       <div id="OtherRewardsBtn" class="w3-button w3-round-xlarge w3-black w3-hover-white"> GET NOW </div>
-       <i id="infoIcon" data-toggle="modal" data-target="#modal2" style="color:white" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
+       <i id="infoIcon" data-toggle="modal" data-target="#modal2" style="color:black" class="animate__animated animate__pulse animate__infinite fa fa-info-circle"></i>
     </div>
  </div>
   </div>
 </div>
-
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
