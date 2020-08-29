@@ -364,6 +364,7 @@
 	color:black;
 	margin-left: 50vw;
 	position:absolute;
+	text-decoration: none;
 }
 
 #navItem2Home:hover{
@@ -405,9 +406,10 @@
 #navItem3Home{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
-	margin-left: 67vw;
+	margin-left: 66vw;
 	position:absolute;
 	color:black;	
+	text-decoration: none;
 }
 
 #navItem3Home:hover{
@@ -587,7 +589,8 @@
 	font-size:1.3vw;
 	margin-left: 55vw;
 	position:absolute;
-	color:black;	
+	color:black;
+	text-decoration: none;	
 }
 
 #navItem2submit:hover{
