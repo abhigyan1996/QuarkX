@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Quarks</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Serif Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="QuarkStylesDesktop.css">
+    <link rel="stylesheet" href="QuarksLargePh.css">
+    <link rel="stylesheet" href="writeQuark/submitQuarksStyles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="w3styles.css">
+    <link rel="icon" href="QuarkOtherImages/QuarksLogoFinal.png" sizes="16x16">
+
+     <meta property="og:url"           content="https://angshumankashyap.in/AllQuarks" />
+     <meta property="og:type"          content="website" />
+     <meta property="og:title"         content="Write A Quark" />
+     <meta property="og:description"   content="And Join the Revolution" />
+     <meta property="og:image"         content="images/quark1.jpg" />
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+</head>
+<body style="background-image: url(writeQuark/submitimages/backg.gif); background-repeat: repeat-x repeat-y;">
+
+<div class="w3-top">
+  <div class="w3-bar w3-white" id="myNavbar" style="box-shadow: 3px 3px 3px #A8A8A8 ; width:100vw; max-width:100vw; min-width:100vw;">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div style="cursor: pointer;" class="w3-bar-item"> <img id="QuarksLogo" src="QuarkOtherImages/QuarksLogoFinal-1.png"> </div> 
+    
+    <div style="cursor: pointer;" class="w3-bar-item" id="nameQuarks"> Quark<span style="color:purple">X</span> </div>
+    <div style="margin-top:3vh">
+    <a href="index" class="navItems w3-bar-item w3-hide-small" id="navItem1Home">Home</a>
+    <div style="cursor: pointer;" class="navItems w3-bar-item w3-hide-small" id="navItem2submit">QuarkX</div>
+    <!-- <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
+    <a href="#" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Games</a>
+
+    <a href="AllQuarks" style="margin-left: 61vw" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Read</a>
+    
+    <a href="QuarkXRewards" style="margin-left: 72vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">RewardZ</a>
+
+    <a href="#" style="margin-left: 79vw" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">KidZ</a>
+
+    <a href="WriteQuarks" style="margin-left: 83.5vw; color:red" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Write</a>
+
+   <!--  <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
+    
+    <div style="margin-left: 88vw;" id="navItems4Quarks" class="w3-dropdown-hover navItems w3-bar-item w3-hide-small">
+      <div>Collaboration<i id="dropdownIcon" class="fa fa-caret-down" style="font-size:1vw"></i></div>
+      <div style="margin-left: -2vw;" class="dropdownCareer w3-dropdown-content w3-bar-block w3-border">
+        <a  href="#" style="font-size: 1.2vw" class="dropdownBtn w3-bar-item w3-button">Brand Collaboration</a>
+        <a href="CampusAmbassador" style="font-size: 1.2vw" class="dropdownBtn w3-bar-item w3-button">Campus Ambassador</a>
+      </div>
+    </div>    
+  </div>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+   <a href="index" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
+    <a href="QuarkX" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">QuarkX</a>
+    <a href="QuarkX#subscribeCardPh" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
+    <a href="submitQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
+  </div>
+</div>
+
+
+ <div class="overflow">  
+<!-------------------- Cover ---------------->
+<section id="cover">
+        <div class="row ">
+            <div class="col-lg-12 glitch">
+                <div class="content">
+                    <h1 class="text" data-text="BECOME AN AUTHOR">BECOME AN Author </h1>
+                 </div>
+            </div>
+        </div>  
+        <div class="row">
+            <div id="scrolldown" class="col-lg-12 scrolldown">
+                <p class="scrolldown">SCROLL DOWN</p>
+                <a href="#form"><img src="writeQuark/submitimages/down.png"></a>
+            </div>
+        </div>
+</section>
+
+<section id="why">
+    <div class="blackboard">
+        <div class="col-lg-12 glitch">
+            <div data-aos="fade-up" class="content">
+                <h1 class="text" data-text="WHY?">WHY?</h1>
+             </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                 <p style="font-family:'Quicksand';" class="whypara">Join us and be a part of this revolution. We are creating a world where we would change the way <span style="color:yellow">knowledge</span> is digitally consumed. Our philosophy is to make content <span style="color:yellow">quick to read but hard to forget</span>. Contribute a few moments of your day to share your knowledge with millions of people.<span style="color:yellow"> Get published</span> on our platform and get viewers from around the <span style="color:yellow">globe</span>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="how">
+    <div class="col-lg-12 glitch" id="howToWrite">
+             <div data-aos="fade-up" class="content">
+                <h1 class="text" data-text="how?">HOW?</h1>
+             </div>
+    </div>
+        <div class="row">
+            <div class="col-lg-4 howtable">
+                 <img id="howimages" src="writeQuark/submitimages/brain.png">
+                 <h3 style="font-family: 'Quicksand'" data-aos="fade-up">Imagine</h3>
+                 <p style="font-family: 'Quicksand'" data-aos="fade-up">What's the most amusing thing you don't know about?</p>
+            </div>
+            <div class="col-lg-4 howtable">
+                <img id="howimages" src="writeQuark/submitimages/study.png">
+                <h3 style="font-family: 'Quicksand'" data-aos="fade-up">Write to Us</h3>
+                <p style="font-family: 'Quicksand'" data-aos="fade-up">Be quirky and interesting! <span style="font-family: 'Quicksand';color: yellow;"> Keep your Quark in between 80-100 words.</span></p>
+            </div>
+            <div class="col-lg-4 howtable">
+                <img id="howimages" src="writeQuark/submitimages/book.png">
+                 <h3 style="font-family: 'Quicksand'" data-aos="fade-up">Get Published</h3>
+                 <p style="font-family: 'Quicksand'" data-aos="fade-up">Every entry is reviewed by the Editoral team. <span style="font-family: 'Quicksand';color: yellow;">Selected quarks get published in no time.</span></p>
+            </div>
+        </div>
+</section>
+
+<section id="form">
+    <div class="col-lg-12 glitch" id="writeTxtQuark">
+        <div data-aos="fade-up" class="content">
+            <h1 class="text" data-text="Write">write</h1>
+         </div>
+    </div>
+    <div id="writeForm" class="col-md-8 col-md-offset-2 formmar">
+        <form id="quark">
+          <div class="row formmargin">
+                <div class="col-md-6 form-group">
+                    <label>Name</label>
+                    <input class="form-control" id="Name" name="Name" placeholder="Author Name" type="text" required/>
+                 </div>
+                <div class="col-md-6 form-group">
+                    <label>Email</label>
+                    <input class="form-control" id="Email" name="Email" placeholder="yourname@hogwarts.com" type="email" required/>
+                </div>
+                   <div class="col-md-6 form-group">
+                    <label>Contact</label>
+                    <input class="form-control" id="Email" name="PhoneNumber" placeholder="Contact" type="tel" required/>
+                </div>
+                <div class="col-md-6 form-group">
+                     <label>Quark Question</label>
+                    <input class="form-control" id="Title" name="QuarkQuestion" placeholder="Quark Question" type="text" required/>
+                 </div>
+                <div class="col-md-12 form-group">
+                     <label>Quark Answer</label>
+                     <textarea id="myTextarea" name="QuarkAnswer" class="form-control" id="QuarkAnswer" placeholder="Ready Steady Go!!" maxlength = "620" rows="5" cols="150" required></textarea> 
+                     <p style="color: yellow;" class="help-block">Maximum: 100 words.</p>
+                     <p style="color: white;"><span  id="word_count" class="badge alert-danger">0</span> words</p>
+                </div>
+            </div>
+                     <br>
+                <div class="row">
+                    <div class="col-lg-12 butt">
+                        <button id="submitBtnQuark" class="w3-large btn btn-primary button butt" type="submit" >Submit</button>
+                     </div>
+                 </div>
+        
+        </form>
+        
+
+</section>
+
+<section id="topwriters">
+    <div class="col-lg-12 glitch">
+        <div data-aos="fade-up" class="content">
+            <h1 id="topWritersHeading" class="text" data-text="TOP WRITERS">TOP WRITERS </h1>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 howtable">
+                <img class="writerimg" src="writeQuark/submitimages/1.jpg">
+                <h4>Angshuman Kashyap</h4>
+                <p>65 Quarks | Mostly Business Quarks</p>
+           </div>
+           <div class="col-lg-4 howtable">
+                <img class="writerimg" src="writeQuark/submitimages/2.jpeg">
+                <h4>Abhigyan Kashyap</h4>
+                <p>55 Quarks | Mostly Science Quarks</p>
+           </div>
+           <div class="col-lg-4 howtable">
+               <img class="writerimg" src="writeQuark/submitimages/3.jpeg">
+                <h4>Satabdi Parashar</h4>
+                <p>45 Quarks | Science & Humanities Quarks</p>
+           </div>
+             
+         </div>
+    </div>
+</section>
+
+<section id="snippet">
+    <div class="col-lg-12 glitch">
+        <div data-aos="fade-up" class="content">
+            <h1 class="text" id="snipperHeading" data-text="SNIPPET">SNIPPET </h1>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 howtable">
+                <img class="quarksample" src="writeQuark/submitimages/sample1.png">
+                
+           </div>
+           <div class="col-lg-4 howtable">
+                <img class="quarksample" src="writeQuark/submitimages/sample2.png">
+                
+           </div>
+           <div class="col-lg-4 howtable">
+               <img class="quarksample" src="writeQuark/submitimages/sample3.png">
+           </div>
+             
+         </div>
+    </div>
+
+</section>
+
+<section id="footer">
+    <div class="bg">
+        <div class="row">
+            <div class="col-lg-12 footer">
+                <p>WRITE QUARKS!</p>
+            </div>
+        </div>      
+    </div>
+</section>
+
+
+</div>
+
+
+</div>
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="writeQuark/submitQuarksJS.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="writeQuark/google-sheet.js"></script>  
+
+
+<script>
+  AOS.init();
+</script>
+
+
+</body>
+</html>
