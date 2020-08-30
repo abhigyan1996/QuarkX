@@ -27,7 +27,7 @@ $(function() {
 
 
     $('.butt').click(function(){
-        window.location.href='../landing.html';
+        window.location.href='writeQuark/landing.html';
      })
    
     
