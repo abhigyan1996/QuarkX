@@ -335,4 +335,8 @@ label{
     #snippet{
         margin-top: -150px;
     }
+    .quarksample{
+      width: 75vw;
+      border-radius: 10px
+  }
 }
