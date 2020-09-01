@@ -75,11 +75,11 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
    <!--  <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
     
-    <div style="margin-left: 88vw;" id="navItems4Quarks" class="w3-dropdown-hover navItems w3-bar-item w3-hide-small submitBtn">
+    <div style="margin-left: 88vw;" id="navItems4Quarks" class="w3-dropdown-hover navItems w3-bar-item w3-hide-small">
       <div>Collaboration<i id="dropdownIcon" class="fa fa-caret-down" style="font-size:1vw"></i></div>
       <div style="margin-left: -2vw;" class="dropdownCareer w3-dropdown-content w3-bar-block w3-border">
         <a style="font-size: 1.2vw" href="#" class="dropdownBtn w3-bar-item w3-button">Brand Collaboration</a>
-        <a style="font-size: 1.2vw" href="#" class="dropdownBtn w3-bar-item w3-button">Campus Ambassador</a>
+        <a style="font-size: 1.2vw" href="CampusAmbassador" class="dropdownBtn w3-bar-item w3-button">Campus Ambassador</a>
       </div>
     </div>    
 
@@ -397,6 +397,31 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <iframe class="w3-center" style="height:70vh; width:80vw; margin-left: 5vw; margin-top: 2vh" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div>
+
+
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
 
 <script>
 $(document).ready(function(){
