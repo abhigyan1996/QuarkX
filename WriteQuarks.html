@@ -46,7 +46,7 @@
     <div style="cursor: pointer;" class="w3-bar-item" id="nameQuarks"> Quark<span style="color:purple">X</span> </div>
     <div style="margin-top:3vh">
     <a href="index" class="navItems w3-bar-item w3-hide-small" id="navItem1Home">Home</a>
-    <div style="cursor: pointer;" class="navItems w3-bar-item w3-hide-small" id="navItem2submit">QuarkX</div>
+    <div style="cursor: pointer; color:red" class="navItems w3-bar-item w3-hide-small" id="navItem2submit">QuarkX</div>
     <!-- <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
     <a href="#" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Games</a>
 
@@ -56,7 +56,7 @@
 
     <a href="#" style="margin-left: 79vw" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">KidZ</a>
 
-    <a href="WriteQuarks" style="margin-left: 83.5vw; color:red" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Write</a>
+    <a href="WriteQuarks" style="margin-left: 83.5vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Write</a>
 
    <!--  <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
     
@@ -70,15 +70,15 @@
   </div>
 
   </div>
-
   <!-- Navbar on small screens -->
   <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
    <a href="index" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
     <a href="QuarkX" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">QuarkX</a>
     <a href="QuarkX#subscribeCardPh" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
-    <a href="submitQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
+    <a href="WriteQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
   </div>
 </div>
+
 
 
  <div class="overflow">  
@@ -254,6 +254,29 @@
 <script src="writeQuark/submitQuarksJS.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="writeQuark/google-sheet.js"></script>  
+
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 
 
 <script>
