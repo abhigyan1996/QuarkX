@@ -51,7 +51,7 @@
     height: 32vw;
     margin-left: -0.75vw;
     margin-right:2.5vw;
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 
 #OtherRewardsBtn {
@@ -76,7 +76,7 @@
     margin-top: -10vw 
 }
 
-#infoIcon{
+#infoIcon, #infoIcon2{
     font-size: 2.25vw;
     position: absolute;
     margin-top: -3.15vw;
@@ -124,12 +124,69 @@ body.modal-open .productsCrow{
 
     #rewardBtn {
         margin-top: -10vw;
-        margin-left: 2vw;
-        width: 30vw;
+        margin-left: 5vw;
+        width: 25vw;
         padding: 1vw;
         font-size: 1.5vw;
-}
+    }
     
-    
+    #RewardsTxt {
+        margin-top: 7.5vw;
+        position: absolute;
+        margin-left: 25vw;
+        font-size: 7vw;
+        font-family: 'Quicksand'
+    }
 
+    #infoIcon{
+        font-size: 3vw;
+        position: absolute;
+        margin-top: -4vw;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    .modal {
+        position: absolute;
+        margin-top: -100vw;
+        margin-left: 10vw
+    }
+
+    .w3-container{
+        width:48%;
+        margin-left: 1%
+    }
+
+    #ProductTypes{
+        width:100vw;
+    }
+
+    #ProductTypeTxt {
+        position:relative;
+        font-family: 'Quicksand';
+        font-weight: 900;
+        color:yellow;
+        margin-left: 5vw;
+    }
+
+    .ProductsDivisions {
+        height: 100vw;
+        background: #080803;
+        margin-top: -10vw 
+    }
+
+    #OtherRewardsBtn {
+        margin-top: -12vw;
+        margin-left: 4vw;
+        width: 36vw;
+        padding: 0.75vw;
+        font-size: 3vw;
+    }
+
+     #infoIcon2{
+        font-size: 5vw;
+        position: absolute;
+        margin-top: -6vw;
+        margin-left: 2vw;
+        cursor: pointer;
+    }
 }
