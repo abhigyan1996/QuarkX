@@ -1,4 +1,6 @@
 
+var totalWords = 0 
+
 $(function() {
 	$("#myTextarea").keyup(function(){
 		var text = $(this).val();
@@ -16,6 +18,9 @@ $(function() {
 		var nbrChar = text.length; // Length of the text var
 		$('span#char_count').html(nbrChar); // Returns nbrChar var to <span id="char_count">
 		if (nbrChar > 100) $('span#char_count').attr('class', 'badge alert-success'); else $('span#char_count').attr('class', 'badge alert-danger'); // If more than 100 characters -> red color badge, else green color badge
+	
+		totalWords=nbrWord;
+
 	});
 });
 
@@ -27,7 +32,9 @@ $(function() {
 
 
     $('.butt').click(function(){
-        window.location.href='writeQuark/landing.html';
+    	if(totalWords>=70){
+       	 window.location.href='writeQuark/landing.html';
+    	}
      })
    
     
