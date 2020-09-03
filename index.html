@@ -51,30 +51,46 @@
 </head>
 
 <body class="w3-white" style="width:100vw; max-width: 100vw; overflow:hidden">
-
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar" id="myNavbar" style="width:100vw; max-width:100vw; min-width:100vw;">
+  <div class="w3-bar w3-white" id="myNavbar" style="box-shadow: 3px 3px 3px #A8A8A8 ; width:100vw; max-width:100vw; min-width:100vw;">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <div style="cursor: pointer;" class="w3-bar-item"> <img style="border-radius: 100%" id="QuarksLogo" src="AngzImages/AngzPhoto.jpg"> </div> 
-    <div style="cursor: pointer;" class="w3-bar-item" id="nameAngz" class="w3-black"> Angshuman </div>
+    
+    <div style="cursor: pointer; font-size: 3vw;margin-left: 0vw" class="w3-bar-item" id="nameAngz"> Angshuman Kashyap </div>
     <div style="margin-top:3vh">
-    <div style="cursor:pointer" class="navItems w3-bar-item w3-hide-small" id="navItem1Angz"> Home</div>
-    <a href="QuarkX" class="navItems w3-bar-item w3-hide-small" id="navItem2Angz"> QuarkX</a>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSereW9zQ1HrBiEjv7cxuLAngH1tnzy-X1U49xNiZacDxaNGUw/viewform" class="navItems w3-bar-item w3-hide-small" id="navItem3Angz"> Ignite</a>
-    <!-- <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
-    <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a>
-    <a href="submitQuarks" class="navItems w3-bar-item w3-hide-small submitBtn" id="navItems4Quarks">Submit</a> -->
+    <a style="color:red" href="index" class="navItems w3-bar-item w3-hide-small" id="navItem1Home">Home</a>
+    <div style="cursor: pointer;" class="navItems w3-bar-item w3-hide-small" id="navItem2submit">QuarkX</div>
+    <!-- <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
+    <a href="#" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Games</a>
+
+    <a href="AllQuarks" style="margin-left: 61vw" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Read</a>
+    
+    <a href="QuarkXRewards" style="margin-left: 72vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">RewardZ</a>
+
+    <a href="#" style="margin-left: 79vw" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">KidZ</a>
+
+    <a href="WriteQuarks" style="margin-left: 83.5vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Write</a>
+
+   <!--  <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
+    
+    <div style="margin-left: 88vw;" id="navItems4Quarks" class="w3-dropdown-hover navItems w3-bar-item w3-hide-small">
+      <div>Collaboration<i id="dropdownIcon" class="fa fa-caret-down" style="font-size:1vw"></i></div>
+      <div style="margin-left: -2vw;" class="dropdownCareer w3-dropdown-content w3-bar-block w3-border">
+        <a  href="#" style="font-size: 1.2vw" class="dropdownBtn w3-bar-item w3-button">Brand Collaboration</a>
+        <a href="CampusAmbassador" style="font-size: 1.2vw" class="dropdownBtn w3-bar-item w3-button">Campus Ambassador</a>
+      </div>
+    </div>    
   </div>
 
   </div>
-
   <!-- Navbar on small screens -->
   <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+   <a href="index" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
     <a href="QuarkX" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">QuarkX</a>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSereW9zQ1HrBiEjv7cxuLAngH1tnzy-X1U49xNiZacDxaNGUw/viewform" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Ignite</a>
+    <a href="QuarkX#subscribeCardPh" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
+    <a href="WriteQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
   </div>
 </div>
 
