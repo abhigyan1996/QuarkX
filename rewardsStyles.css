@@ -152,7 +152,7 @@ body.modal-open .productsCrow{
     }
 
     .w3-container{
-        width:48%;
+        width:90%;
         margin-left: 1%
     }
 
@@ -166,26 +166,27 @@ body.modal-open .productsCrow{
         font-weight: 900;
         color:yellow;
         margin-left: 5vw;
+        margin-top: 15vw;
     }
 
     .ProductsDivisions {
-        height: 100vw;
+        height: 320vw;
         background: #080803;
         margin-top: -10vw 
     }
 
     #OtherRewardsBtn {
-        margin-top: -12vw;
-        margin-left: 4vw;
-        width: 36vw;
-        padding: 0.75vw;
+        margin-top: -13vw;
+        margin-left: 6vw;
+        width: 76vw;
+        padding: 1.5vw;
         font-size: 3vw;
     }
 
      #infoIcon2{
-        font-size: 5vw;
+        font-size: 6vw;
         position: absolute;
-        margin-top: -6vw;
+        margin-top: -7vw;
         margin-left: 2vw;
         cursor: pointer;
     }
