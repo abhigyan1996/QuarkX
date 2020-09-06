@@ -32,9 +32,7 @@
 
 <!-- NAV BAR  -->
 <link rel="stylesheet" href="nav.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -46,6 +44,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <!-- <script>
 document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=horizontal&u=' + encodeURIComponent(document.location.href) + '"></scr' + 'ipt>');
 </script> -->
@@ -57,36 +56,26 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 <body class="w3-white" style="width:100vw; max-width:100vw; min-width:100vw; overflow: hidden">
 
 <section id="MobileNavbar">
-        <nav class="nav">
+        <div class="nav">
             <a href="QuarkX" class="navlink">
-                <span class="material-icons">
-                    home
-                    </span>
-                <span class="navtext">Home</span>
+                     <i id="iconNavNow" class="fas fa-home"></i>
+                <div id="navName">Home</div>
             </a>
             <a href="AllQuarks.html" class="navlink">
-                <span class="material-icons">
-                    import_contacts
-                    </span>
-                <span class="navtext">Read</span>
+                     <i id="iconNav" class="fas fa-book"></i>
+                     <div id="navName">Read</div>
             </a>
             <a href="#" class="navlink">
-                <span class="material-icons">
-                    offline_bolt
-                    </span>
-                <span class="navtext">RewardZ</span>
+              <i id="iconNav" class="fas fa-bolt"></i>
+                <div id="navName">Rewards</div>
             </a>
             <a href="#" class="navlink">
-                <span class="material-icons">
-                    games
-                    </span>
-                <span class="navtext">Games</span>
+               <i id="iconNav" class='fas fa-gamepad'></i>
+                <div id="navName">Games</div>
             </a>
             <a href="#" class="navlink">
-                <span class="material-icons">
-                    child_care
-                    </span>
-                <span class="navtext">KidZ</span>
+                <i id="iconNav" class="fa fa-child" aria-hidden="true"></i>
+                <div id="navName">KidZ</div>
             </a>
         </nav>
     </section>
@@ -420,7 +409,7 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
 
 
 <!-- Subscription here -->
-<div class="w3-hide-medium w3-hide-small" id="SubscriptionQuarks" style="background: black; height:45vw; width:100vw; position: absolute">
+<div class="w3-hide-medium w3-hide-small" id="SubscriptionQuarks" style="background: black; height:50 vw; width:100vw; position: absolute">
   <div id="subscribeCard" class="w3-card w3-white" style="width:90vw; margin-left: 4vw; border-radius: 10px; margin-top: 5vw;">
     <iframe class="w3-center" style="height:35vw; width:80vw; margin-left: 5vw; margin-top: 2vw" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
@@ -437,7 +426,6 @@ document.write('<script src="https://sharehulk.com/api/sharingbutton.php?type=ve
     <iframe class="w3-center" style="height:70vh; width:80vw; margin-left: 5vw; margin-top: 2vh" src="https://docs.google.com/forms/d/e/1FAIpQLSdWmUbEm27l4FyLU9Q9fttPqjRHPxaS3342isGD-6vSW5GC6Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div>
-
 
 <script>
 // Change style of navbar on scroll
