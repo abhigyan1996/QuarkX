@@ -301,9 +301,9 @@
 
     #container{
         margin-top: 100vw;
-        margin-left:22vw;
-        width:155vw;
-        height: 100vw;
+        margin-left:10vw;
+        width:150vw;
+        height: 95vw;
         -ms-transform: rotate(270deg); /* IE 9 */
         -ms-transform-origin: 20% 40%; /* IE 9 */
         transform: rotate(270deg);
@@ -312,8 +312,9 @@
 
     #restart_div {
         position: absolute;
-        width: 81.5vw;
-        height: 100vw;
+        width: 180vw;
+        height: 105vw;
+        margin-top: -5vw;
         background-color: #292929;
         color: white;
         font-family: sans-serif;
@@ -355,18 +356,18 @@
 
     #score_div {
         margin-left: 127vw;
-        font-size: 3vw        
+        font-size: 3.5vw        
     }
 
     .car {
-        width: 3vw;
-        height: 5vw;
+        width: 5vw;
+        height: 7vw;
         margin-left: 6vw
     }
 
     #target {
         margin-left:84%; top: 30%;position:absolute;
-        height:15vw; width: 15vw;
+        height:25vw; width: 25vw;
         -webkit-animation:spin 4s linear infinite;
         -moz-animation:spin 4s linear infinite;
         animation:spin 4s linear infinite;
