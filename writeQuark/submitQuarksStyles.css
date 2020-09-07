@@ -45,6 +45,9 @@ html {
   #scrolldownArrow {
     margin-top: 18vw 
   }
+  #scrolldown{
+    margin-top: -4vw;
+  }
 }
 
 .content{
