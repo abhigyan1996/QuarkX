@@ -324,7 +324,7 @@
     }
 
     #body{
-        height:165vw;
+        height:163vw;
     }
 
     #shoot{
@@ -360,7 +360,7 @@
     }
 
     #score_div {
-        margin-left: 117vw;
+        margin-left: 115vw;
         font-size: 3.5vw        
     }
 
@@ -371,7 +371,7 @@
     }
 
     #target {
-        margin-left:82%; top: 26%;position:absolute;
+        margin-left:82%; top: 25%;position:absolute;
         height:25vw; width: 25vw;
         -webkit-animation:spin 4s linear infinite;
         -moz-animation:spin 4s linear infinite;
@@ -391,7 +391,7 @@
         height: 7.5vw;
         width: 7.5vw;
         margin-top: 90vw;
-        margin-left: 32vw;
+        margin-left: 52vw;
     }
 
 }
