@@ -303,7 +303,7 @@
         margin-top: 91vw;
         margin-left:10vw;
         width:140vw;
-        height: 95vw;
+        height: 100vw;
         -ms-transform: rotate(270deg); /* IE 9 */
         -ms-transform-origin: 20% 40%; /* IE 9 */
         transform: rotate(270deg);
@@ -312,9 +312,10 @@
 
     #restart_div {
         position: absolute;
-        width: 160vw;
-        height: 107.5vw;
-        margin-top: -2.5vw;
+        width: 170vw;
+        height: 100vw;
+        margin-top: 0vw;
+        margin-left: -20vw;
         background-color: #292929;
         color: white;
         font-family: sans-serif;
@@ -323,7 +324,7 @@
     }
 
     #body{
-        height:170vw;
+        height:165vw;
     }
 
     #shoot{
@@ -370,7 +371,7 @@
     }
 
     #target {
-        margin-left:82%; top: 30%;position:absolute;
+        margin-left:82%; top: 26%;position:absolute;
         height:25vw; width: 25vw;
         -webkit-animation:spin 4s linear infinite;
         -moz-animation:spin 4s linear infinite;
