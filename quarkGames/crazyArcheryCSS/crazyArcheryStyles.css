@@ -300,9 +300,9 @@
 @media only screen and (max-width:600px){
 
     #container{
-        margin-top: 42.5vw;
+        margin-top: 100vw;
         margin-left:22vw;
-        width:81.5vw;
+        width:155vw;
         height: 100vw;
         -ms-transform: rotate(270deg); /* IE 9 */
         -ms-transform-origin: 20% 40%; /* IE 9 */
@@ -354,8 +354,8 @@
     }
 
     #score_div {
-        margin-left: 67vw;
-        font-size: 2vw        
+        margin-left: 127vw;
+        font-size: 3vw        
     }
 
     .car {
