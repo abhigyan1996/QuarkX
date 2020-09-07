@@ -32,7 +32,7 @@ $(function() {
 
 
     $('.butt').click(function(){
-    	if(totalWords>=70){
+    	if(totalWords>=30){
        	 window.location.href='writeQuark/landing.html';
     	}
      })
