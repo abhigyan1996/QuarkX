@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<title>All Quarks</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Serif Pro">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="QuarkStylesDesktop.css">
+<link rel="stylesheet" href="QuarksLargePh.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="w3styles.css">
+<link rel="icon" href="QuarkOtherImages/QuarksLogoFinal-1.png" sizes="16x16">
+
+ <meta property="og:url"           content="https://angshumankashyap.in/AllQuarks" />
+ <meta property="og:type"          content="website" />
+ <meta property="og:title"         content="Join Quarks" />
+ <meta property="og:description"   content="And Refuel Your Curiosity" />
+ <meta property="og:image"         content="images/quark1.jpg" />
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+<!-- Game Scripts and Styles -->
+<link rel="stylesheet" href="quarkGames/crazyArcheryCSS/crazyArcheryStyles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+ <script src="quarkGames/CrazyArcheryJS.js"></script>
+<!-- Facebook Share -->
+  <script>
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Facebook Share -->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+
+<!-- NAV BAR  -->
+<link rel="stylesheet" href="nav.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<body id="body" style="background-image: url(writeQuark/submitimages/backg.gif); background-repeat: repeat-x repeat-y;">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white" id="myNavbar" style="box-shadow: 3px 3px 3px #A8A8A8 ; width:100vw; max-width:100vw; min-width:100vw;">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div style="cursor: pointer;" class="w3-bar-item"> <img id="QuarksLogo" src="QuarkOtherImages/QuarksLogoFinal-1.png"> </div> 
+    
+    <div style="cursor: pointer;" class="w3-bar-item" id="nameQuarks"> Quark<span style="color:purple">X</span> </div>
+    <div style="margin-top:3vh">
+    <a href="index" class="navItems w3-bar-item w3-hide-small" id="navItem1Home">Home</a>
+    <div style="cursor: pointer" class="navItems w3-bar-item w3-hide-small" id="navItem2submit">QuarkX</div>
+    <!-- <a href="#SubscriptionQuarks" class="navItems w3-hide-medium w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
+    <a href="CrazyArchery" style="color:red" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Games</a>
+
+    <a href="AllQuarks" style="margin-left: 61vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Read</a>
+    
+    <a href="QuarkXRewards" style="margin-left: 72vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">RewardZ</a>
+
+    <a href="comingSoonKidZ" style="margin-left: 79vw" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">KidZ</a>
+
+    <a href="WriteQuarks" style="margin-left: 83.5vw;" class="navItems w3-bar-item w3-hide-small" id="navItem3Home">Write</a>
+
+   <!--  <a href="#SubscriptionQuarksTablet" class="navItems w3-hide-large w3-bar-item w3-hide-small homeSubscribe" id="navItems3Quarks">Subscribe</a> -->
+    
+    <div style="margin-left: 88vw;" id="navItems4Quarks" class="w3-dropdown-hover navItems w3-bar-item w3-hide-small">
+      <div>Collaboration<i id="dropdownIcon" class="fa fa-caret-down" style="font-size:1vw"></i></div>
+      <div style="margin-left: -2vw;" class="dropdownCareer w3-dropdown-content w3-bar-block w3-border">
+        <a  href="#" style="font-size: 1.2vw" class="dropdownBtn w3-bar-item w3-button">Brand Collaboration</a>
+        <a href="CampusAmbassador" style="font-size: 1.2vw" class="dropdownBtn w3-bar-item w3-button">Campus Ambassador</a>
+      </div>
+    </div>    
+  </div>
+
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" style="width:100vw; max-width:100vw; min-width:100vw;" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+   <a href="index" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
+    <a href="QuarkX" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">QuarkX</a>
+    <a href="QuarkX#subscribeCardPh" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
+    <a href="WriteQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
+  </div>
+</div>
+
+
+<section id="MobileNavbar">
+        <div class="nav">
+            <a href="QuarkX" class="navlink">
+                     <i id="iconNav" class="fas fa-home"></i>
+                <div id="navName">QuarkX</div>
+            </a>
+            <a href="AllQuarks" class="navlink">
+                     <i id="iconNav" class="fas fa-book"></i>
+                     <div id="navName">Read</div>
+            </a>
+            <a href="QuarkXRewards" class="navlink">
+              <i id="iconNav" class="fas fa-bolt"></i>
+                <div id="navName">Rewards</div>
+            </a>
+            <a href="CrazyArchery" class="navlink">
+               <i id="iconNavNow" class='fas fa-gamepad'></i>
+                <div id="navName">Games</div>
+            </a>
+            <a href="comingSoonKidZ" class="navlink">
+                <i id="iconNav" class="fa fa-child" aria-hidden="true"></i>
+                <div id="navName">KidZ</div>
+            </a>
+        </nav>
+    </section>
+
+<div>
+
+    <div id="container" style="background-image: url(writeQuark/submitimages/backg.gif); background-repeat: repeat-x repeat-y;">
+       <div id="score_div">
+        SCORE: <span id="score">0</span>
+       </div>
+
+      <button class= "w3-button w3-red w3-hover-pink w3-border-radius" id="shoot"> SHOOT</button>
+       <img src="quarkGames/crazyArcheryImages/target.png" id="target">
+        <div id="line_1" class="line"></div>
+        <div id="line_2" class="line"></div>
+        <div id="line_3" class="line"></div>
+         <div id="line_4" class="line"></div>
+        <div>
+  
+        <img id="arrow" src="quarkGames/crazyArcheryImages/arrow.png">
+        <img id="archer" src="quarkGames/crazyArcheryImages/archer.jpg">  
+        <img id="shadow" src="quarkGames/crazyArcheryImages/oval.jpg">   
+        </div>
+        <div id="car_1" class="car">
+            <div class="mouth"></div>
+            <div class="eye_l"></div>
+            <div class="eye_r"></div>
+            <div class="ear_l"></div>
+            <div class="ear_r"></div>    
+        </div>
+        <div id="car_2" class="car" >
+            <div class="mouth"></div>
+            <div class="eye_l"></div>
+            <div class="eye_r"></div>
+            <div class="ear_l"></div>
+            <div class="ear_r"></div>
+           
+        </div>
+        <div id="car_3" class="car">
+            <div class="mouth"></div>
+            <div class="eye_l"></div>
+            <div class="eye_r"></div>
+            <div class="ear_l"></div>
+            <div class="ear_r"></div>
+           
+        </div>
+        <div id="car_4" class="car">
+            <div class="mouth"></div>
+            <div class="eye_l"></div>
+            <div class="eye_r"></div>
+            <div class="ear_l"></div>
+            <div class="ear_r"></div>
+           
+        </div>
+        <div id="restart_div">
+          <img src="QuarkOtherImages/QuarksLogoFinal-1.png" alt="ImageLogo" id="QuarkXLogoGame">
+          <div id="iconNav" class="w3-hide-small" style="font-size: 3vw; font-family: 'Quicksand';"> CRAZY ARCHERY </div>
+          <div id="iconNav" class="w3-hide-large w3-hide-medium" style="font-size: 6vw; font-family: 'Quicksand'; margin-top: 5vw"> CRAZY ARCHERY </div>
+            <button class="w3-button w3-pink w3-hover-black" id="restart">
+                Score: <span id="score1"></span>
+                <br> <b>NEW GAME?</b>
+            </button>
+            <div id="about1"> QuarkX - Refuel Your Curiosity!</div>
+            <div id="about2"> © All rights reserved <br> Developed by Abhigyan Kashyap </div>
+        </div>
+    </div>
+    <audio id="sound1" src="quarkGames/CrazyArcheryMusic.mp3" preload="auto"></audio>
+</div>
+
+
+
+
+
+
+
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+<script>
+  AOS.init();
+</script>
+
+
+
+</body>
+</html>
