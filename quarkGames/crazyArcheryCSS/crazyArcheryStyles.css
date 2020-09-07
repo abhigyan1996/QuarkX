@@ -300,9 +300,9 @@
 @media only screen and (max-width:600px){
 
     #container{
-        margin-top: 100vw;
+        margin-top: 91vw;
         margin-left:10vw;
-        width:150vw;
+        width:140vw;
         height: 95vw;
         -ms-transform: rotate(270deg); /* IE 9 */
         -ms-transform-origin: 20% 40%; /* IE 9 */
@@ -312,14 +312,18 @@
 
     #restart_div {
         position: absolute;
-        width: 180vw;
-        height: 105vw;
-        margin-top: -5vw;
+        width: 160vw;
+        height: 107.5vw;
+        margin-top: -2.5vw;
         background-color: #292929;
         color: white;
         font-family: sans-serif;
         text-align: center;
         display: none;
+    }
+
+    #body{
+        height:170vw;
     }
 
     #shoot{
@@ -355,7 +359,7 @@
     }
 
     #score_div {
-        margin-left: 127vw;
+        margin-left: 117vw;
         font-size: 3.5vw        
     }
 
@@ -366,7 +370,7 @@
     }
 
     #target {
-        margin-left:84%; top: 30%;position:absolute;
+        margin-left:82%; top: 30%;position:absolute;
         height:25vw; width: 25vw;
         -webkit-animation:spin 4s linear infinite;
         -moz-animation:spin 4s linear infinite;
