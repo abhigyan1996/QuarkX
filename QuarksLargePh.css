@@ -9,13 +9,26 @@
 	margin-top:1.25vh;
 }
 
+#XName {
+	font-size: 10vw;
+	font-family: 'Quicksand';
+	text-decoration: none;
+	margin-top: -0.5vw;
+	color:purple;
+}
+
 #nameQuarks{
 	font-family: 'Quicksand';
 	font-size: 10vw;
 	text-decoration: none;
-	margin-left: 20vw;
-	color:black;
-	position:absolute;
+	margin-left: 0vw;
+	background:-moz-linear-gradient(top, purple 0%, red 100%); 
+    background: -webkit-linear-gradient(top, purple 0%,purple 100%); 
+	background: linear-gradient(to bottom, red 0%,purple 100%);
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
 }
 	
 #NightMode{
