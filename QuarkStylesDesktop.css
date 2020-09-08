@@ -3,19 +3,33 @@
 @media all and (min-width: 600px) {
 #QuarksLogo{
 	position:absolute;
-	margin-left:4vw;
+	margin-left:0vw;
 	height: 4.25vw;
 	width: 4.25vw;
-	margin-top: -0.25vw;
+	margin-top: 0vw;
 }
 
 #nameQuarks{
 	font-family: 'Quicksand';
 	font-size: 3vw;
 	text-decoration: none;
-	margin-left: 8vw;
-	color:black;
-	margin-top: -0.5vw
+	margin-left: 3vw;
+	margin-top: -0.5vw;
+	background:-moz-linear-gradient(top, purple 0%, red 100%); 
+    background: -webkit-linear-gradient(top, purple 0%,purple 100%); 
+	background: linear-gradient(to bottom, red 0%,purple 100%);
+	-webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+#XName {
+	font-family: 'Quicksand';
+	font-size: 3vw;
+	text-decoration: none;
+	margin-top: -0.5vw;
+	color:purple;
 }
 	
 #NightMode{
