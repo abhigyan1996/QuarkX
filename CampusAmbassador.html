@@ -3,6 +3,8 @@
 <title>All Quarks</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
@@ -13,6 +15,7 @@
 <link rel="stylesheet" href="QuarksLargePh.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="w3styles.css">
+<link rel="stylesheet" href="writeQuark/submitQuarksStyles.css">
 <link rel="icon" href="QuarkOtherImages/QuarksLogoFinal.png" sizes="16x16">
 
  <meta property="og:url"           content="https://angshumankashyap.in/CampusAmbassador" />
@@ -140,7 +143,48 @@
 </div>
 
 <div id="div5CampusAmb">
-  <iframe id= "CampusAmbassadorForm" class="w3-center" src="https://docs.google.com/forms/d/1jWr7sZWUwazBezDATYbArqb837DiLrWvJnIekmWT0Oc/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <section id="form">
+    <div class="col-lg-12" id="writeTxtQuark">
+        <div data-aos="fade-up" class="content">
+            <!-- <h1 id="CampAmbResponsibilities" >Sign up as a Campus Ambassador</h1>  -->
+         </div>
+    </div>
+    <div id="writeForm" class="col-md-8 col-md-offset-2 formmar">
+        <form id="quark">
+          <div class="row formmargin">
+                <div class="col-md-6 form-group">
+                    <label>Name</label>
+                    <input class="form-control" id="Name" name="Name" placeholder="Name" type="text" required/>
+                 </div>
+                <div class="col-md-6 form-group">
+                    <label>Email</label>
+                    <input class="form-control" id="Email" name="Email" placeholder="yourname@hogwarts.com" type="email" required/>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label>Phone Number</label>
+                  <input class="form-control" id="Email" name="Phone Number" placeholder="phone number" type="email" required/>
+              </div>
+                   <div class="col-md-6 form-group">
+                    <label>College Name</label>
+                    <input class="form-control" id="Email" name="College Name" placeholder="College Name" type="tel" required/>
+                </div>
+                <div class="col-md-6 form-group">
+                     <label>College Location</label>
+                    <input class="form-control" id="Title" name="College Location" placeholder="College Location " type="text" required/>
+                 </div>
+                 <div class="col-md-6 form-group">
+                  <label>Semester/Current Year</label>
+                 <input class="form-control" id="Title" name="Semester" placeholder="Semester/Current Year  " type="text" required/>
+              </div>
+            </div>
+                     <br>
+                <div class="row">
+                    <div class="col-lg-12 butt">
+                        <button id="submitBtnQuark" class="w3-large btn btn-primary button butt" type="submit" >Submit</button>
+                     </div>
+                 </div>
+        
+        </form>
 </div>
 
 
