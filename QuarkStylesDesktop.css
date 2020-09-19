@@ -1154,4 +1154,59 @@
 	margin-top: 2vw
 }
 
+#RegisterContainer{
+	margin-top: 5vw;
+}
+
+#rememberMe {
+	font-size: 1vw;
+	margin-top: 0.25vw;
+	color: black;
+	font-family: 'Quicksand';
+}
+
+#goBtn {
+	margin-left: 0vw;
+	font-size: 1.5vw;
+}
+
+#googleLogIn, #FbLogIn {
+	color:white;
+	padding: 0.75vw;
+	font-size:1.25vw;
+	font-family: 'Quicksand';
+
+}
+
+#googleLogIn {
+	margin-top: 5vw;
+	margin-left: 8vw;
+	width:20vw;
+}
+
+#FbLogIn {
+	margin-top:2vw;
+	margin-left: 8vw;	
+	width:20vw;
+
+}
+
+#forgotPass {
+	color:black;
+	font-size: 1.25vw;
+	margin-top: 1vw;
+	font-family: 'Quicksand';
+}
+
+#forgotPass:hover {
+	color:red;
+	cursor: pointer;
+}
+
+#QuarkXregistration {
+	width:35vw;
+	height: 40vw;
+	margin-left: 32.5vw;
+}
+
 }
