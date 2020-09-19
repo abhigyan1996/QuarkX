@@ -1188,7 +1188,6 @@
 	margin-top:2vw;
 	margin-left: 8vw;	
 	width:20vw;
-
 }
 
 #forgotPass {
@@ -1207,6 +1206,8 @@
 	width:35vw;
 	height: 40vw;
 	margin-left: 32.5vw;
+	margin-top:10vw;
+	margin-bottom: 10vw
 }
 
 }
