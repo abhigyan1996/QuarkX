@@ -803,7 +803,7 @@
 /* Campus Ambassador Styles */
 #div1CampusAmb {
 	position: absolute;
-	margin-top: 20vw;
+	margin-top: 18vw;
 	height: 90vw;
 	width:100vw;
 	min-width: 100vw;
@@ -1021,12 +1021,29 @@
 
 #div5CampusAmb {
 	position: absolute;
-	height: 100vw;
+	height: 130vw;
 	width:100vw;
 	min-width: 100vw;
 	max-width: 100vw;
 	margin-top: 268vw;
 	background: black;
+}
+
+#welcomeMsg {
+	position: absolute;
+	font-family: 'Quicksand';
+	text-align: center;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	font-size: 3vw;
+	color:#D6D5BF;
+	margin-top: 10vw;
+}
+
+#campAmbForm {
+	width: 95vw;
+	margin-left: 2.5vw;
+	margin-top: 35vw;
 }
 
 #CampusAmbassadorForm {
