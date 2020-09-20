@@ -45,6 +45,11 @@
 <!-- Facebook Share -->
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
 
+
+<!-- NAV BAR  -->
+<link rel="stylesheet" href="nav.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
 <body id="body">
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -87,10 +92,36 @@
    <a href="index" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Home</a>
     <a href="QuarkX" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">QuarkX</a>
     <a href="QuarkX#subscribeCardPh" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Subscribe</a>
-    <a href="submitQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
+    <a href="WriteQuarks" class="w3-bar-item w3-right w3-button navPh" onclick="toggleFunction()">Submit</a>
   </div>
 </div>
 
+<!-- Lower Nav Bar -->
+<section id="MobileNavbar">
+        <div class="nav">
+            <a href="QuarkX" class="navlink">
+                     <i id="iconNav" class="fas fa-home"></i>
+                <div id="navName">QuarkX</div>
+            </a>
+            <a href="AllQuarks" class="navlink">
+                     <i id="iconNav" class="fas fa-book"></i>
+                     <div id="navName">Read</div>
+            </a>
+            <a href="QuarkXRewards" class="navlink">
+              <i id="iconNav" class="fas fa-bolt"></i>
+                <div id="navName">Rewards</div>
+            </a>
+            <a href="CrazyArchery" class="navlink">
+               <i id="iconNav" class='fas fa-gamepad'></i>
+                <div id="navName">Games</div>
+            </a>
+            <a href="comingSoonKidZ" class="navlink">
+                <i id="iconNav" class="fa fa-child" aria-hidden="true"></i>
+                <div id="navName">KidZ</div>
+            </a>
+        </nav>
+    </section>
+<!----------------------------- NavBar Ends Here ---------------------------->
 
 <div id="div1CampusAmb">
     <img id="campAmbBanner1" src= "CampusAmbassadorImages/campAmb.png">
