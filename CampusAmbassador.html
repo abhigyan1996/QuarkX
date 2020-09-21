@@ -223,6 +223,36 @@
     NOTE: The Website is in building phase. Yet, once you submit here, your response is recorded. Welcome Campus Ambassador!
   </div>
 
+<script>
+  $(document).ready(function(){
+    var infoEnter = 0;
+    $("#CampFormText6").on('click', function(event) {
+        infoEnter++;
+    }); 
+     $("#CampFormText5").on('click', function(event) {
+        infoEnter++;
+    });
+    $("#CampFormText4").on('click', function(event) {
+        infoEnter++;
+    });
+    $("#CampFormText3").on('click', function(event) {
+        infoEnter++;
+    });
+    $("#CampFormText2").on('click', function(event) {
+        infoEnter++;
+    });
+    $("#CampFormText1").on('click', function(event) {
+        infoEnter++;
+    });
+
+    $(".butt").on('click', function(event) {
+      if(infoEnter>5) {
+        window.location.href='writeQuark/landing.html';
+      }
+    });
+
+  });
+</script>
 
 <script>
 $(document).ready(function(){
