@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+#space{
+    background-color: black;
+    background-repeat: repeat-x repeat-y;
+    height: 100%;
+    position: relative;
+    padding-top: 100px;
+
+   
+}
+#sky{
+
+    background-color: #B7FFF0;
+    background-repeat: repeat-x repeat-y;
+    height: 100%;
+   
+}
+#ground{
+    background-color: #6E2C00 ;
+    background-repeat: repeat-x repeat-y;
+    height: 90%;
+    height: 100%;
+    position: relative;
+    padding-top: 100px;
+    z-index: 200;
+   
+}
+
+.heading{
+    
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 5.625rem;
+    margin: 100px auto 0 auto;
+    
+}
+.astronaut{
+    margin-top:6px;
+}
+.planet1{
+    margin-top: -640px;
+    margin-right: 50px;
+  
+}
+.bird img{
+    margin-top: 50px;
+}
+.land-img{
+    width: 65%;
+    float: left;
+}
+.landpos{
+    margin-left: 300px;
+    margin-top: 308px;
+    display: block;
+}
+.para{
+    margin-left: 50px;
+    
+    margin-top: -650px;
+    padding: 100px;
+    color:black;
+}
+
+.heading{
+    margin-top: 50px;
+}
+.planet2{
+    margin-top: -2000px;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+ 
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    z-index: 400;
+    margin-left: 0px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #fa0945;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+
+@media (max-width: 1028px) {
+
+    .para{
+        margin-left: 0px;
+        
+        margin-top: -350px;
+        padding: 10px;
+        color:black;
+    }
+    .landpos{
+        margin-left: -20px;
+        margin-top: 350px;
+        display: block;
+    }
+    .land-img{
+        width: 450px;
+        float: left;
+    }
+    .planet1{
+        display: none;
+    }
+}
