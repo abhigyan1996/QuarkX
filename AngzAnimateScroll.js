@@ -24,10 +24,45 @@ var _positions = [
       percent: 0, x: 0, y: 0
     },
     end: {
-      percent: 1, x: -0.2, y: 0
+      percent: 1, x: 0.2, y: 0
+    }
+  },
+   {
+    name: 'TextApti', 
+    start: {
+      percent: 0.5, x: 0, y: 0
+    },
+    end: {
+      percent: 1, x: 0.3, y: 0
+    }
+  },
+  {
+    name: 'registerCls', 
+    start: {
+      percent: 0.4, x: 0, y: 0
+    },
+    end: {
+      percent: 1, x: 0.2, y: 0
+    }
+  },
+  {
+    name: 'aptiPic', 
+    start: {
+      percent: 0.4, x: 0, y: 0
+    },
+    end: {
+      percent: 1, x: 0.2, y: -0.3
+    }
+  },
+  {
+    name: 'aptiPicPh', 
+    start: {
+      percent: 0.5, x: 0, y: 0
+    },
+    end: {
+      percent: 1, x: 0.03, y: -0.03
     }
   }
-
 ]
 
 resize();
