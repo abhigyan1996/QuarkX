@@ -9,6 +9,47 @@
 	color:black;
 }
 
+#aptiPicAngz {
+	height:35vw;
+	width:30vw;
+	position: absolute;
+	margin-left: 60vw;
+	margin-top: 7vw;
+	border-radius: 5px
+}
+
+#txt1, #txt2, #txt3 {
+	font-style: italic;
+	color: white;
+	font-family: 'Quicksand';
+	font-size: 3.25vw;
+	margin-left: 8vw;
+	position: absolute;
+	font-weight: 1000;
+}
+
+#tags 
+{
+    color: yellow;
+}
+
+#txt1 {
+	margin-top: 12vw;
+}
+
+#txt2 {
+	margin-top: 17vw;
+}
+
+#txt3 {
+	margin-top: 25vw;
+	font-size: 2vw;
+	font-style: normal;
+	border: 1px solid #bbb;
+}
+
+
+
 #navItem1Angz{
 	font-family: 'Source Serif Pro';
 	font-size:1.3vw;
@@ -268,7 +309,7 @@
 }
 
 #AngzDiv4{
-	height: 35vw;
+	height: 55vw;
 	width: 100vw;
 	overflow: hidden;
 	background: white;
