@@ -1,0 +1,193 @@
+.carousel{
+     height: 80vw;
+     perspective: 90vw;
+     margin-top: 0vw;
+}
+.carousel .carousel-item{
+    width: 26.5vw;
+}
+.productsCrow{
+    margin-top: -200px;
+}
+.heading{
+    text-align: center;
+    
+}
+.heading h1{
+    margin-top: 10vw;
+}
+
+/* slider */
+
+.rewardscaro{
+    margin-left: -200px;
+}
+
+#rewardsDiv1 {
+    background: #080803;
+    margin-top: 5vw;
+}
+
+#RewardsTxt {
+    margin-top: 5vw;
+    position: absolute;
+    margin-left: 34vw;
+}
+
+#rewardBtn {
+    margin-top: -6.25vw;
+    margin-left: 4.25vw;
+    width: 18vw;
+    padding: 0.5vw;
+    font-size: 1.5vw;
+}
+
+#otherRewardsImages{
+    width:107.5%;
+
+}
+
+#ProductTypes {
+    height: 32vw;
+    margin-left: -0.75vw;
+    margin-right:2.5vw;
+    margin-top: 3vw;
+}
+
+#OtherRewardsBtn {
+    margin-top: -6vw;
+    margin-left: 4vw;
+    width: 16vw;
+    padding: 0.5vw;
+    font-size: 1.25vw;
+}
+
+#ProductTypeTxt {
+    position:relative;
+    font-family: 'Quicksand';
+    font-weight: 900;
+    color:yellow;
+    margin-left: 1vw;
+}
+
+.ProductsDivisions {
+    height: 50vw;
+    background: #080803;
+    margin-top: -10vw 
+}
+
+#infoIcon, #infoIcon2{
+    font-size: 2.25vw;
+    position: absolute;
+    margin-top: -3.15vw;
+    margin-left: 1.25vw;
+    cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    margin-top: -40vw;
+}
+
+.close{
+    float: right;
+    color:white;
+    background: black
+}
+
+body.modal-open .productsCrow{
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+@media only screen and (max-width:600px){
+
+    .carousel{
+        height: 300px;
+        perspective: 400px;     
+    }
+
+    .carousel .carousel-item{
+        width: 200px;
+    }
+
+    .rewardscaro{
+        margin-left: -24px;
+    }
+
+    #rewardsDiv1 {
+        margin-top:16.5vw;
+    }
+
+    #rewardBtn {
+        margin-top: -10vw;
+        margin-left: 5vw;
+        width: 25vw;
+        padding: 1vw;
+        font-size: 1.5vw;
+    }
+    
+    #RewardsTxt {
+        margin-top: 7.5vw;
+        position: absolute;
+        margin-left: 25vw;
+        font-size: 7vw;
+        font-family: 'Quicksand'
+    }
+
+    #infoIcon{
+        font-size: 3vw;
+        position: absolute;
+        margin-top: -4vw;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    .modal {
+        position: absolute;
+        margin-top: -100vw;
+        margin-left: 10vw
+    }
+
+    .w3-container{
+        width:90%;
+        margin-left: 1%
+    }
+
+    #ProductTypes{
+        width:100vw;
+    }
+
+    #ProductTypeTxt {
+        position:relative;
+        font-family: 'Quicksand';
+        font-weight: 900;
+        color:yellow;
+        margin-left: 5vw;
+        margin-top: 15vw;
+    }
+
+    .ProductsDivisions {
+        height: 320vw;
+        background: #080803;
+        margin-top: -10vw 
+    }
+
+    #OtherRewardsBtn {
+        margin-top: -13vw;
+        margin-left: 6vw;
+        width: 72vw;
+        padding: 1.5vw;
+        font-size: 3vw;
+    }
+
+     #infoIcon2{
+        font-size: 6vw;
+        position: absolute;
+        margin-top: -7vw;
+        margin-left: 2vw;
+        cursor: pointer;
+    }
+}
