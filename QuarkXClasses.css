@@ -1,0 +1,225 @@
+/* 600px and up, IPAD, Desktop */
+@media all and (min-width: 600px) {
+
+#particles-js{
+	height: 80vw;
+	overflow: hidden;
+}
+
+#canva1 {
+	position: absolute;
+	margin-left: 55vw;
+	margin-top: 10vw;
+	height: 30vw;
+	width: 51vw;
+}
+
+#classesDiv2 {
+	overflow: hidden;
+	height: 150vw;
+	margin-top: 0vw;
+}
+
+#txt1, #txt2, #txt3 {
+	font-style: italic;
+	color: white;
+	font-family: 'Quicksand';
+	font-size: 3.25vw;
+	margin-left: 8vw;
+	position: absolute;
+	font-weight: 1000;
+
+}
+
+#tags 
+{
+    color: yellow;
+}
+
+#txt1 {
+	margin-top: 17vw;
+}
+
+#txt2 {
+	margin-top: 22vw;
+}
+
+#txt3 {
+	margin-top: 30vw;
+	font-size: 2vw;
+	font-style: normal;
+	border: 1px solid #bbb;
+}
+
+#subjectsHeader {
+	margin-left: 38vw;
+	margin-top: 5vw;
+	color: white;
+	font-family: 'Quicksand';
+	font-size: 3vw;
+}
+
+#subjectsBanner {
+	margin-top: -30vw;
+}
+
+#classesPostersDiv{
+	background: #090f0a
+}
+
+/*
+Dheeraj Css*/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#divFormClasses {
+	height: 80vw;
+	background: #f2f2f2;
+}
+
+#registerNow {
+	position: absolute;
+	font-family: 'Quicksand';
+	font-size: 2.5vw;
+	margin-left: 42.5vw;
+	margin-top: 2.5vw;
+}
+
+#clsForm { 
+  position: absolute;
+  margin-top: 7vw;
+  width: 60vw;
+  margin-left: 20vw;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#faqSection {
+  background: black;
+}
+
+#faqHeading{
+  margin-left: 46vw;
+}
+
+.questions-padding{
+    padding: 4% 20%;
+    align-items: center;
+}
+
+.textDecoration{
+    text-decoration: none;
+}
+
+.onhover{
+    transition: 0.4s all ease;
+}
+
+.onhover:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+.size{
+    font-size: 3rem;
+}
+
+.card-body{
+    text-align: justify;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+i:hover{
+    color: blue;
+}
+
+.card, .card-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+
+.card{
+    box-shadow: 0 2px 20px 0 rgba(110, 130, 208, .18);
+}
+
+.card-body{
+    background: #e8eeff;
+}
+
+.btn-link{
+    width: 100%;
+    height: 50px;
+    color: #000 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    font-family: 'Quicksand' !important;
+}
+
+.btn-link::after{
+    content: '\2212';
+    width: 35px;
+    font-size: 20px;
+    text-align: center;
+    right: 15px;
+    top: 11px;
+    position: absolute;
+    background: #e8eeff;
+}
+
+.btn-link.collapsed:after{
+    content: '\002B';
+}
+
+.btn-link:before{
+    content: '';
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    background: #fff;
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 30px;
+    top: 36px;
+}
+
+/* ------------------- */
+
+
+/* .btn-block{
+    border: none;
+    background: none;
+    font-size: 1.3rem;
+    font-family: 'Quicksand';
+    font-weight: bolder;
+} */
+
+}
+}
