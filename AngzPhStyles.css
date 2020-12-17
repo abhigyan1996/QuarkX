@@ -2,6 +2,47 @@
 @media all and (max-width: 599px) and (min-width: 100px) {
 /* Meidum sized phones and other devices (phones, 600px and down) */
 
+
+#aptiPicPhAngz {
+	height:40vw;
+	width:32vw;
+	position: absolute;
+	margin-left: 55vw;
+	margin-top: 10vw;
+	border-radius: 5px
+}
+
+#txt1, #txt2, #txt3 {
+	font-style: italic;
+	color: white;
+	font-family: 'Quicksand';
+	font-size: 3.25vw;
+	margin-left: 8vw;
+	position: absolute;
+	font-weight: 1000;
+}
+
+#tags 
+{
+    color: yellow;
+}
+
+#txt1 {
+	margin-left: 2vw;
+	margin-top: 12vw;
+}
+
+#txt2 {
+	margin-top: 17vw;
+}
+
+#txt3 {
+	margin-top: 25vw;
+	font-size: 2vw;
+	font-style: normal;
+	border: 1px solid #bbb;
+}
+
 #nameAngz{
 	font-family: 'Quicksand';
 	font-size: 8vw;
@@ -230,8 +271,8 @@
 	margin-top: -2vw;
 }
 #AngzDiv4{
-	min-height: 140vw;
-	max-height: 200vw;
+	min-height: 60vw;
+	max-height: 60vw;
 	width: 100vw;
 	overflow: hidden;
 	background: white;
@@ -247,7 +288,7 @@
 	font-size: 4.5vw;
 	width: 90vw;
 	max-width:90vw;
-	margin-left: 3vw;
+	margin-left: 4.5vw;
 	margin-right: 7.5vw; 
 	margin-top: 0vh;
 }
