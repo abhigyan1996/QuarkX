@@ -1,12 +1,13 @@
 #cvTxt {
 	position: absolute;
 	color: white;
-	margin-top: 10vw;
+	margin-top: 6vw;
 	font-size: 1.65vw;
 }
 
 #scrolldown {
-	margin-top: -8vw
+	margin-top: 0vw;
+	margin-left: -6vw;
 }
 
 #ExpTxt {
@@ -36,4 +37,125 @@
 #clientImgNoon, #clientImgAccenture {
 	height: 10vw;
 	width: 14vw;
+}
+
+.cvBtn {
+	margin-left: -5vw
+}
+
+#getCvBtn{
+	font-family: cursive;
+	font-size: 2vw;
+	margin-left: 5vw;
+	margin-top: 1vw;
+	padding: 4vw;
+	width: 42vw;
+	background-size: 300% 300%;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+	background-image: linear-gradient(to right, #3F76FF 0%, #5FFF3F 50%, #3F76FF 100%);
+  	transition: 0.5s;
+  	border-radius: 0.5vw;
+}
+
+#getCvBtn:hover {
+	background-position: right center;
+  	text-decoration: none;
+  }
+
+#becomeAuthorHeading {
+	margin-top: -2vw;
+}
+
+#sendTxt {
+	font-family: cursive;
+	color: white;
+	text-align: center;
+}
+
+@media only screen and (max-width:600px){
+
+#getCvBtn{
+	font-family: cursive;
+	font-size: 4vw;
+	margin-left: 5vw;
+	margin-top: 3vw;
+	padding: 5vw;
+	width: 90vw;
+	background-size: 300% 300%;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+	background-image: linear-gradient(to right, #3F76FF 0%, #5FFF3F 50%, #3F76FF 100%);
+  	transition: 0.5s;
+  	border-radius: 0.5vw;
+}
+
+#getCvBtn:hover {
+	background-position: right center;
+  	text-decoration: none;
+  }
+
+#scrolldown {
+	margin-top: -10vw;
+	margin-left: -8vw;
+}
+
+#cvTxt {
+	position: absolute;
+	color: white;
+	margin-top: 14vw;
+	font-size: 3vw;
+}
+
+#sendTxt {
+	margin-top: 90vw; 
+	font-family: cursive;
+	color: white;
+	text-align: center;
+	font-size: 3vw
+}
+
+.Cimg3 {
+	height: 40vw; width: 40vw; margin-top: -10vw
+}
+
+#ExpTxt {
+	font-size: 5vw;
+	margin-top: 5vw;
+}
+
+#how {
+	margin-top: -80vw
+}
+
+#clientImgFlipkart, #clientImgMicrosoft, #clientImgLondon, #clientImgPine, #clientImgCgi {
+	height: 50vw;
+	width: 50vw;
+}
+
+#clientImgHsbc {
+	height: 50vw;
+	width: 60vw;	
+}
+
+#clientImgNoon, #clientImgAccenture {
+	height: 50vw;
+	width: 65vw;
+}
+
+#compName {
+	font-size: 5vw;
+	color: yellow;
+}
+
+#formH {
+	margin-top: -20vw
+}
+
+#googleForm {
+	margin-bottom: 30vw;
+}
+
+#writeTxtQuark {
+	margin-bottom: 10vw;
+}
+
 }
