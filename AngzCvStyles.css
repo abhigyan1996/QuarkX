@@ -1,0 +1,39 @@
+#cvTxt {
+	position: absolute;
+	color: white;
+	margin-top: 10vw;
+	font-size: 1.65vw;
+}
+
+#scrolldown {
+	margin-top: -8vw
+}
+
+#ExpTxt {
+	font-size: 1.5vw;
+	margin-top: 2vw;
+}
+
+.Cimg3 {
+	height: 12vw; width: 12vw; margin-top: -2.75vw
+}
+
+#compName {
+	font-size: 1.75vw;
+	color: yellow;
+}
+
+#clientImgFlipkart, #clientImgMicrosoft, #clientImgLondon, #clientImgPine, #clientImgCgi {
+	height: 10vw;
+	width: 10vw;
+}
+
+#clientImgHsbc {
+	height: 10vw;
+	width: 12vw;	
+}
+
+#clientImgNoon, #clientImgAccenture {
+	height: 10vw;
+	width: 14vw;
+}
