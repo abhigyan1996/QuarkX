@@ -75,7 +75,7 @@
 @media only screen and (max-width:600px){
 
 #getCvBtn{
-	font-family: cursive;
+	font-family: 'Quicksand';
 	font-size: 4vw;
 	margin-left: 5vw;
 	margin-top: 3vw;
@@ -107,7 +107,7 @@
 
 #sendTxt {
 	margin-top: 90vw; 
-	font-family: cursive;
+	font-family: 'Quicksand';
 	color: white;
 	text-align: center;
 	font-size: 3vw
